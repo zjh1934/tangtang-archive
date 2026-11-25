@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "round": 2,
+  "id": "20261126b_lipstick-tryon",
+  "date": "2026-11-26",
+  "created_at": "2026-11-26T05:30:46+08:00",
+  "timezone": "Asia/Shanghai",
+  "title": "三支口红试色那晚",
+  "theme": "lipstick-tryon",
+  "outfit_id": "AUT-0080",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "ratio": "9:16"
+  },
+  "images": [
+    {
+      "file": "01_front.png",
+      "view": "front",
+      "prompt": "01_front.md",
+      "seed": 1,
+      "sketch_id": "full_single_P067_front",
+      "picked": true
+    },
+    {
+      "file": "02_side.png",
+      "view": "side",
+      "prompt": "02_side.md",
+      "seed": 4,
+      "sketch_id": "full_single_P045_side",
+      "picked": true
+    },
+    {
+      "file": "03_seat.png",
+      "view": "seat",
+      "prompt": "03_seat.md",
+      "seed": 3,
+      "sketch_id": "full_single_P079_high",
+      "picked": true
+    },
+    {
+      "file": "04_close.png",
+      "view": "close",
+      "prompt": "04_close.md",
+      "seed": 10,
+      "sketch_id": "full_single_P069_low",
+      "picked": true
+    }
+  ],
+  "lines": [
+    "豆子先扣下啦，今晚哪儿都不去。三支新口红我挨个在手背上排开，你坐好，只准看不准猜。",
+    "本来想画你手背上，怕你乱动，先在我自己手上排给你看。豆沙、正红、莓紫，点错一支罚你给我吹头发。",
+    "镜子里我自己先判过了，正红最衬今晚这身酒红。你非要挑莓紫也行，那我可就当你是故意逗我啦。",
+    "凑近点，别眨眼。挑中哪支，明天就涂哪支给你看；分错的那次先记着，吹头发的时候我慢慢跟你算。"
+  ],
+  "status": "final"
+}

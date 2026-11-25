@@ -1,6 +1,6 @@
 # 唐唐 · 逐轮终稿归档
 
-私有仓。每一轮只放**四张终稿图 + 四份配套终稿 prompt md**，一一同名配对；音频、底图、整包、草稿一律不进仓。
+私有仓。每一轮归档**四张终稿图 + 四份配套终稿 prompt md**，一一同名配对。仓里留的是每轮终稿与可回查的索引。
 
 ## 目录约定（定稿后不再改）
 
@@ -44,6 +44,7 @@ _template/                    新轮脚手架
 | 轮次 | 主题 | 四图预览 | 穿搭id | 线稿id | 日期 | 现场 |
 |---|---|---|---|---|---|---|
 | R001 | 换豆子那天早上 | <img width=110 src="rounds/20261126_coffee-beans/01_front.png"> <img width=110 src="rounds/20261126_coffee-beans/02_side.png"> <img width=110 src="rounds/20261126_coffee-beans/03_seat.png"> <img width=110 src="rounds/20261126_coffee-beans/04_close.png"> | `AUT-0007` | `full_sexy_P003_front` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126_coffee-beans/README.md) |
+| R002 | 三支口红试色那晚 | <img width=110 src="rounds/20261126b_lipstick-tryon/01_front.png"> <img width=110 src="rounds/20261126b_lipstick-tryon/02_side.png"> <img width=110 src="rounds/20261126b_lipstick-tryon/03_seat.png"> <img width=110 src="rounds/20261126b_lipstick-tryon/04_close.png"> | `AUT-0080` | `full_single_P067_front` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126b_lipstick-tryon/README.md) |
 <!-- INDEX:END -->
 
 全量轮次见 [ARCHIVE.md](ARCHIVE.md)。
