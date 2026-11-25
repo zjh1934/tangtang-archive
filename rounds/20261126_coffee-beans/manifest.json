@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "round": 1,
+  "id": "20261126_coffee-beans",
+  "date": "2026-11-26",
+  "created_at": "2026-11-26T04:52:53+08:00",
+  "timezone": "Asia/Shanghai",
+  "title": "换豆子那天早上",
+  "theme": "coffee-beans",
+  "outfit_id": "AUT-0007",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "ratio": "9:16"
+  },
+  "images": [
+    {
+      "file": "01_front.png",
+      "view": "front",
+      "prompt": "01_front.md",
+      "seed": 2,
+      "sketch_id": "full_sexy_P003_front",
+      "picked": true
+    },
+    {
+      "file": "02_side.png",
+      "view": "side",
+      "prompt": "02_side.md",
+      "seed": 3,
+      "sketch_id": "full_single_P024_side",
+      "picked": true
+    },
+    {
+      "file": "03_seat.png",
+      "view": "seat",
+      "prompt": "03_seat.md",
+      "seed": 6,
+      "sketch_id": "full_sexy_P026_diagonal",
+      "picked": true
+    },
+    {
+      "file": "04_close.png",
+      "view": "close",
+      "prompt": "04_close.md",
+      "seed": 7,
+      "sketch_id": "full_sexy_P016_low",
+      "picked": true
+    }
+  ],
+  "lines": [
+    "什么黄豆呀，是咖啡豆，那家昨夜刚换的豆子。你隔条街站着看我干嘛，过来呀，门我给你推着呢。",
+    "走快些呀，湿石板滑，当心脚下。今天这身丝绒是我特意挑的，你倒好，一路只顾着看我后脑勺。",
+    "坐好啦，杯子上这圈气我先替你看着。刚才那句豆浆我可记着呢，等会儿这杯新豆子，你第一个尝。",
+    "凑过来，这句只讲给你听：明早还陪我来，豆子换哪种都行，反正我想坐的，是你对面这个位子。"
+  ],
+  "status": "final"
+}

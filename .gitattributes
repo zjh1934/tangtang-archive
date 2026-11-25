@@ -1,0 +1,4 @@
+*.png -text
+*.md text
+*.json text
+manifest.json merge=union

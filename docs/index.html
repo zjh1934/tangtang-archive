@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>唐唐 · 逐轮终稿画廊</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}
+body{margin:0;background:#111310;color:#e9e5dc;font:15px/1.6 -apple-system,"WenQuanYi Micro Hei",sans-serif}
+header{padding:28px 22px 14px;border-bottom:1px solid #2b2f28}
+h1{margin:0 0 6px;font-size:21px;letter-spacing:.5px}
+header p{margin:0;color:#9ba394;font-size:13px}
+main{padding:18px 22px 60px;max-width:1200px;margin:auto}
+.round{margin-bottom:38px}
+.round h2{font-size:17px;margin:0 0 4px;font-weight:600}
+.meta{color:#8e9a8b;font-size:12px;margin-bottom:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:14px}
+.card{background:#1b1f19;border:1px solid #2b3027;border-radius:10px;overflow:hidden;cursor:pointer}
+.card img{width:100%;display:block;aspect-ratio:9/16;object-fit:cover}
+.card .cap{padding:8px 10px;font-size:12px;color:#c9c4b6;display:flex;justify-content:space-between}
+.lines{margin-top:12px;color:#b9b3a4;font-size:13px}
+.lines li{margin:3px 0}
+#light{position:fixed;inset:0;background:rgba(0,0,0,.94);display:none;z-index:9;overflow:auto;padding:20px}
+#light.on{display:block}
+#light .wrap{max-width:1080px;margin:auto;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:18px}
+#light img{width:100%;border-radius:8px}
+#light pre{white-space:pre-wrap;word-break:break-word;background:#1b1f19;border:1px solid #2b3027;
+ border-radius:8px;padding:12px;font-size:12px;line-height:1.55;max-height:82vh;overflow:auto;color:#d8d3c5}
+#light h3{margin:0 0 8px;font-size:14px}
+#close{position:fixed;right:22px;top:16px;font-size:26px;color:#fff;cursor:pointer;z-index:10}
+@media(max-width:760px){#light .wrap{grid-template-columns:1fr}}
+</style></head><body>
+<header><h1>唐唐 · 逐轮终稿画廊</h1>
+<p>私有仓本地页 · 数据内联，双击即开，不联网 · 每轮四张终稿图与配套 prompt md 一一配对</p></header>
+<main id="app"></main>
+<div id="light"><span id="close">×</span><div class="wrap"><img id="big" alt="">
+<div><h3 id="ttl"></h3><pre id="prm"></pre></div></div></div>
+<script>
+const DATA = {"schema": 1, "repo": "zjh1934/tangtang-archive", "updated_at": "2026-11-26T04:52:53+08:00", "rounds": [{"round": 1, "id": "20261126_coffee-beans", "date": "2026-11-26", "title": "换豆子那天早上", "outfit_id": "AUT-0007", "sketches": ["full_sexy_P003_front", "full_single_P024_side", "full_sexy_P026_diagonal", "full_sexy_P016_low"], "base": "rounds/20261126_coffee-beans", "images": [{"file": "01_front.png", "view": "front", "prompt": "01_front.md", "md": "rounds/20261126_coffee-beans/01_front.md"}, {"file": "02_side.png", "view": "side", "prompt": "02_side.md", "md": "rounds/20261126_coffee-beans/02_side.md"}, {"file": "03_seat.png", "view": "seat", "prompt": "03_seat.md", "md": "rounds/20261126_coffee-beans/03_seat.md"}, {"file": "04_close.png", "view": "close", "prompt": "04_close.md", "md": "rounds/20261126_coffee-beans/04_close.md"}], "lines": ["什么黄豆呀，是咖啡豆，那家昨夜刚换的豆子。你隔条街站着看我干嘛，过来呀，门我给你推着呢。", "走快些呀，湿石板滑，当心脚下。今天这身丝绒是我特意挑的，你倒好，一路只顾着看我后脑勺。", "坐好啦，杯子上这圈气我先替你看着。刚才那句豆浆我可记着呢，等会儿这杯新豆子，你第一个尝。", "凑过来，这句只讲给你听：明早还陪我来，豆子换哪种都行，反正我想坐的，是你对面这个位子。"]}]};
+const app=document.getElementById('app');
+DATA.rounds.slice().reverse().forEach(r=>{
+  const sec=document.createElement('section');sec.className='round';
+  sec.innerHTML=`<h2>R${String(r.round).padStart(3,'0')} · ${r.title}</h2>
+   <div class="meta">${r.id} · ${r.date} · 穿搭 ${r.outfit_id} · 1080×1920</div>`;
+  const g=document.createElement('div');g.className='grid';
+  r.images.forEach(im=>{
+    const c=document.createElement('div');c.className='card';
+    c.innerHTML=`<img loading="lazy" src="../${r.base}/${im.file}" alt="${im.view}">
+      <div class="cap"><span>${im.view}</span><span>${im.file}</span></div>`;
+    c.onclick=()=>openLight(r,im);g.appendChild(c);
+  });
+  sec.appendChild(g);
+  if(r.lines&&r.lines.length){const ul=document.createElement('ul');ul.className='lines';
+    r.lines.forEach(t=>{const li=document.createElement('li');li.textContent=t;ul.appendChild(li)});
+    sec.appendChild(ul)}
+  app.appendChild(sec);
+});
+function openLight(r,im){
+  document.getElementById('big').src='../'+r.base+'/'+im.file;
+  document.getElementById('ttl').textContent=r.title+' · '+im.view;
+  document.getElementById('prm').textContent='终稿提示词：'+im.prompt+'\n\n（同目录同名 md 文件，仓内直接打开可读全文）';
+  document.getElementById('light').classList.add('on');
+}
+document.getElementById('close').onclick=()=>document.getElementById('light').classList.remove('on');
+document.getElementById('light').onclick=e=>{if(e.target.id==='light')e.currentTarget.classList.remove('on')};
+</script></body></html>

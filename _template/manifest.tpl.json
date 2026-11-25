@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "round": 0,
+  "id": "YYYYMMDD_slug",
+  "date": "YYYY-MM-DD",
+  "title": "",
+  "theme": "",
+  "outfit_id": "",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "ratio": "9:16"
+  },
+  "images": [
+    {
+      "file": "01_front.png",
+      "view": "front",
+      "prompt": "01_front.md",
+      "seed": 0,
+      "sketch_id": "",
+      "picked": true
+    },
+    {
+      "file": "02_side.png",
+      "view": "side",
+      "prompt": "02_side.md",
+      "seed": 0,
+      "sketch_id": "",
+      "picked": true
+    },
+    {
+      "file": "03_seat.png",
+      "view": "seat",
+      "prompt": "03_seat.md",
+      "seed": 0,
+      "sketch_id": "",
+      "picked": true
+    },
+    {
+      "file": "04_close.png",
+      "view": "close",
+      "prompt": "04_close.md",
+      "seed": 0,
+      "sketch_id": "",
+      "picked": true
+    }
+  ],
+  "lines": [],
+  "status": "final"
+}
