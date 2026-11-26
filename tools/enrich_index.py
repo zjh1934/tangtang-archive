@@ -260,7 +260,7 @@ def self_test():
     g = gm.gallery_md(d)
     assert "![" in g and all(k in g for k in ("按轮看", "按场景", "按发型", "按月份"))
     b = gm.banner(d)
-    assert "GALLERY.md" in b and "<img" in b
+    assert "GALLERY.md" in b and "![" in b
     assert gm.merge_banner(gm.merge_banner("# T\n<!-- INDEX:START -->\n| R001 | 旧 |\n<!-- INDEX:END -->\n", b), b) \
         == gm.merge_banner("# T\n<!-- INDEX:START -->\n| R001 | 旧 |\n<!-- INDEX:END -->\n", b)
     print("self-test OK：DATA 单行兼容 merge_index_html；分类/筛选控件齐全；CAS 重试重跑全量收集；画廊与主页横幅幂等")
