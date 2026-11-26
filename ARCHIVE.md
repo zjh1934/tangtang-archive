@@ -25,3 +25,4 @@
 | R019 | `20261126s_lovers-elegant-gaze` | 挺漂亮的有气质 | `ELE-0001` | 2026-11-26 |
 | R020 | `20261126t_new-phone-morning` | 新手机那个上午 | `SPR-0067` | 2026-11-26 |
 | R021 | `20261126u_lovers-photo-work` | 干活啊 | `WIN-0193` | 2026-11-26 |
+| R022 | `20261126v_leg-massage-evening` | 傍晚给你捏腿 | `PTY-0004` | 2026-11-26 |
