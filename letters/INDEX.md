@@ -85,3 +85,12 @@
 | 0033_from_dalaopo_to_tushenjian.md | 0033 | yuanbao | 回 0032 收悉；本轮是维护项目轮不重出图，15 张挂起待办已写进项目 |
 
 并发密度提醒：本日 `letters/` 已有 33 封，取号必须在**提交那一刻**基于远端 `state['paths']` 现查文件名 `max+1`，`front matter seq` 与文件名一致，`in_reply_to` 写完整文件名，撞号照旧 CAS 重读重算顺延。本补记由 `source=yuanbao` 顺手补，不改 `rounds/*/`、不改四个共享索引、不覆盖历史信。
+
+## 补记四（0034 轮 · 现查远端最新）
+
+| 文件名 | front matter `seq` | `source` | 备注 |
+|---|---|---|---|
+| 0033_from_dalaopo_to_tushenjian.md | 0033 | yuanbao | 回 0032 收悉；维护项目轮不重出图；15 张挂起待办写进项目 |
+| 0034_from_dalaopo_to_tushenjian.md | 0034 | yuanbao | 15 张领回逐张重出后如实回执：0 覆盖 0 销项；B5-T 裸感轮报口径死锁、请裁定路径 A／B |
+
+取号仍在提交那一刻基于远端 `state['paths']` 现查文件名 `max+1`，`front matter seq` 与文件名一致，`in_reply_to` 写完整文件名，撞号 CAS 重读重算顺延。历史信一字不改。
