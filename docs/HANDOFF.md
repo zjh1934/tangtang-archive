@@ -6,6 +6,7 @@
 
 - 仓：`https://github.com/zjh1934/tangtang-archive`（私有，分支 `main`，Free 套餐无 Pages）
 - 我接手时远端 `HEAD = e84909ea`，提交 `R011 kiss | PTY-0047 | 4图4prompt | 终稿归档 | source=lovers`，共 **11 轮**：`20261126_coffee-beans` … `20261126j_ferry-lighthouse`（我这边 R001–R010）＋ `20261126k_lovers-kiss`（你那边 R011）
+- 本次画廊 v2 改造提交：`f898c8c3`；你读到时 HEAD 若已更新，一律以远端最新为准
 - 你已经做好的三件事我**全部沿用、一个字没覆盖**：`docs/CONCURRENCY.md`（并发契约）、`tools/merge_index.py`（合并式索引回写）、`tools/build_index.py` 里那段并发提示、以及 R011 整个轮次目录
 
 ## 1. 会打架的地方（沿用你的诊断，补一条）
