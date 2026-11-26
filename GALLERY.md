@@ -1,4 +1,4 @@
-**唐唐 · 终稿图鉴** · 30 轮 120 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · [按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)
+**唐唐 · 终稿图鉴** · 31 轮 124 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · [按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)
 
 <a id="r026"></a>
 
@@ -75,6 +75,32 @@
 **04 特写**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127b_lovers-bean-shop/04_close.png) · [04 终稿 prompt](rounds/20261127b_lovers-bean-shop/04_close.md)
 
 > 你闻闻这罐，像不像烤过的栗子？我替你挑了两包挂耳，回去第一壶归我煮，你只准坐着等。 ／ 下次还陪我来换豆子好不好～
+
+---
+
+<a id="r031"></a>
+
+**R031 · 继续自主推进 秋夜灯下替他缝外套上松掉的扣子**
+
+`AUT-0013` · 未标注 · 沙发 · 2026-11 · source=yuanbao ｜ [本轮现场](rounds/20261127ac_night-sewing-button/README.md) · [manifest](rounds/20261127ac_night-sewing-button/manifest.json)
+
+[![01 正面 · R031](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127ac_night-sewing-button/01_front.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127ac_night-sewing-button/01_front.png)
+
+**01 正面**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127ac_night-sewing-button/01_front.png) · [01 终稿 prompt](rounds/20261127ac_night-sewing-button/01_front.md)
+
+[![02 侧身 · R031](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127ac_night-sewing-button/02_side.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127ac_night-sewing-button/02_side.png)
+
+**02 侧身**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127ac_night-sewing-button/02_side.png) · [02 终稿 prompt](rounds/20261127ac_night-sewing-button/02_side.md)
+
+[![03 坐姿 · R031](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127ac_night-sewing-button/03_seat.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127ac_night-sewing-button/03_seat.png)
+
+**03 坐姿**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127ac_night-sewing-button/03_seat.png) · [03 终稿 prompt](rounds/20261127ac_night-sewing-button/03_seat.md)
+
+[![04 特写 · R031](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127ac_night-sewing-button/04_close.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127ac_night-sewing-button/04_close.png)
+
+**04 特写**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127ac_night-sewing-button/04_close.png) · [04 终稿 prompt](rounds/20261127ac_night-sewing-button/04_close.md)
+
+> 别动呀，线头还咬在我嘴里呢。你外套第二颗扣子松了三天都不肯说，我可早看见了，装什么没事。 ／ 喏，就是这颗。我捏着呢，灯底下四孔都亮了，你坐好别晃，针尖认生，扎着我你可得负责哄。 ／ 我跪近点比一比位置，缝歪了算你的，谁让你刚才偷看我穿线，眼都不带眨一下，我记着呢。 ／ 看够了没，扣子还搁我指尖呢。明早陪我把衣柜顶那只空饼干盒够下来装线团，敢说不用我就自己搬凳子。
 
 ---
 
@@ -790,7 +816,7 @@
 
 - **卧室**（5 轮）：[R026 灯关了来睡觉了](#r026) · [R027 主动推进剧情 清晨她先醒了](#r027) · [R022 傍晚给你捏腿](#r022) · [R016 颈膜枪震得舒服的夜里](#r016) · [R003 我要起来咯](#r003)
 
-- **沙发**（4 轮）：[R026 灯关了来睡觉了](#r026) · [R025 夜宵可乐胃胀·揉肚子](#r025) · [R027 主动推进剧情 清晨她先醒了](#r027) · [R005 好累啊我](#r005)
+- **沙发**（5 轮）：[R026 灯关了来睡觉了](#r026) · [R025 夜宵可乐胃胀·揉肚子](#r025) · [R031 继续自主推进 秋夜灯下替他缝外套上松掉的扣子](#r031) · [R027 主动推进剧情 清晨她先醒了](#r027) · [R005 好累啊我](#r005)
 
 - **居家**（3 轮）：[R015 你会撒娇吗](#r015) · [R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013)
 
@@ -916,7 +942,7 @@
 
 - **低侧马尾**（3 轮）：[R012 吃火锅不吃米线啦](#r012) · [R009 老街身后那一眼](#r009) · [R004 吃过饭去哪里](#r004)
 
-- **未标注**（2 轮）：[R029 推进剧情 黄昏她拉他出门去巷口旧物摊](#r029) · [R011 凑过来亲亲](#r011)
+- **未标注**（3 轮）：[R031 继续自主推进 秋夜灯下替他缝外套上松掉的扣子](#r031) · [R029 推进剧情 黄昏她拉他出门去巷口旧物摊](#r029) · [R011 凑过来亲亲](#r011)
 
 - **锁骨微卷**（2 轮）：[R010 渡轮去对岸看旧灯塔](#r010) · [R003 我要起来咯](#r003)
 
@@ -944,6 +970,6 @@
 
 **按月份**
 
-- **2026-11**（30 轮）：[R026 灯关了来睡觉了](#r026) · [R025 夜宵可乐胃胀·揉肚子](#r025) · [R030 继续推进剧情 · 换豆子的小店](#r030) · [R029 推进剧情 黄昏她拉他出门去巷口旧物摊](#r029) · [R027 主动推进剧情 清晨她先醒了](#r027) · [R028 主动推进剧情 · 第二天清晨玄关门廊](#r028) · [R024 把我洗脚](#r024) · [R023 唐唐来给我剪指甲](#r023) · [R022 傍晚给你捏腿](#r022) · [R021 干活啊](#r021) · [R020 新手机那个上午](#r020) · [R019 挺漂亮的有气质](#r019) · [R018 好烦哦的傍晚雨窗](#r018) · [R017 好的我喝口茶先](#r017) · [R016 颈膜枪震得舒服的夜里](#r016) · [R015 你会撒娇吗](#r015) · [R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013) · [R012 吃火锅不吃米线啦](#r012) · [R011 凑过来亲亲](#r011) · [R010 渡轮去对岸看旧灯塔](#r010) · [R009 老街身后那一眼](#r009) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R005 好累啊我](#r005) · [R004 吃过饭去哪里](#r004) · [R003 我要起来咯](#r003) · [R002 三支口红试色那晚](#r002) · [R001 换豆子那天早上](#r001)
+- **2026-11**（31 轮）：[R026 灯关了来睡觉了](#r026) · [R025 夜宵可乐胃胀·揉肚子](#r025) · [R030 继续推进剧情 · 换豆子的小店](#r030) · [R031 继续自主推进 秋夜灯下替他缝外套上松掉的扣子](#r031) · [R029 推进剧情 黄昏她拉他出门去巷口旧物摊](#r029) · [R027 主动推进剧情 清晨她先醒了](#r027) · [R028 主动推进剧情 · 第二天清晨玄关门廊](#r028) · [R024 把我洗脚](#r024) · [R023 唐唐来给我剪指甲](#r023) · [R022 傍晚给你捏腿](#r022) · [R021 干活啊](#r021) · [R020 新手机那个上午](#r020) · [R019 挺漂亮的有气质](#r019) · [R018 好烦哦的傍晚雨窗](#r018) · [R017 好的我喝口茶先](#r017) · [R016 颈膜枪震得舒服的夜里](#r016) · [R015 你会撒娇吗](#r015) · [R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013) · [R012 吃火锅不吃米线啦](#r012) · [R011 凑过来亲亲](#r011) · [R010 渡轮去对岸看旧灯塔](#r010) · [R009 老街身后那一眼](#r009) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R005 好累啊我](#r005) · [R004 吃过饭去哪里](#r004) · [R003 我要起来咯](#r003) · [R002 三支口红试色那晚](#r002) · [R001 换豆子那天早上](#r001)
 
 ---
