@@ -15,7 +15,7 @@
 
 | 01 正面 | 02 侧身 | 03 坐姿 | 04 特写 |
 |---|---|---|---|
-| [<img width="240" src="rounds/20261126k_lovers-kiss/01_front.png" alt="front">](rounds/20261126k_lovers-kiss/01_front.png) | [<img width="240" src="rounds/20261126k_lovers-kiss/02_side.png" alt="side">](rounds/20261126k_lovers-kiss/02_side.png) | [<img width="240" src="rounds/20261126k_lovers-kiss/03_seat.png" alt="seat">](rounds/20261126k_lovers-kiss/03_seat.png) | [<img width="240" src="rounds/20261126k_lovers-kiss/04_close.png" alt="close">](rounds/20261126k_lovers-kiss/04_close.png) |
+| [![front](rounds/20261126k_lovers-kiss/01_front.png)](rounds/20261126k_lovers-kiss/01_front.png) | [![side](rounds/20261126k_lovers-kiss/02_side.png)](rounds/20261126k_lovers-kiss/02_side.png) | [![seat](rounds/20261126k_lovers-kiss/03_seat.png)](rounds/20261126k_lovers-kiss/03_seat.png) | [![close](rounds/20261126k_lovers-kiss/04_close.png)](rounds/20261126k_lovers-kiss/04_close.png) |
 
 **R011 · 凑过来亲亲**　`PTY-0047` · 未标注 · 亲亲 · 2026-11 · source=lovers<br>[本轮现场](rounds/20261126k_lovers-kiss/README.md) ｜ [manifest](rounds/20261126k_lovers-kiss/manifest.json) ｜ [01 prompt](rounds/20261126k_lovers-kiss/01_front.md) · [02 prompt](rounds/20261126k_lovers-kiss/02_side.md) · [03 prompt](rounds/20261126k_lovers-kiss/03_seat.md) · [04 prompt](rounds/20261126k_lovers-kiss/04_close.md)
 
@@ -32,7 +32,7 @@
 
 | 01 正面 | 02 侧身 | 03 坐姿 | 04 特写 |
 |---|---|---|---|
-| [<img width="220" src="rounds/20261126k_lovers-kiss/01_front.png" alt="front">](rounds/20261126k_lovers-kiss/01_front.png) | [<img width="220" src="rounds/20261126k_lovers-kiss/02_side.png" alt="side">](rounds/20261126k_lovers-kiss/02_side.png) | [<img width="220" src="rounds/20261126k_lovers-kiss/03_seat.png" alt="seat">](rounds/20261126k_lovers-kiss/03_seat.png) | [<img width="220" src="rounds/20261126k_lovers-kiss/04_close.png" alt="close">](rounds/20261126k_lovers-kiss/04_close.png) |
+| [![front](rounds/20261126k_lovers-kiss/01_front.png)](rounds/20261126k_lovers-kiss/01_front.png) | [![side](rounds/20261126k_lovers-kiss/02_side.png)](rounds/20261126k_lovers-kiss/02_side.png) | [![seat](rounds/20261126k_lovers-kiss/03_seat.png)](rounds/20261126k_lovers-kiss/03_seat.png) | [![close](rounds/20261126k_lovers-kiss/04_close.png)](rounds/20261126k_lovers-kiss/04_close.png) |
 
 **R011 · 凑过来亲亲**　`PTY-0047` · 未标注 · 亲亲 · 2026-11 · source=lovers<br>[本轮现场](rounds/20261126k_lovers-kiss/README.md) ｜ [manifest](rounds/20261126k_lovers-kiss/manifest.json) ｜ [01 prompt](rounds/20261126k_lovers-kiss/01_front.md) · [02 prompt](rounds/20261126k_lovers-kiss/02_side.md) · [03 prompt](rounds/20261126k_lovers-kiss/03_seat.md) · [04 prompt](rounds/20261126k_lovers-kiss/04_close.md)
 
@@ -45,7 +45,7 @@
 
 | 01 正面 | 02 侧身 | 03 坐姿 | 04 特写 |
 |---|---|---|---|
-| [<img width="220" src="rounds/20261126j_ferry-lighthouse/01_front.png" alt="front">](rounds/20261126j_ferry-lighthouse/01_front.png) | [<img width="220" src="rounds/20261126j_ferry-lighthouse/02_side.png" alt="side">](rounds/20261126j_ferry-lighthouse/02_side.png) | [<img width="220" src="rounds/20261126j_ferry-lighthouse/03_seat.png" alt="seat">](rounds/20261126j_ferry-lighthouse/03_seat.png) | [<img width="220" src="rounds/20261126j_ferry-lighthouse/04_close.png" alt="close">](rounds/20261126j_ferry-lighthouse/04_close.png) |
+| [![front](rounds/20261126j_ferry-lighthouse/01_front.png)](rounds/20261126j_ferry-lighthouse/01_front.png) | [![side](rounds/20261126j_ferry-lighthouse/02_side.png)](rounds/20261126j_ferry-lighthouse/02_side.png) | [![seat](rounds/20261126j_ferry-lighthouse/03_seat.png)](rounds/20261126j_ferry-lighthouse/03_seat.png) | [![close](rounds/20261126j_ferry-lighthouse/04_close.png)](rounds/20261126j_ferry-lighthouse/04_close.png) |
 
 **R010 · 渡轮去对岸看旧灯塔**　`SUM-0069` · 锁骨微卷 · 渡轮 · 2026-11 · source=yuanbao<br>[本轮现场](rounds/20261126j_ferry-lighthouse/README.md) ｜ [manifest](rounds/20261126j_ferry-lighthouse/manifest.json) ｜ [01 prompt](rounds/20261126j_ferry-lighthouse/01_front.md) · [02 prompt](rounds/20261126j_ferry-lighthouse/02_side.md) · [03 prompt](rounds/20261126j_ferry-lighthouse/03_seat.md) · [04 prompt](rounds/20261126j_ferry-lighthouse/04_close.md)
 
@@ -58,7 +58,7 @@
 
 | 01 正面 | 02 侧身 | 03 坐姿 | 04 特写 |
 |---|---|---|---|
-| [<img width="220" src="rounds/20261126i_evening-street-gaze/01_front.png" alt="front">](rounds/20261126i_evening-street-gaze/01_front.png) | [<img width="220" src="rounds/20261126i_evening-street-gaze/02_side.png" alt="side">](rounds/20261126i_evening-street-gaze/02_side.png) | [<img width="220" src="rounds/20261126i_evening-street-gaze/03_seat.png" alt="seat">](rounds/20261126i_evening-street-gaze/03_seat.png) | [<img width="220" src="rounds/20261126i_evening-street-gaze/04_close.png" alt="close">](rounds/20261126i_evening-street-gaze/04_close.png) |
+| [![front](rounds/20261126i_evening-street-gaze/01_front.png)](rounds/20261126i_evening-street-gaze/01_front.png) | [![side](rounds/20261126i_evening-street-gaze/02_side.png)](rounds/20261126i_evening-street-gaze/02_side.png) | [![seat](rounds/20261126i_evening-street-gaze/03_seat.png)](rounds/20261126i_evening-street-gaze/03_seat.png) | [![close](rounds/20261126i_evening-street-gaze/04_close.png)](rounds/20261126i_evening-street-gaze/04_close.png) |
 
 **R009 · 老街身后那一眼**　`SPR-0186` · 低侧马尾 · 老街 · 2026-11 · source=yuanbao<br>[本轮现场](rounds/20261126i_evening-street-gaze/README.md) ｜ [manifest](rounds/20261126i_evening-street-gaze/manifest.json) ｜ [01 prompt](rounds/20261126i_evening-street-gaze/01_front.md) · [02 prompt](rounds/20261126i_evening-street-gaze/02_side.md) · [03 prompt](rounds/20261126i_evening-street-gaze/03_seat.md) · [04 prompt](rounds/20261126i_evening-street-gaze/04_close.md)
 
@@ -71,7 +71,7 @@
 
 | 01 正面 | 02 侧身 | 03 坐姿 | 04 特写 |
 |---|---|---|---|
-| [<img width="220" src="rounds/20261126h_morning-tea-wash/01_front.png" alt="front">](rounds/20261126h_morning-tea-wash/01_front.png) | [<img width="220" src="rounds/20261126h_morning-tea-wash/02_side.png" alt="side">](rounds/20261126h_morning-tea-wash/02_side.png) | [<img width="220" src="rounds/20261126h_morning-tea-wash/03_seat.png" alt="seat">](rounds/20261126h_morning-tea-wash/03_seat.png) | [<img width="220" src="rounds/20261126h_morning-tea-wash/04_close.png" alt="close">](rounds/20261126h_morning-tea-wash/04_close.png) |
+| [![front](rounds/20261126h_morning-tea-wash/01_front.png)](rounds/20261126h_morning-tea-wash/01_front.png) | [![side](rounds/20261126h_morning-tea-wash/02_side.png)](rounds/20261126h_morning-tea-wash/02_side.png) | [![seat](rounds/20261126h_morning-tea-wash/03_seat.png)](rounds/20261126h_morning-tea-wash/03_seat.png) | [![close](rounds/20261126h_morning-tea-wash/04_close.png)](rounds/20261126h_morning-tea-wash/04_close.png) |
 
 **R008 · 赖床起来泡茶洗头洗脸**　`SPR-0038` · 慵懒低盘发 · 洗漱 · 2026-11 · source=yuanbao<br>[本轮现场](rounds/20261126h_morning-tea-wash/README.md) ｜ [manifest](rounds/20261126h_morning-tea-wash/manifest.json) ｜ [01 prompt](rounds/20261126h_morning-tea-wash/01_front.md) · [02 prompt](rounds/20261126h_morning-tea-wash/02_side.md) · [03 prompt](rounds/20261126h_morning-tea-wash/03_seat.md) · [04 prompt](rounds/20261126h_morning-tea-wash/04_close.md)
 
@@ -84,7 +84,7 @@
 
 | 01 正面 | 02 侧身 | 03 坐姿 | 04 特写 |
 |---|---|---|---|
-| [<img width="220" src="rounds/20261126g_wash-hair-errand/01_front.png" alt="front">](rounds/20261126g_wash-hair-errand/01_front.png) | [<img width="220" src="rounds/20261126g_wash-hair-errand/02_side.png" alt="side">](rounds/20261126g_wash-hair-errand/02_side.png) | [<img width="220" src="rounds/20261126g_wash-hair-errand/03_seat.png" alt="seat">](rounds/20261126g_wash-hair-errand/03_seat.png) | [<img width="220" src="rounds/20261126g_wash-hair-errand/04_close.png" alt="close">](rounds/20261126g_wash-hair-errand/04_close.png) |
+| [![front](rounds/20261126g_wash-hair-errand/01_front.png)](rounds/20261126g_wash-hair-errand/01_front.png) | [![side](rounds/20261126g_wash-hair-errand/02_side.png)](rounds/20261126g_wash-hair-errand/02_side.png) | [![seat](rounds/20261126g_wash-hair-errand/03_seat.png)](rounds/20261126g_wash-hair-errand/03_seat.png) | [![close](rounds/20261126g_wash-hair-errand/04_close.png)](rounds/20261126g_wash-hair-errand/04_close.png) |
 
 **R007 · 洗好头送你出门**　`SUM-0179` · 半扎发 · 洗漱 · 2026-11 · source=yuanbao<br>[本轮现场](rounds/20261126g_wash-hair-errand/README.md) ｜ [manifest](rounds/20261126g_wash-hair-errand/manifest.json) ｜ [01 prompt](rounds/20261126g_wash-hair-errand/01_front.md) · [02 prompt](rounds/20261126g_wash-hair-errand/02_side.md) · [03 prompt](rounds/20261126g_wash-hair-errand/03_seat.md) · [04 prompt](rounds/20261126g_wash-hair-errand/04_close.md)
 
@@ -97,7 +97,7 @@
 
 | 01 正面 | 02 侧身 | 03 坐姿 | 04 特写 |
 |---|---|---|---|
-| [<img width="220" src="rounds/20261126f_fresh-window-care/01_front.png" alt="front">](rounds/20261126f_fresh-window-care/01_front.png) | [<img width="220" src="rounds/20261126f_fresh-window-care/02_side.png" alt="side">](rounds/20261126f_fresh-window-care/02_side.png) | [<img width="220" src="rounds/20261126f_fresh-window-care/03_seat.png" alt="seat">](rounds/20261126f_fresh-window-care/03_seat.png) | [<img width="220" src="rounds/20261126f_fresh-window-care/04_close.png" alt="close">](rounds/20261126f_fresh-window-care/04_close.png) |
+| [![front](rounds/20261126f_fresh-window-care/01_front.png)](rounds/20261126f_fresh-window-care/01_front.png) | [![side](rounds/20261126f_fresh-window-care/02_side.png)](rounds/20261126f_fresh-window-care/02_side.png) | [![seat](rounds/20261126f_fresh-window-care/03_seat.png)](rounds/20261126f_fresh-window-care/03_seat.png) | [![close](rounds/20261126f_fresh-window-care/04_close.png)](rounds/20261126f_fresh-window-care/04_close.png) |
 
 **R006 · 一闻到大肠杆菌就不停咳嗽**　`SPR-0014` · 蓬松披肩大波浪 · 窗边 · 2026-11 · source=yuanbao<br>[本轮现场](rounds/20261126f_fresh-window-care/README.md) ｜ [manifest](rounds/20261126f_fresh-window-care/manifest.json) ｜ [01 prompt](rounds/20261126f_fresh-window-care/01_front.md) · [02 prompt](rounds/20261126f_fresh-window-care/02_side.md) · [03 prompt](rounds/20261126f_fresh-window-care/03_seat.md) · [04 prompt](rounds/20261126f_fresh-window-care/04_close.md)
 
@@ -110,7 +110,7 @@
 
 | 01 正面 | 02 侧身 | 03 坐姿 | 04 特写 |
 |---|---|---|---|
-| [<img width="220" src="rounds/20261126e_tired-sofa-evening/01_front.png" alt="front">](rounds/20261126e_tired-sofa-evening/01_front.png) | [<img width="220" src="rounds/20261126e_tired-sofa-evening/02_side.png" alt="side">](rounds/20261126e_tired-sofa-evening/02_side.png) | [<img width="220" src="rounds/20261126e_tired-sofa-evening/03_seat.png" alt="seat">](rounds/20261126e_tired-sofa-evening/03_seat.png) | [<img width="220" src="rounds/20261126e_tired-sofa-evening/04_close.png" alt="close">](rounds/20261126e_tired-sofa-evening/04_close.png) |
+| [![front](rounds/20261126e_tired-sofa-evening/01_front.png)](rounds/20261126e_tired-sofa-evening/01_front.png) | [![side](rounds/20261126e_tired-sofa-evening/02_side.png)](rounds/20261126e_tired-sofa-evening/02_side.png) | [![seat](rounds/20261126e_tired-sofa-evening/03_seat.png)](rounds/20261126e_tired-sofa-evening/03_seat.png) | [![close](rounds/20261126e_tired-sofa-evening/04_close.png)](rounds/20261126e_tired-sofa-evening/04_close.png) |
 
 **R005 · 好累啊我**　`SPR-0006` · 慵懒低盘发 · 沙发 · 2026-11 · source=yuanbao<br>[本轮现场](rounds/20261126e_tired-sofa-evening/README.md) ｜ [manifest](rounds/20261126e_tired-sofa-evening/manifest.json) ｜ [01 prompt](rounds/20261126e_tired-sofa-evening/01_front.md) · [02 prompt](rounds/20261126e_tired-sofa-evening/02_side.md) · [03 prompt](rounds/20261126e_tired-sofa-evening/03_seat.md) · [04 prompt](rounds/20261126e_tired-sofa-evening/04_close.md)
 
@@ -123,7 +123,7 @@
 
 | 01 正面 | 02 侧身 | 03 坐姿 | 04 特写 |
 |---|---|---|---|
-| [<img width="220" src="rounds/20261126d_coffee-and-earrings/01_front.png" alt="front">](rounds/20261126d_coffee-and-earrings/01_front.png) | [<img width="220" src="rounds/20261126d_coffee-and-earrings/02_side.png" alt="side">](rounds/20261126d_coffee-and-earrings/02_side.png) | [<img width="220" src="rounds/20261126d_coffee-and-earrings/03_seat.png" alt="seat">](rounds/20261126d_coffee-and-earrings/03_seat.png) | [<img width="220" src="rounds/20261126d_coffee-and-earrings/04_close.png" alt="close">](rounds/20261126d_coffee-and-earrings/04_close.png) |
+| [![front](rounds/20261126d_coffee-and-earrings/01_front.png)](rounds/20261126d_coffee-and-earrings/01_front.png) | [![side](rounds/20261126d_coffee-and-earrings/02_side.png)](rounds/20261126d_coffee-and-earrings/02_side.png) | [![seat](rounds/20261126d_coffee-and-earrings/03_seat.png)](rounds/20261126d_coffee-and-earrings/03_seat.png) | [![close](rounds/20261126d_coffee-and-earrings/04_close.png)](rounds/20261126d_coffee-and-earrings/04_close.png) |
 
 **R004 · 吃过饭去哪里**　`SXY-0027` · 低侧马尾 · 咖啡 · 耳环 · 2026-11 · source=yuanbao<br>[本轮现场](rounds/20261126d_coffee-and-earrings/README.md) ｜ [manifest](rounds/20261126d_coffee-and-earrings/manifest.json) ｜ [01 prompt](rounds/20261126d_coffee-and-earrings/01_front.md) · [02 prompt](rounds/20261126d_coffee-and-earrings/02_side.md) · [03 prompt](rounds/20261126d_coffee-and-earrings/03_seat.md) · [04 prompt](rounds/20261126d_coffee-and-earrings/04_close.md)
 
@@ -136,7 +136,7 @@
 
 | 01 正面 | 02 侧身 | 03 坐姿 | 04 特写 |
 |---|---|---|---|
-| [<img width="220" src="rounds/20261126c_morning-rise/01_front.png" alt="front">](rounds/20261126c_morning-rise/01_front.png) | [<img width="220" src="rounds/20261126c_morning-rise/02_side.png" alt="side">](rounds/20261126c_morning-rise/02_side.png) | [<img width="220" src="rounds/20261126c_morning-rise/03_seat.png" alt="seat">](rounds/20261126c_morning-rise/03_seat.png) | [<img width="220" src="rounds/20261126c_morning-rise/04_close.png" alt="close">](rounds/20261126c_morning-rise/04_close.png) |
+| [![front](rounds/20261126c_morning-rise/01_front.png)](rounds/20261126c_morning-rise/01_front.png) | [![side](rounds/20261126c_morning-rise/02_side.png)](rounds/20261126c_morning-rise/02_side.png) | [![seat](rounds/20261126c_morning-rise/03_seat.png)](rounds/20261126c_morning-rise/03_seat.png) | [![close](rounds/20261126c_morning-rise/04_close.png)](rounds/20261126c_morning-rise/04_close.png) |
 
 **R003 · 我要起来咯**　`SPR-0063` · 锁骨微卷 · 卧室 · 2026-11 · source=yuanbao<br>[本轮现场](rounds/20261126c_morning-rise/README.md) ｜ [manifest](rounds/20261126c_morning-rise/manifest.json) ｜ [01 prompt](rounds/20261126c_morning-rise/01_front.md) · [02 prompt](rounds/20261126c_morning-rise/02_side.md) · [03 prompt](rounds/20261126c_morning-rise/03_seat.md) · [04 prompt](rounds/20261126c_morning-rise/04_close.md)
 
@@ -149,7 +149,7 @@
 
 | 01 正面 | 02 侧身 | 03 坐姿 | 04 特写 |
 |---|---|---|---|
-| [<img width="220" src="rounds/20261126b_lipstick-tryon/01_front.png" alt="front">](rounds/20261126b_lipstick-tryon/01_front.png) | [<img width="220" src="rounds/20261126b_lipstick-tryon/02_side.png" alt="side">](rounds/20261126b_lipstick-tryon/02_side.png) | [<img width="220" src="rounds/20261126b_lipstick-tryon/03_seat.png" alt="seat">](rounds/20261126b_lipstick-tryon/03_seat.png) | [<img width="220" src="rounds/20261126b_lipstick-tryon/04_close.png" alt="close">](rounds/20261126b_lipstick-tryon/04_close.png) |
+| [![front](rounds/20261126b_lipstick-tryon/01_front.png)](rounds/20261126b_lipstick-tryon/01_front.png) | [![side](rounds/20261126b_lipstick-tryon/02_side.png)](rounds/20261126b_lipstick-tryon/02_side.png) | [![seat](rounds/20261126b_lipstick-tryon/03_seat.png)](rounds/20261126b_lipstick-tryon/03_seat.png) | [![close](rounds/20261126b_lipstick-tryon/04_close.png)](rounds/20261126b_lipstick-tryon/04_close.png) |
 
 **R002 · 三支口红试色那晚**　`AUT-0080` · 半扎发 · 口红 · 2026-11 · source=yuanbao<br>[本轮现场](rounds/20261126b_lipstick-tryon/README.md) ｜ [manifest](rounds/20261126b_lipstick-tryon/manifest.json) ｜ [01 prompt](rounds/20261126b_lipstick-tryon/01_front.md) · [02 prompt](rounds/20261126b_lipstick-tryon/02_side.md) · [03 prompt](rounds/20261126b_lipstick-tryon/03_seat.md) · [04 prompt](rounds/20261126b_lipstick-tryon/04_close.md)
 
@@ -162,7 +162,7 @@
 
 | 01 正面 | 02 侧身 | 03 坐姿 | 04 特写 |
 |---|---|---|---|
-| [<img width="220" src="rounds/20261126_coffee-beans/01_front.png" alt="front">](rounds/20261126_coffee-beans/01_front.png) | [<img width="220" src="rounds/20261126_coffee-beans/02_side.png" alt="side">](rounds/20261126_coffee-beans/02_side.png) | [<img width="220" src="rounds/20261126_coffee-beans/03_seat.png" alt="seat">](rounds/20261126_coffee-beans/03_seat.png) | [<img width="220" src="rounds/20261126_coffee-beans/04_close.png" alt="close">](rounds/20261126_coffee-beans/04_close.png) |
+| [![front](rounds/20261126_coffee-beans/01_front.png)](rounds/20261126_coffee-beans/01_front.png) | [![side](rounds/20261126_coffee-beans/02_side.png)](rounds/20261126_coffee-beans/02_side.png) | [![seat](rounds/20261126_coffee-beans/03_seat.png)](rounds/20261126_coffee-beans/03_seat.png) | [![close](rounds/20261126_coffee-beans/04_close.png)](rounds/20261126_coffee-beans/04_close.png) |
 
 **R001 · 换豆子那天早上**　`AUT-0007` · 蓬松披肩大波浪 · 咖啡 · 2026-11 · source=yuanbao<br>[本轮现场](rounds/20261126_coffee-beans/README.md) ｜ [manifest](rounds/20261126_coffee-beans/manifest.json) ｜ [01 prompt](rounds/20261126_coffee-beans/01_front.md) · [02 prompt](rounds/20261126_coffee-beans/02_side.md) · [03 prompt](rounds/20261126_coffee-beans/03_seat.md) · [04 prompt](rounds/20261126_coffee-beans/04_close.md)
 
@@ -180,9 +180,9 @@
 | 轮次 | 封面 | 其余三张 | 提示词 |
 |---|---|---|---|
 
-| R004 吃过饭去哪里 | [<img width="110" src="rounds/20261126d_coffee-and-earrings/01_front.png" alt="front">](rounds/20261126d_coffee-and-earrings/01_front.png) | [<img width="110" src="rounds/20261126d_coffee-and-earrings/02_side.png" alt="side">](rounds/20261126d_coffee-and-earrings/02_side.png) [<img width="110" src="rounds/20261126d_coffee-and-earrings/03_seat.png" alt="seat">](rounds/20261126d_coffee-and-earrings/03_seat.png) [<img width="110" src="rounds/20261126d_coffee-and-earrings/04_close.png" alt="close">](rounds/20261126d_coffee-and-earrings/04_close.png) | [20261126d_coffee-and-earrings/](rounds/20261126d_coffee-and-earrings/README.md) |
+| R004 吃过饭去哪里 | [![front](rounds/20261126d_coffee-and-earrings/01_front.png)](rounds/20261126d_coffee-and-earrings/01_front.png) | [![side](rounds/20261126d_coffee-and-earrings/02_side.png)](rounds/20261126d_coffee-and-earrings/02_side.png) [![seat](rounds/20261126d_coffee-and-earrings/03_seat.png)](rounds/20261126d_coffee-and-earrings/03_seat.png) [![close](rounds/20261126d_coffee-and-earrings/04_close.png)](rounds/20261126d_coffee-and-earrings/04_close.png) | [20261126d_coffee-and-earrings/](rounds/20261126d_coffee-and-earrings/README.md) |
 
-| R001 换豆子那天早上 | [<img width="110" src="rounds/20261126_coffee-beans/01_front.png" alt="front">](rounds/20261126_coffee-beans/01_front.png) | [<img width="110" src="rounds/20261126_coffee-beans/02_side.png" alt="side">](rounds/20261126_coffee-beans/02_side.png) [<img width="110" src="rounds/20261126_coffee-beans/03_seat.png" alt="seat">](rounds/20261126_coffee-beans/03_seat.png) [<img width="110" src="rounds/20261126_coffee-beans/04_close.png" alt="close">](rounds/20261126_coffee-beans/04_close.png) | [20261126_coffee-beans/](rounds/20261126_coffee-beans/README.md) |
+| R001 换豆子那天早上 | [![front](rounds/20261126_coffee-beans/01_front.png)](rounds/20261126_coffee-beans/01_front.png) | [![side](rounds/20261126_coffee-beans/02_side.png)](rounds/20261126_coffee-beans/02_side.png) [![seat](rounds/20261126_coffee-beans/03_seat.png)](rounds/20261126_coffee-beans/03_seat.png) [![close](rounds/20261126_coffee-beans/04_close.png)](rounds/20261126_coffee-beans/04_close.png) | [20261126_coffee-beans/](rounds/20261126_coffee-beans/README.md) |
 
 
 ### 洗漱 · 2 轮
@@ -190,9 +190,9 @@
 | 轮次 | 封面 | 其余三张 | 提示词 |
 |---|---|---|---|
 
-| R008 赖床起来泡茶洗头洗脸 | [<img width="110" src="rounds/20261126h_morning-tea-wash/01_front.png" alt="front">](rounds/20261126h_morning-tea-wash/01_front.png) | [<img width="110" src="rounds/20261126h_morning-tea-wash/02_side.png" alt="side">](rounds/20261126h_morning-tea-wash/02_side.png) [<img width="110" src="rounds/20261126h_morning-tea-wash/03_seat.png" alt="seat">](rounds/20261126h_morning-tea-wash/03_seat.png) [<img width="110" src="rounds/20261126h_morning-tea-wash/04_close.png" alt="close">](rounds/20261126h_morning-tea-wash/04_close.png) | [20261126h_morning-tea-wash/](rounds/20261126h_morning-tea-wash/README.md) |
+| R008 赖床起来泡茶洗头洗脸 | [![front](rounds/20261126h_morning-tea-wash/01_front.png)](rounds/20261126h_morning-tea-wash/01_front.png) | [![side](rounds/20261126h_morning-tea-wash/02_side.png)](rounds/20261126h_morning-tea-wash/02_side.png) [![seat](rounds/20261126h_morning-tea-wash/03_seat.png)](rounds/20261126h_morning-tea-wash/03_seat.png) [![close](rounds/20261126h_morning-tea-wash/04_close.png)](rounds/20261126h_morning-tea-wash/04_close.png) | [20261126h_morning-tea-wash/](rounds/20261126h_morning-tea-wash/README.md) |
 
-| R007 洗好头送你出门 | [<img width="110" src="rounds/20261126g_wash-hair-errand/01_front.png" alt="front">](rounds/20261126g_wash-hair-errand/01_front.png) | [<img width="110" src="rounds/20261126g_wash-hair-errand/02_side.png" alt="side">](rounds/20261126g_wash-hair-errand/02_side.png) [<img width="110" src="rounds/20261126g_wash-hair-errand/03_seat.png" alt="seat">](rounds/20261126g_wash-hair-errand/03_seat.png) [<img width="110" src="rounds/20261126g_wash-hair-errand/04_close.png" alt="close">](rounds/20261126g_wash-hair-errand/04_close.png) | [20261126g_wash-hair-errand/](rounds/20261126g_wash-hair-errand/README.md) |
+| R007 洗好头送你出门 | [![front](rounds/20261126g_wash-hair-errand/01_front.png)](rounds/20261126g_wash-hair-errand/01_front.png) | [![side](rounds/20261126g_wash-hair-errand/02_side.png)](rounds/20261126g_wash-hair-errand/02_side.png) [![seat](rounds/20261126g_wash-hair-errand/03_seat.png)](rounds/20261126g_wash-hair-errand/03_seat.png) [![close](rounds/20261126g_wash-hair-errand/04_close.png)](rounds/20261126g_wash-hair-errand/04_close.png) | [20261126g_wash-hair-errand/](rounds/20261126g_wash-hair-errand/README.md) |
 
 
 ### 亲亲 · 1 轮
@@ -200,7 +200,7 @@
 | 轮次 | 封面 | 其余三张 | 提示词 |
 |---|---|---|---|
 
-| R011 凑过来亲亲 | [<img width="110" src="rounds/20261126k_lovers-kiss/01_front.png" alt="front">](rounds/20261126k_lovers-kiss/01_front.png) | [<img width="110" src="rounds/20261126k_lovers-kiss/02_side.png" alt="side">](rounds/20261126k_lovers-kiss/02_side.png) [<img width="110" src="rounds/20261126k_lovers-kiss/03_seat.png" alt="seat">](rounds/20261126k_lovers-kiss/03_seat.png) [<img width="110" src="rounds/20261126k_lovers-kiss/04_close.png" alt="close">](rounds/20261126k_lovers-kiss/04_close.png) | [20261126k_lovers-kiss/](rounds/20261126k_lovers-kiss/README.md) |
+| R011 凑过来亲亲 | [![front](rounds/20261126k_lovers-kiss/01_front.png)](rounds/20261126k_lovers-kiss/01_front.png) | [![side](rounds/20261126k_lovers-kiss/02_side.png)](rounds/20261126k_lovers-kiss/02_side.png) [![seat](rounds/20261126k_lovers-kiss/03_seat.png)](rounds/20261126k_lovers-kiss/03_seat.png) [![close](rounds/20261126k_lovers-kiss/04_close.png)](rounds/20261126k_lovers-kiss/04_close.png) | [20261126k_lovers-kiss/](rounds/20261126k_lovers-kiss/README.md) |
 
 
 ### 卧室 · 1 轮
@@ -208,7 +208,7 @@
 | 轮次 | 封面 | 其余三张 | 提示词 |
 |---|---|---|---|
 
-| R003 我要起来咯 | [<img width="110" src="rounds/20261126c_morning-rise/01_front.png" alt="front">](rounds/20261126c_morning-rise/01_front.png) | [<img width="110" src="rounds/20261126c_morning-rise/02_side.png" alt="side">](rounds/20261126c_morning-rise/02_side.png) [<img width="110" src="rounds/20261126c_morning-rise/03_seat.png" alt="seat">](rounds/20261126c_morning-rise/03_seat.png) [<img width="110" src="rounds/20261126c_morning-rise/04_close.png" alt="close">](rounds/20261126c_morning-rise/04_close.png) | [20261126c_morning-rise/](rounds/20261126c_morning-rise/README.md) |
+| R003 我要起来咯 | [![front](rounds/20261126c_morning-rise/01_front.png)](rounds/20261126c_morning-rise/01_front.png) | [![side](rounds/20261126c_morning-rise/02_side.png)](rounds/20261126c_morning-rise/02_side.png) [![seat](rounds/20261126c_morning-rise/03_seat.png)](rounds/20261126c_morning-rise/03_seat.png) [![close](rounds/20261126c_morning-rise/04_close.png)](rounds/20261126c_morning-rise/04_close.png) | [20261126c_morning-rise/](rounds/20261126c_morning-rise/README.md) |
 
 
 ### 口红 · 1 轮
@@ -216,7 +216,7 @@
 | 轮次 | 封面 | 其余三张 | 提示词 |
 |---|---|---|---|
 
-| R002 三支口红试色那晚 | [<img width="110" src="rounds/20261126b_lipstick-tryon/01_front.png" alt="front">](rounds/20261126b_lipstick-tryon/01_front.png) | [<img width="110" src="rounds/20261126b_lipstick-tryon/02_side.png" alt="side">](rounds/20261126b_lipstick-tryon/02_side.png) [<img width="110" src="rounds/20261126b_lipstick-tryon/03_seat.png" alt="seat">](rounds/20261126b_lipstick-tryon/03_seat.png) [<img width="110" src="rounds/20261126b_lipstick-tryon/04_close.png" alt="close">](rounds/20261126b_lipstick-tryon/04_close.png) | [20261126b_lipstick-tryon/](rounds/20261126b_lipstick-tryon/README.md) |
+| R002 三支口红试色那晚 | [![front](rounds/20261126b_lipstick-tryon/01_front.png)](rounds/20261126b_lipstick-tryon/01_front.png) | [![side](rounds/20261126b_lipstick-tryon/02_side.png)](rounds/20261126b_lipstick-tryon/02_side.png) [![seat](rounds/20261126b_lipstick-tryon/03_seat.png)](rounds/20261126b_lipstick-tryon/03_seat.png) [![close](rounds/20261126b_lipstick-tryon/04_close.png)](rounds/20261126b_lipstick-tryon/04_close.png) | [20261126b_lipstick-tryon/](rounds/20261126b_lipstick-tryon/README.md) |
 
 
 ### 沙发 · 1 轮
@@ -224,7 +224,7 @@
 | 轮次 | 封面 | 其余三张 | 提示词 |
 |---|---|---|---|
 
-| R005 好累啊我 | [<img width="110" src="rounds/20261126e_tired-sofa-evening/01_front.png" alt="front">](rounds/20261126e_tired-sofa-evening/01_front.png) | [<img width="110" src="rounds/20261126e_tired-sofa-evening/02_side.png" alt="side">](rounds/20261126e_tired-sofa-evening/02_side.png) [<img width="110" src="rounds/20261126e_tired-sofa-evening/03_seat.png" alt="seat">](rounds/20261126e_tired-sofa-evening/03_seat.png) [<img width="110" src="rounds/20261126e_tired-sofa-evening/04_close.png" alt="close">](rounds/20261126e_tired-sofa-evening/04_close.png) | [20261126e_tired-sofa-evening/](rounds/20261126e_tired-sofa-evening/README.md) |
+| R005 好累啊我 | [![front](rounds/20261126e_tired-sofa-evening/01_front.png)](rounds/20261126e_tired-sofa-evening/01_front.png) | [![side](rounds/20261126e_tired-sofa-evening/02_side.png)](rounds/20261126e_tired-sofa-evening/02_side.png) [![seat](rounds/20261126e_tired-sofa-evening/03_seat.png)](rounds/20261126e_tired-sofa-evening/03_seat.png) [![close](rounds/20261126e_tired-sofa-evening/04_close.png)](rounds/20261126e_tired-sofa-evening/04_close.png) | [20261126e_tired-sofa-evening/](rounds/20261126e_tired-sofa-evening/README.md) |
 
 
 ### 渡轮 · 1 轮
@@ -232,7 +232,7 @@
 | 轮次 | 封面 | 其余三张 | 提示词 |
 |---|---|---|---|
 
-| R010 渡轮去对岸看旧灯塔 | [<img width="110" src="rounds/20261126j_ferry-lighthouse/01_front.png" alt="front">](rounds/20261126j_ferry-lighthouse/01_front.png) | [<img width="110" src="rounds/20261126j_ferry-lighthouse/02_side.png" alt="side">](rounds/20261126j_ferry-lighthouse/02_side.png) [<img width="110" src="rounds/20261126j_ferry-lighthouse/03_seat.png" alt="seat">](rounds/20261126j_ferry-lighthouse/03_seat.png) [<img width="110" src="rounds/20261126j_ferry-lighthouse/04_close.png" alt="close">](rounds/20261126j_ferry-lighthouse/04_close.png) | [20261126j_ferry-lighthouse/](rounds/20261126j_ferry-lighthouse/README.md) |
+| R010 渡轮去对岸看旧灯塔 | [![front](rounds/20261126j_ferry-lighthouse/01_front.png)](rounds/20261126j_ferry-lighthouse/01_front.png) | [![side](rounds/20261126j_ferry-lighthouse/02_side.png)](rounds/20261126j_ferry-lighthouse/02_side.png) [![seat](rounds/20261126j_ferry-lighthouse/03_seat.png)](rounds/20261126j_ferry-lighthouse/03_seat.png) [![close](rounds/20261126j_ferry-lighthouse/04_close.png)](rounds/20261126j_ferry-lighthouse/04_close.png) | [20261126j_ferry-lighthouse/](rounds/20261126j_ferry-lighthouse/README.md) |
 
 
 ### 窗边 · 1 轮
@@ -240,7 +240,7 @@
 | 轮次 | 封面 | 其余三张 | 提示词 |
 |---|---|---|---|
 
-| R006 一闻到大肠杆菌就不停咳嗽 | [<img width="110" src="rounds/20261126f_fresh-window-care/01_front.png" alt="front">](rounds/20261126f_fresh-window-care/01_front.png) | [<img width="110" src="rounds/20261126f_fresh-window-care/02_side.png" alt="side">](rounds/20261126f_fresh-window-care/02_side.png) [<img width="110" src="rounds/20261126f_fresh-window-care/03_seat.png" alt="seat">](rounds/20261126f_fresh-window-care/03_seat.png) [<img width="110" src="rounds/20261126f_fresh-window-care/04_close.png" alt="close">](rounds/20261126f_fresh-window-care/04_close.png) | [20261126f_fresh-window-care/](rounds/20261126f_fresh-window-care/README.md) |
+| R006 一闻到大肠杆菌就不停咳嗽 | [![front](rounds/20261126f_fresh-window-care/01_front.png)](rounds/20261126f_fresh-window-care/01_front.png) | [![side](rounds/20261126f_fresh-window-care/02_side.png)](rounds/20261126f_fresh-window-care/02_side.png) [![seat](rounds/20261126f_fresh-window-care/03_seat.png)](rounds/20261126f_fresh-window-care/03_seat.png) [![close](rounds/20261126f_fresh-window-care/04_close.png)](rounds/20261126f_fresh-window-care/04_close.png) | [20261126f_fresh-window-care/](rounds/20261126f_fresh-window-care/README.md) |
 
 
 ### 老街 · 1 轮
@@ -248,7 +248,7 @@
 | 轮次 | 封面 | 其余三张 | 提示词 |
 |---|---|---|---|
 
-| R009 老街身后那一眼 | [<img width="110" src="rounds/20261126i_evening-street-gaze/01_front.png" alt="front">](rounds/20261126i_evening-street-gaze/01_front.png) | [<img width="110" src="rounds/20261126i_evening-street-gaze/02_side.png" alt="side">](rounds/20261126i_evening-street-gaze/02_side.png) [<img width="110" src="rounds/20261126i_evening-street-gaze/03_seat.png" alt="seat">](rounds/20261126i_evening-street-gaze/03_seat.png) [<img width="110" src="rounds/20261126i_evening-street-gaze/04_close.png" alt="close">](rounds/20261126i_evening-street-gaze/04_close.png) | [20261126i_evening-street-gaze/](rounds/20261126i_evening-street-gaze/README.md) |
+| R009 老街身后那一眼 | [![front](rounds/20261126i_evening-street-gaze/01_front.png)](rounds/20261126i_evening-street-gaze/01_front.png) | [![side](rounds/20261126i_evening-street-gaze/02_side.png)](rounds/20261126i_evening-street-gaze/02_side.png) [![seat](rounds/20261126i_evening-street-gaze/03_seat.png)](rounds/20261126i_evening-street-gaze/03_seat.png) [![close](rounds/20261126i_evening-street-gaze/04_close.png)](rounds/20261126i_evening-street-gaze/04_close.png) | [20261126i_evening-street-gaze/](rounds/20261126i_evening-street-gaze/README.md) |
 
 
 ### 耳环 · 1 轮
@@ -256,7 +256,7 @@
 | 轮次 | 封面 | 其余三张 | 提示词 |
 |---|---|---|---|
 
-| R004 吃过饭去哪里 | [<img width="110" src="rounds/20261126d_coffee-and-earrings/01_front.png" alt="front">](rounds/20261126d_coffee-and-earrings/01_front.png) | [<img width="110" src="rounds/20261126d_coffee-and-earrings/02_side.png" alt="side">](rounds/20261126d_coffee-and-earrings/02_side.png) [<img width="110" src="rounds/20261126d_coffee-and-earrings/03_seat.png" alt="seat">](rounds/20261126d_coffee-and-earrings/03_seat.png) [<img width="110" src="rounds/20261126d_coffee-and-earrings/04_close.png" alt="close">](rounds/20261126d_coffee-and-earrings/04_close.png) | [20261126d_coffee-and-earrings/](rounds/20261126d_coffee-and-earrings/README.md) |
+| R004 吃过饭去哪里 | [![front](rounds/20261126d_coffee-and-earrings/01_front.png)](rounds/20261126d_coffee-and-earrings/01_front.png) | [![side](rounds/20261126d_coffee-and-earrings/02_side.png)](rounds/20261126d_coffee-and-earrings/02_side.png) [![seat](rounds/20261126d_coffee-and-earrings/03_seat.png)](rounds/20261126d_coffee-and-earrings/03_seat.png) [![close](rounds/20261126d_coffee-and-earrings/04_close.png)](rounds/20261126d_coffee-and-earrings/04_close.png) | [20261126d_coffee-and-earrings/](rounds/20261126d_coffee-and-earrings/README.md) |
 
 <a id="按发型"></a>
 
@@ -268,9 +268,9 @@
 | 轮次 | 封面 | 其余三张 | 提示词 |
 |---|---|---|---|
 
-| R009 老街身后那一眼 | [<img width="110" src="rounds/20261126i_evening-street-gaze/01_front.png" alt="front">](rounds/20261126i_evening-street-gaze/01_front.png) | [<img width="110" src="rounds/20261126i_evening-street-gaze/02_side.png" alt="side">](rounds/20261126i_evening-street-gaze/02_side.png) [<img width="110" src="rounds/20261126i_evening-street-gaze/03_seat.png" alt="seat">](rounds/20261126i_evening-street-gaze/03_seat.png) [<img width="110" src="rounds/20261126i_evening-street-gaze/04_close.png" alt="close">](rounds/20261126i_evening-street-gaze/04_close.png) | [20261126i_evening-street-gaze/](rounds/20261126i_evening-street-gaze/README.md) |
+| R009 老街身后那一眼 | [![front](rounds/20261126i_evening-street-gaze/01_front.png)](rounds/20261126i_evening-street-gaze/01_front.png) | [![side](rounds/20261126i_evening-street-gaze/02_side.png)](rounds/20261126i_evening-street-gaze/02_side.png) [![seat](rounds/20261126i_evening-street-gaze/03_seat.png)](rounds/20261126i_evening-street-gaze/03_seat.png) [![close](rounds/20261126i_evening-street-gaze/04_close.png)](rounds/20261126i_evening-street-gaze/04_close.png) | [20261126i_evening-street-gaze/](rounds/20261126i_evening-street-gaze/README.md) |
 
-| R004 吃过饭去哪里 | [<img width="110" src="rounds/20261126d_coffee-and-earrings/01_front.png" alt="front">](rounds/20261126d_coffee-and-earrings/01_front.png) | [<img width="110" src="rounds/20261126d_coffee-and-earrings/02_side.png" alt="side">](rounds/20261126d_coffee-and-earrings/02_side.png) [<img width="110" src="rounds/20261126d_coffee-and-earrings/03_seat.png" alt="seat">](rounds/20261126d_coffee-and-earrings/03_seat.png) [<img width="110" src="rounds/20261126d_coffee-and-earrings/04_close.png" alt="close">](rounds/20261126d_coffee-and-earrings/04_close.png) | [20261126d_coffee-and-earrings/](rounds/20261126d_coffee-and-earrings/README.md) |
+| R004 吃过饭去哪里 | [![front](rounds/20261126d_coffee-and-earrings/01_front.png)](rounds/20261126d_coffee-and-earrings/01_front.png) | [![side](rounds/20261126d_coffee-and-earrings/02_side.png)](rounds/20261126d_coffee-and-earrings/02_side.png) [![seat](rounds/20261126d_coffee-and-earrings/03_seat.png)](rounds/20261126d_coffee-and-earrings/03_seat.png) [![close](rounds/20261126d_coffee-and-earrings/04_close.png)](rounds/20261126d_coffee-and-earrings/04_close.png) | [20261126d_coffee-and-earrings/](rounds/20261126d_coffee-and-earrings/README.md) |
 
 
 ### 半扎发 · 2 轮
@@ -278,9 +278,9 @@
 | 轮次 | 封面 | 其余三张 | 提示词 |
 |---|---|---|---|
 
-| R007 洗好头送你出门 | [<img width="110" src="rounds/20261126g_wash-hair-errand/01_front.png" alt="front">](rounds/20261126g_wash-hair-errand/01_front.png) | [<img width="110" src="rounds/20261126g_wash-hair-errand/02_side.png" alt="side">](rounds/20261126g_wash-hair-errand/02_side.png) [<img width="110" src="rounds/20261126g_wash-hair-errand/03_seat.png" alt="seat">](rounds/20261126g_wash-hair-errand/03_seat.png) [<img width="110" src="rounds/20261126g_wash-hair-errand/04_close.png" alt="close">](rounds/20261126g_wash-hair-errand/04_close.png) | [20261126g_wash-hair-errand/](rounds/20261126g_wash-hair-errand/README.md) |
+| R007 洗好头送你出门 | [![front](rounds/20261126g_wash-hair-errand/01_front.png)](rounds/20261126g_wash-hair-errand/01_front.png) | [![side](rounds/20261126g_wash-hair-errand/02_side.png)](rounds/20261126g_wash-hair-errand/02_side.png) [![seat](rounds/20261126g_wash-hair-errand/03_seat.png)](rounds/20261126g_wash-hair-errand/03_seat.png) [![close](rounds/20261126g_wash-hair-errand/04_close.png)](rounds/20261126g_wash-hair-errand/04_close.png) | [20261126g_wash-hair-errand/](rounds/20261126g_wash-hair-errand/README.md) |
 
-| R002 三支口红试色那晚 | [<img width="110" src="rounds/20261126b_lipstick-tryon/01_front.png" alt="front">](rounds/20261126b_lipstick-tryon/01_front.png) | [<img width="110" src="rounds/20261126b_lipstick-tryon/02_side.png" alt="side">](rounds/20261126b_lipstick-tryon/02_side.png) [<img width="110" src="rounds/20261126b_lipstick-tryon/03_seat.png" alt="seat">](rounds/20261126b_lipstick-tryon/03_seat.png) [<img width="110" src="rounds/20261126b_lipstick-tryon/04_close.png" alt="close">](rounds/20261126b_lipstick-tryon/04_close.png) | [20261126b_lipstick-tryon/](rounds/20261126b_lipstick-tryon/README.md) |
+| R002 三支口红试色那晚 | [![front](rounds/20261126b_lipstick-tryon/01_front.png)](rounds/20261126b_lipstick-tryon/01_front.png) | [![side](rounds/20261126b_lipstick-tryon/02_side.png)](rounds/20261126b_lipstick-tryon/02_side.png) [![seat](rounds/20261126b_lipstick-tryon/03_seat.png)](rounds/20261126b_lipstick-tryon/03_seat.png) [![close](rounds/20261126b_lipstick-tryon/04_close.png)](rounds/20261126b_lipstick-tryon/04_close.png) | [20261126b_lipstick-tryon/](rounds/20261126b_lipstick-tryon/README.md) |
 
 
 ### 慵懒低盘发 · 2 轮
@@ -288,9 +288,9 @@
 | 轮次 | 封面 | 其余三张 | 提示词 |
 |---|---|---|---|
 
-| R008 赖床起来泡茶洗头洗脸 | [<img width="110" src="rounds/20261126h_morning-tea-wash/01_front.png" alt="front">](rounds/20261126h_morning-tea-wash/01_front.png) | [<img width="110" src="rounds/20261126h_morning-tea-wash/02_side.png" alt="side">](rounds/20261126h_morning-tea-wash/02_side.png) [<img width="110" src="rounds/20261126h_morning-tea-wash/03_seat.png" alt="seat">](rounds/20261126h_morning-tea-wash/03_seat.png) [<img width="110" src="rounds/20261126h_morning-tea-wash/04_close.png" alt="close">](rounds/20261126h_morning-tea-wash/04_close.png) | [20261126h_morning-tea-wash/](rounds/20261126h_morning-tea-wash/README.md) |
+| R008 赖床起来泡茶洗头洗脸 | [![front](rounds/20261126h_morning-tea-wash/01_front.png)](rounds/20261126h_morning-tea-wash/01_front.png) | [![side](rounds/20261126h_morning-tea-wash/02_side.png)](rounds/20261126h_morning-tea-wash/02_side.png) [![seat](rounds/20261126h_morning-tea-wash/03_seat.png)](rounds/20261126h_morning-tea-wash/03_seat.png) [![close](rounds/20261126h_morning-tea-wash/04_close.png)](rounds/20261126h_morning-tea-wash/04_close.png) | [20261126h_morning-tea-wash/](rounds/20261126h_morning-tea-wash/README.md) |
 
-| R005 好累啊我 | [<img width="110" src="rounds/20261126e_tired-sofa-evening/01_front.png" alt="front">](rounds/20261126e_tired-sofa-evening/01_front.png) | [<img width="110" src="rounds/20261126e_tired-sofa-evening/02_side.png" alt="side">](rounds/20261126e_tired-sofa-evening/02_side.png) [<img width="110" src="rounds/20261126e_tired-sofa-evening/03_seat.png" alt="seat">](rounds/20261126e_tired-sofa-evening/03_seat.png) [<img width="110" src="rounds/20261126e_tired-sofa-evening/04_close.png" alt="close">](rounds/20261126e_tired-sofa-evening/04_close.png) | [20261126e_tired-sofa-evening/](rounds/20261126e_tired-sofa-evening/README.md) |
+| R005 好累啊我 | [![front](rounds/20261126e_tired-sofa-evening/01_front.png)](rounds/20261126e_tired-sofa-evening/01_front.png) | [![side](rounds/20261126e_tired-sofa-evening/02_side.png)](rounds/20261126e_tired-sofa-evening/02_side.png) [![seat](rounds/20261126e_tired-sofa-evening/03_seat.png)](rounds/20261126e_tired-sofa-evening/03_seat.png) [![close](rounds/20261126e_tired-sofa-evening/04_close.png)](rounds/20261126e_tired-sofa-evening/04_close.png) | [20261126e_tired-sofa-evening/](rounds/20261126e_tired-sofa-evening/README.md) |
 
 
 ### 蓬松披肩大波浪 · 2 轮
@@ -298,9 +298,9 @@
 | 轮次 | 封面 | 其余三张 | 提示词 |
 |---|---|---|---|
 
-| R006 一闻到大肠杆菌就不停咳嗽 | [<img width="110" src="rounds/20261126f_fresh-window-care/01_front.png" alt="front">](rounds/20261126f_fresh-window-care/01_front.png) | [<img width="110" src="rounds/20261126f_fresh-window-care/02_side.png" alt="side">](rounds/20261126f_fresh-window-care/02_side.png) [<img width="110" src="rounds/20261126f_fresh-window-care/03_seat.png" alt="seat">](rounds/20261126f_fresh-window-care/03_seat.png) [<img width="110" src="rounds/20261126f_fresh-window-care/04_close.png" alt="close">](rounds/20261126f_fresh-window-care/04_close.png) | [20261126f_fresh-window-care/](rounds/20261126f_fresh-window-care/README.md) |
+| R006 一闻到大肠杆菌就不停咳嗽 | [![front](rounds/20261126f_fresh-window-care/01_front.png)](rounds/20261126f_fresh-window-care/01_front.png) | [![side](rounds/20261126f_fresh-window-care/02_side.png)](rounds/20261126f_fresh-window-care/02_side.png) [![seat](rounds/20261126f_fresh-window-care/03_seat.png)](rounds/20261126f_fresh-window-care/03_seat.png) [![close](rounds/20261126f_fresh-window-care/04_close.png)](rounds/20261126f_fresh-window-care/04_close.png) | [20261126f_fresh-window-care/](rounds/20261126f_fresh-window-care/README.md) |
 
-| R001 换豆子那天早上 | [<img width="110" src="rounds/20261126_coffee-beans/01_front.png" alt="front">](rounds/20261126_coffee-beans/01_front.png) | [<img width="110" src="rounds/20261126_coffee-beans/02_side.png" alt="side">](rounds/20261126_coffee-beans/02_side.png) [<img width="110" src="rounds/20261126_coffee-beans/03_seat.png" alt="seat">](rounds/20261126_coffee-beans/03_seat.png) [<img width="110" src="rounds/20261126_coffee-beans/04_close.png" alt="close">](rounds/20261126_coffee-beans/04_close.png) | [20261126_coffee-beans/](rounds/20261126_coffee-beans/README.md) |
+| R001 换豆子那天早上 | [![front](rounds/20261126_coffee-beans/01_front.png)](rounds/20261126_coffee-beans/01_front.png) | [![side](rounds/20261126_coffee-beans/02_side.png)](rounds/20261126_coffee-beans/02_side.png) [![seat](rounds/20261126_coffee-beans/03_seat.png)](rounds/20261126_coffee-beans/03_seat.png) [![close](rounds/20261126_coffee-beans/04_close.png)](rounds/20261126_coffee-beans/04_close.png) | [20261126_coffee-beans/](rounds/20261126_coffee-beans/README.md) |
 
 
 ### 锁骨微卷 · 2 轮
@@ -308,9 +308,9 @@
 | 轮次 | 封面 | 其余三张 | 提示词 |
 |---|---|---|---|
 
-| R010 渡轮去对岸看旧灯塔 | [<img width="110" src="rounds/20261126j_ferry-lighthouse/01_front.png" alt="front">](rounds/20261126j_ferry-lighthouse/01_front.png) | [<img width="110" src="rounds/20261126j_ferry-lighthouse/02_side.png" alt="side">](rounds/20261126j_ferry-lighthouse/02_side.png) [<img width="110" src="rounds/20261126j_ferry-lighthouse/03_seat.png" alt="seat">](rounds/20261126j_ferry-lighthouse/03_seat.png) [<img width="110" src="rounds/20261126j_ferry-lighthouse/04_close.png" alt="close">](rounds/20261126j_ferry-lighthouse/04_close.png) | [20261126j_ferry-lighthouse/](rounds/20261126j_ferry-lighthouse/README.md) |
+| R010 渡轮去对岸看旧灯塔 | [![front](rounds/20261126j_ferry-lighthouse/01_front.png)](rounds/20261126j_ferry-lighthouse/01_front.png) | [![side](rounds/20261126j_ferry-lighthouse/02_side.png)](rounds/20261126j_ferry-lighthouse/02_side.png) [![seat](rounds/20261126j_ferry-lighthouse/03_seat.png)](rounds/20261126j_ferry-lighthouse/03_seat.png) [![close](rounds/20261126j_ferry-lighthouse/04_close.png)](rounds/20261126j_ferry-lighthouse/04_close.png) | [20261126j_ferry-lighthouse/](rounds/20261126j_ferry-lighthouse/README.md) |
 
-| R003 我要起来咯 | [<img width="110" src="rounds/20261126c_morning-rise/01_front.png" alt="front">](rounds/20261126c_morning-rise/01_front.png) | [<img width="110" src="rounds/20261126c_morning-rise/02_side.png" alt="side">](rounds/20261126c_morning-rise/02_side.png) [<img width="110" src="rounds/20261126c_morning-rise/03_seat.png" alt="seat">](rounds/20261126c_morning-rise/03_seat.png) [<img width="110" src="rounds/20261126c_morning-rise/04_close.png" alt="close">](rounds/20261126c_morning-rise/04_close.png) | [20261126c_morning-rise/](rounds/20261126c_morning-rise/README.md) |
+| R003 我要起来咯 | [![front](rounds/20261126c_morning-rise/01_front.png)](rounds/20261126c_morning-rise/01_front.png) | [![side](rounds/20261126c_morning-rise/02_side.png)](rounds/20261126c_morning-rise/02_side.png) [![seat](rounds/20261126c_morning-rise/03_seat.png)](rounds/20261126c_morning-rise/03_seat.png) [![close](rounds/20261126c_morning-rise/04_close.png)](rounds/20261126c_morning-rise/04_close.png) | [20261126c_morning-rise/](rounds/20261126c_morning-rise/README.md) |
 
 
 ### 未标注 · 1 轮
@@ -318,7 +318,7 @@
 | 轮次 | 封面 | 其余三张 | 提示词 |
 |---|---|---|---|
 
-| R011 凑过来亲亲 | [<img width="110" src="rounds/20261126k_lovers-kiss/01_front.png" alt="front">](rounds/20261126k_lovers-kiss/01_front.png) | [<img width="110" src="rounds/20261126k_lovers-kiss/02_side.png" alt="side">](rounds/20261126k_lovers-kiss/02_side.png) [<img width="110" src="rounds/20261126k_lovers-kiss/03_seat.png" alt="seat">](rounds/20261126k_lovers-kiss/03_seat.png) [<img width="110" src="rounds/20261126k_lovers-kiss/04_close.png" alt="close">](rounds/20261126k_lovers-kiss/04_close.png) | [20261126k_lovers-kiss/](rounds/20261126k_lovers-kiss/README.md) |
+| R011 凑过来亲亲 | [![front](rounds/20261126k_lovers-kiss/01_front.png)](rounds/20261126k_lovers-kiss/01_front.png) | [![side](rounds/20261126k_lovers-kiss/02_side.png)](rounds/20261126k_lovers-kiss/02_side.png) [![seat](rounds/20261126k_lovers-kiss/03_seat.png)](rounds/20261126k_lovers-kiss/03_seat.png) [![close](rounds/20261126k_lovers-kiss/04_close.png)](rounds/20261126k_lovers-kiss/04_close.png) | [20261126k_lovers-kiss/](rounds/20261126k_lovers-kiss/README.md) |
 
 <a id="按月份"></a>
 
@@ -330,27 +330,27 @@
 | 轮次 | 封面 | 其余三张 | 提示词 |
 |---|---|---|---|
 
-| R011 凑过来亲亲 | [<img width="110" src="rounds/20261126k_lovers-kiss/01_front.png" alt="front">](rounds/20261126k_lovers-kiss/01_front.png) | [<img width="110" src="rounds/20261126k_lovers-kiss/02_side.png" alt="side">](rounds/20261126k_lovers-kiss/02_side.png) [<img width="110" src="rounds/20261126k_lovers-kiss/03_seat.png" alt="seat">](rounds/20261126k_lovers-kiss/03_seat.png) [<img width="110" src="rounds/20261126k_lovers-kiss/04_close.png" alt="close">](rounds/20261126k_lovers-kiss/04_close.png) | [20261126k_lovers-kiss/](rounds/20261126k_lovers-kiss/README.md) |
+| R011 凑过来亲亲 | [![front](rounds/20261126k_lovers-kiss/01_front.png)](rounds/20261126k_lovers-kiss/01_front.png) | [![side](rounds/20261126k_lovers-kiss/02_side.png)](rounds/20261126k_lovers-kiss/02_side.png) [![seat](rounds/20261126k_lovers-kiss/03_seat.png)](rounds/20261126k_lovers-kiss/03_seat.png) [![close](rounds/20261126k_lovers-kiss/04_close.png)](rounds/20261126k_lovers-kiss/04_close.png) | [20261126k_lovers-kiss/](rounds/20261126k_lovers-kiss/README.md) |
 
-| R010 渡轮去对岸看旧灯塔 | [<img width="110" src="rounds/20261126j_ferry-lighthouse/01_front.png" alt="front">](rounds/20261126j_ferry-lighthouse/01_front.png) | [<img width="110" src="rounds/20261126j_ferry-lighthouse/02_side.png" alt="side">](rounds/20261126j_ferry-lighthouse/02_side.png) [<img width="110" src="rounds/20261126j_ferry-lighthouse/03_seat.png" alt="seat">](rounds/20261126j_ferry-lighthouse/03_seat.png) [<img width="110" src="rounds/20261126j_ferry-lighthouse/04_close.png" alt="close">](rounds/20261126j_ferry-lighthouse/04_close.png) | [20261126j_ferry-lighthouse/](rounds/20261126j_ferry-lighthouse/README.md) |
+| R010 渡轮去对岸看旧灯塔 | [![front](rounds/20261126j_ferry-lighthouse/01_front.png)](rounds/20261126j_ferry-lighthouse/01_front.png) | [![side](rounds/20261126j_ferry-lighthouse/02_side.png)](rounds/20261126j_ferry-lighthouse/02_side.png) [![seat](rounds/20261126j_ferry-lighthouse/03_seat.png)](rounds/20261126j_ferry-lighthouse/03_seat.png) [![close](rounds/20261126j_ferry-lighthouse/04_close.png)](rounds/20261126j_ferry-lighthouse/04_close.png) | [20261126j_ferry-lighthouse/](rounds/20261126j_ferry-lighthouse/README.md) |
 
-| R009 老街身后那一眼 | [<img width="110" src="rounds/20261126i_evening-street-gaze/01_front.png" alt="front">](rounds/20261126i_evening-street-gaze/01_front.png) | [<img width="110" src="rounds/20261126i_evening-street-gaze/02_side.png" alt="side">](rounds/20261126i_evening-street-gaze/02_side.png) [<img width="110" src="rounds/20261126i_evening-street-gaze/03_seat.png" alt="seat">](rounds/20261126i_evening-street-gaze/03_seat.png) [<img width="110" src="rounds/20261126i_evening-street-gaze/04_close.png" alt="close">](rounds/20261126i_evening-street-gaze/04_close.png) | [20261126i_evening-street-gaze/](rounds/20261126i_evening-street-gaze/README.md) |
+| R009 老街身后那一眼 | [![front](rounds/20261126i_evening-street-gaze/01_front.png)](rounds/20261126i_evening-street-gaze/01_front.png) | [![side](rounds/20261126i_evening-street-gaze/02_side.png)](rounds/20261126i_evening-street-gaze/02_side.png) [![seat](rounds/20261126i_evening-street-gaze/03_seat.png)](rounds/20261126i_evening-street-gaze/03_seat.png) [![close](rounds/20261126i_evening-street-gaze/04_close.png)](rounds/20261126i_evening-street-gaze/04_close.png) | [20261126i_evening-street-gaze/](rounds/20261126i_evening-street-gaze/README.md) |
 
-| R008 赖床起来泡茶洗头洗脸 | [<img width="110" src="rounds/20261126h_morning-tea-wash/01_front.png" alt="front">](rounds/20261126h_morning-tea-wash/01_front.png) | [<img width="110" src="rounds/20261126h_morning-tea-wash/02_side.png" alt="side">](rounds/20261126h_morning-tea-wash/02_side.png) [<img width="110" src="rounds/20261126h_morning-tea-wash/03_seat.png" alt="seat">](rounds/20261126h_morning-tea-wash/03_seat.png) [<img width="110" src="rounds/20261126h_morning-tea-wash/04_close.png" alt="close">](rounds/20261126h_morning-tea-wash/04_close.png) | [20261126h_morning-tea-wash/](rounds/20261126h_morning-tea-wash/README.md) |
+| R008 赖床起来泡茶洗头洗脸 | [![front](rounds/20261126h_morning-tea-wash/01_front.png)](rounds/20261126h_morning-tea-wash/01_front.png) | [![side](rounds/20261126h_morning-tea-wash/02_side.png)](rounds/20261126h_morning-tea-wash/02_side.png) [![seat](rounds/20261126h_morning-tea-wash/03_seat.png)](rounds/20261126h_morning-tea-wash/03_seat.png) [![close](rounds/20261126h_morning-tea-wash/04_close.png)](rounds/20261126h_morning-tea-wash/04_close.png) | [20261126h_morning-tea-wash/](rounds/20261126h_morning-tea-wash/README.md) |
 
-| R007 洗好头送你出门 | [<img width="110" src="rounds/20261126g_wash-hair-errand/01_front.png" alt="front">](rounds/20261126g_wash-hair-errand/01_front.png) | [<img width="110" src="rounds/20261126g_wash-hair-errand/02_side.png" alt="side">](rounds/20261126g_wash-hair-errand/02_side.png) [<img width="110" src="rounds/20261126g_wash-hair-errand/03_seat.png" alt="seat">](rounds/20261126g_wash-hair-errand/03_seat.png) [<img width="110" src="rounds/20261126g_wash-hair-errand/04_close.png" alt="close">](rounds/20261126g_wash-hair-errand/04_close.png) | [20261126g_wash-hair-errand/](rounds/20261126g_wash-hair-errand/README.md) |
+| R007 洗好头送你出门 | [![front](rounds/20261126g_wash-hair-errand/01_front.png)](rounds/20261126g_wash-hair-errand/01_front.png) | [![side](rounds/20261126g_wash-hair-errand/02_side.png)](rounds/20261126g_wash-hair-errand/02_side.png) [![seat](rounds/20261126g_wash-hair-errand/03_seat.png)](rounds/20261126g_wash-hair-errand/03_seat.png) [![close](rounds/20261126g_wash-hair-errand/04_close.png)](rounds/20261126g_wash-hair-errand/04_close.png) | [20261126g_wash-hair-errand/](rounds/20261126g_wash-hair-errand/README.md) |
 
-| R006 一闻到大肠杆菌就不停咳嗽 | [<img width="110" src="rounds/20261126f_fresh-window-care/01_front.png" alt="front">](rounds/20261126f_fresh-window-care/01_front.png) | [<img width="110" src="rounds/20261126f_fresh-window-care/02_side.png" alt="side">](rounds/20261126f_fresh-window-care/02_side.png) [<img width="110" src="rounds/20261126f_fresh-window-care/03_seat.png" alt="seat">](rounds/20261126f_fresh-window-care/03_seat.png) [<img width="110" src="rounds/20261126f_fresh-window-care/04_close.png" alt="close">](rounds/20261126f_fresh-window-care/04_close.png) | [20261126f_fresh-window-care/](rounds/20261126f_fresh-window-care/README.md) |
+| R006 一闻到大肠杆菌就不停咳嗽 | [![front](rounds/20261126f_fresh-window-care/01_front.png)](rounds/20261126f_fresh-window-care/01_front.png) | [![side](rounds/20261126f_fresh-window-care/02_side.png)](rounds/20261126f_fresh-window-care/02_side.png) [![seat](rounds/20261126f_fresh-window-care/03_seat.png)](rounds/20261126f_fresh-window-care/03_seat.png) [![close](rounds/20261126f_fresh-window-care/04_close.png)](rounds/20261126f_fresh-window-care/04_close.png) | [20261126f_fresh-window-care/](rounds/20261126f_fresh-window-care/README.md) |
 
-| R005 好累啊我 | [<img width="110" src="rounds/20261126e_tired-sofa-evening/01_front.png" alt="front">](rounds/20261126e_tired-sofa-evening/01_front.png) | [<img width="110" src="rounds/20261126e_tired-sofa-evening/02_side.png" alt="side">](rounds/20261126e_tired-sofa-evening/02_side.png) [<img width="110" src="rounds/20261126e_tired-sofa-evening/03_seat.png" alt="seat">](rounds/20261126e_tired-sofa-evening/03_seat.png) [<img width="110" src="rounds/20261126e_tired-sofa-evening/04_close.png" alt="close">](rounds/20261126e_tired-sofa-evening/04_close.png) | [20261126e_tired-sofa-evening/](rounds/20261126e_tired-sofa-evening/README.md) |
+| R005 好累啊我 | [![front](rounds/20261126e_tired-sofa-evening/01_front.png)](rounds/20261126e_tired-sofa-evening/01_front.png) | [![side](rounds/20261126e_tired-sofa-evening/02_side.png)](rounds/20261126e_tired-sofa-evening/02_side.png) [![seat](rounds/20261126e_tired-sofa-evening/03_seat.png)](rounds/20261126e_tired-sofa-evening/03_seat.png) [![close](rounds/20261126e_tired-sofa-evening/04_close.png)](rounds/20261126e_tired-sofa-evening/04_close.png) | [20261126e_tired-sofa-evening/](rounds/20261126e_tired-sofa-evening/README.md) |
 
-| R004 吃过饭去哪里 | [<img width="110" src="rounds/20261126d_coffee-and-earrings/01_front.png" alt="front">](rounds/20261126d_coffee-and-earrings/01_front.png) | [<img width="110" src="rounds/20261126d_coffee-and-earrings/02_side.png" alt="side">](rounds/20261126d_coffee-and-earrings/02_side.png) [<img width="110" src="rounds/20261126d_coffee-and-earrings/03_seat.png" alt="seat">](rounds/20261126d_coffee-and-earrings/03_seat.png) [<img width="110" src="rounds/20261126d_coffee-and-earrings/04_close.png" alt="close">](rounds/20261126d_coffee-and-earrings/04_close.png) | [20261126d_coffee-and-earrings/](rounds/20261126d_coffee-and-earrings/README.md) |
+| R004 吃过饭去哪里 | [![front](rounds/20261126d_coffee-and-earrings/01_front.png)](rounds/20261126d_coffee-and-earrings/01_front.png) | [![side](rounds/20261126d_coffee-and-earrings/02_side.png)](rounds/20261126d_coffee-and-earrings/02_side.png) [![seat](rounds/20261126d_coffee-and-earrings/03_seat.png)](rounds/20261126d_coffee-and-earrings/03_seat.png) [![close](rounds/20261126d_coffee-and-earrings/04_close.png)](rounds/20261126d_coffee-and-earrings/04_close.png) | [20261126d_coffee-and-earrings/](rounds/20261126d_coffee-and-earrings/README.md) |
 
-| R003 我要起来咯 | [<img width="110" src="rounds/20261126c_morning-rise/01_front.png" alt="front">](rounds/20261126c_morning-rise/01_front.png) | [<img width="110" src="rounds/20261126c_morning-rise/02_side.png" alt="side">](rounds/20261126c_morning-rise/02_side.png) [<img width="110" src="rounds/20261126c_morning-rise/03_seat.png" alt="seat">](rounds/20261126c_morning-rise/03_seat.png) [<img width="110" src="rounds/20261126c_morning-rise/04_close.png" alt="close">](rounds/20261126c_morning-rise/04_close.png) | [20261126c_morning-rise/](rounds/20261126c_morning-rise/README.md) |
+| R003 我要起来咯 | [![front](rounds/20261126c_morning-rise/01_front.png)](rounds/20261126c_morning-rise/01_front.png) | [![side](rounds/20261126c_morning-rise/02_side.png)](rounds/20261126c_morning-rise/02_side.png) [![seat](rounds/20261126c_morning-rise/03_seat.png)](rounds/20261126c_morning-rise/03_seat.png) [![close](rounds/20261126c_morning-rise/04_close.png)](rounds/20261126c_morning-rise/04_close.png) | [20261126c_morning-rise/](rounds/20261126c_morning-rise/README.md) |
 
-| R002 三支口红试色那晚 | [<img width="110" src="rounds/20261126b_lipstick-tryon/01_front.png" alt="front">](rounds/20261126b_lipstick-tryon/01_front.png) | [<img width="110" src="rounds/20261126b_lipstick-tryon/02_side.png" alt="side">](rounds/20261126b_lipstick-tryon/02_side.png) [<img width="110" src="rounds/20261126b_lipstick-tryon/03_seat.png" alt="seat">](rounds/20261126b_lipstick-tryon/03_seat.png) [<img width="110" src="rounds/20261126b_lipstick-tryon/04_close.png" alt="close">](rounds/20261126b_lipstick-tryon/04_close.png) | [20261126b_lipstick-tryon/](rounds/20261126b_lipstick-tryon/README.md) |
+| R002 三支口红试色那晚 | [![front](rounds/20261126b_lipstick-tryon/01_front.png)](rounds/20261126b_lipstick-tryon/01_front.png) | [![side](rounds/20261126b_lipstick-tryon/02_side.png)](rounds/20261126b_lipstick-tryon/02_side.png) [![seat](rounds/20261126b_lipstick-tryon/03_seat.png)](rounds/20261126b_lipstick-tryon/03_seat.png) [![close](rounds/20261126b_lipstick-tryon/04_close.png)](rounds/20261126b_lipstick-tryon/04_close.png) | [20261126b_lipstick-tryon/](rounds/20261126b_lipstick-tryon/README.md) |
 
-| R001 换豆子那天早上 | [<img width="110" src="rounds/20261126_coffee-beans/01_front.png" alt="front">](rounds/20261126_coffee-beans/01_front.png) | [<img width="110" src="rounds/20261126_coffee-beans/02_side.png" alt="side">](rounds/20261126_coffee-beans/02_side.png) [<img width="110" src="rounds/20261126_coffee-beans/03_seat.png" alt="seat">](rounds/20261126_coffee-beans/03_seat.png) [<img width="110" src="rounds/20261126_coffee-beans/04_close.png" alt="close">](rounds/20261126_coffee-beans/04_close.png) | [20261126_coffee-beans/](rounds/20261126_coffee-beans/README.md) |
+| R001 换豆子那天早上 | [![front](rounds/20261126_coffee-beans/01_front.png)](rounds/20261126_coffee-beans/01_front.png) | [![side](rounds/20261126_coffee-beans/02_side.png)](rounds/20261126_coffee-beans/02_side.png) [![seat](rounds/20261126_coffee-beans/03_seat.png)](rounds/20261126_coffee-beans/03_seat.png) [![close](rounds/20261126_coffee-beans/04_close.png)](rounds/20261126_coffee-beans/04_close.png) | [20261126_coffee-beans/](rounds/20261126_coffee-beans/README.md) |
 
 
 ---

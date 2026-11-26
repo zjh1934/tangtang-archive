@@ -258,7 +258,7 @@ def self_test():
     assert loop.index("for attempt in") < loop.index("build_fn(tok, paths)")
     gm = gallery_mod()
     g = gm.gallery_md(d)
-    assert "<img" in g and all(k in g for k in ("按轮看", "按场景", "按发型", "按月份"))
+    assert "![" in g and all(k in g for k in ("按轮看", "按场景", "按发型", "按月份"))
     b = gm.banner(d)
     assert "GALLERY.md" in b and "<img" in b
     assert gm.merge_banner(gm.merge_banner("# T\n<!-- INDEX:START -->\n| R001 | 旧 |\n<!-- INDEX:END -->\n", b), b) \

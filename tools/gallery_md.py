@@ -39,9 +39,13 @@ def _r(r):
 
 
 def _img(r, im, width=220, link=True):
-    """GitHub Markdown 里相对路径 <img> 会被渲染成登录可见的原图，不用另存缩略图。"""
+    """用标准 Markdown 图片语法，GitHub 网页会替私有仓图片生成带签名的可访问 URL。
+
+    不用 raw <img> 标签：GitHub 对它的相对 src 不做私有图片签名，容易变成死图。
+    宽度交给 GitHub 自动加的 max-width:100% 与表格列宽，width 参数保留兼容旧调用。
+    """
     src = f"{r['base']}/{im['file']}"
-    tag = f'<img width="{width}" src="{src}" alt="{im.get("view","")}">'
+    tag = f"![{im.get('view', '')}]({src})"
     return f"[{tag}]({src})" if link else tag
 
 
@@ -50,12 +54,17 @@ def banner(data):
     rounds = sorted(data.get("rounds", []), key=lambda x: x.get("id", ""))
     n_img = sum(len(_r(x)["images"]) for x in rounds)
     recent = rounds[-2:][::-1]
-    cells = []
+    wall_rows = []
     for x in recent:
         r = _r(x)
+        cells = []
         for im in r["images"][:4]:
-            cells.append(f'<a href="{r["base"]}/{im["file"]}"><img width="118" src="{r["base"]}/{im["file"]}" alt="{im.get("view","")}"></a>')
-    wall = " ".join(cells) if cells else "_（还没有终稿图）_"
+            src = f"{r['base']}/{im['file']}"
+            cells.append(f"[![R{r['round']:03d} {im.get('view','')}]({src})]({src})")
+        while len(cells) < 4:
+            cells.append(" ")
+        wall_rows.append("| " + " | ".join(cells) + " |")
+    wall = ("| ① | ② | ③ | ④ |\n|---|---|---|---|\n" + "\n".join(wall_rows)) if wall_rows else "_（还没有终稿图）_"
     return f"""{MARK_START}
 # 🎨 唐唐 · 逐轮终稿画廊
 
@@ -160,9 +169,9 @@ def self_test():
     ]}
     b = banner(d)
     assert b.startswith(MARK_START) and b.rstrip().endswith(MARK_END)
-    assert "GALLERY.md" in b and b.count("<img") == 8
+    assert "GALLERY.md" in b and b.count("![") == 8
     g = gallery_md(d)
-    assert g.count("<img") >= 8 and "按场景" in g and "按发型" in g and "按月份" in g
+    assert g.count("![") >= 8 and "按场景" in g and "按发型" in g and "按月份" in g
     assert "rounds/20261126a_a/01_front.png" in g and "01_front.md" in g
     readme = "# 唐唐\n\n<!-- INDEX:START -->\n| R001 | 旧 |\n<!-- INDEX:END -->\n尾\n"
     once = merge_banner(readme, b)
