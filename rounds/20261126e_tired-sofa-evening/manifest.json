@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "round": 5,
+  "id": "20261126e_tired-sofa-evening",
+  "date": "2026-11-26",
+  "created_at": "2026-11-26T11:35:43+08:00",
+  "timezone": "Asia/Shanghai",
+  "title": "好累啊我",
+  "theme": "tired-sofa-evening",
+  "outfit_id": "SPR-0006",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "ratio": "9:16"
+  },
+  "images": [
+    {
+      "file": "01_front.png",
+      "view": "front",
+      "prompt": "01_front.md",
+      "seed": 4,
+      "sketch_id": "full_single_P041_diagonal",
+      "picked": true
+    },
+    {
+      "file": "02_side.png",
+      "view": "side",
+      "prompt": "02_side.md",
+      "seed": 6,
+      "sketch_id": "full_single_P007_side",
+      "picked": true
+    },
+    {
+      "file": "03_seat.png",
+      "view": "seat",
+      "prompt": "03_seat.md",
+      "seed": 8,
+      "sketch_id": "full_single_P042_low",
+      "picked": true
+    },
+    {
+      "file": "04_close.png",
+      "view": "close",
+      "prompt": "04_close.md",
+      "seed": 7,
+      "sketch_id": "full_single_P005_low",
+      "picked": true
+    }
+  ],
+  "lines": [
+    "累就别硬撑啦，过来。沙发我占了一半，另一半给你留着，今晚的话我先替你收着，你连点头的力气都省了。",
+    "毯子刚晒过，带一点太阳味。你就闭眼躺着，我不吵你，坐这儿把今天那些麻烦事都挡在门外头。",
+    "温水放这儿了，不烫。你连手指都懒得抬我就举着，等缓过来陪我把窗台那盆绿萝挪个位置，这可是我今天的事。",
+    "枕好啦别乱动。我数你呼吸，数着数着我也困了，今晚轮到我守着，你只管睡，明早谁先醒谁去关灯。"
+  ],
+  "status": "final"
+}

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repo": "zjh1934/tangtang-archive",
-  "updated_at": "2026-11-26T10:50:26+08:00",
+  "updated_at": "2026-11-26T11:35:43+08:00",
   "rounds": [
     {
       "round": 1,
@@ -185,6 +185,52 @@
         "走快些呀，巷口那面墙我等你好久了。你数我几步都行，就是别把我今早自己挑的正红看漏了。",
         "到啦，闻见没，深烘的新豆子。我替你扣到今天才拿出来，这杯你请，谁让你前天只惦记探店。",
         "凑近点看，这粒小珍珠贴我耳垂好不好看。说错我就去够莓紫那对，反正付账的是你，吹头发那回还欠着呢。"
+      ]
+    },
+    {
+      "round": 5,
+      "id": "20261126e_tired-sofa-evening",
+      "date": "2026-11-26",
+      "title": "好累啊我",
+      "outfit_id": "SPR-0006",
+      "sketches": [
+        "full_single_P041_diagonal",
+        "full_single_P007_side",
+        "full_single_P042_low",
+        "full_single_P005_low"
+      ],
+      "base": "rounds/20261126e_tired-sofa-evening",
+      "images": [
+        {
+          "file": "01_front.png",
+          "view": "front",
+          "prompt": "01_front.md",
+          "md": "rounds/20261126e_tired-sofa-evening/01_front.md"
+        },
+        {
+          "file": "02_side.png",
+          "view": "side",
+          "prompt": "02_side.md",
+          "md": "rounds/20261126e_tired-sofa-evening/02_side.md"
+        },
+        {
+          "file": "03_seat.png",
+          "view": "seat",
+          "prompt": "03_seat.md",
+          "md": "rounds/20261126e_tired-sofa-evening/03_seat.md"
+        },
+        {
+          "file": "04_close.png",
+          "view": "close",
+          "prompt": "04_close.md",
+          "md": "rounds/20261126e_tired-sofa-evening/04_close.md"
+        }
+      ],
+      "lines": [
+        "累就别硬撑啦，过来。沙发我占了一半，另一半给你留着，今晚的话我先替你收着，你连点头的力气都省了。",
+        "毯子刚晒过，带一点太阳味。你就闭眼躺着，我不吵你，坐这儿把今天那些麻烦事都挡在门外头。",
+        "温水放这儿了，不烫。你连手指都懒得抬我就举着，等缓过来陪我把窗台那盆绿萝挪个位置，这可是我今天的事。",
+        "枕好啦别乱动。我数你呼吸，数着数着我也困了，今晚轮到我守着，你只管睡，明早谁先醒谁去关灯。"
       ]
     }
   ]
