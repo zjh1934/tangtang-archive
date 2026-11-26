@@ -1,4 +1,30 @@
-**唐唐 · 终稿图鉴** · 19 轮 76 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · [按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)
+**唐唐 · 终稿图鉴** · 20 轮 80 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · [按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)
+
+<a id="r020"></a>
+
+**R020 · 新手机那个上午**
+
+`SPR-0067` · 半扎发 · 其它 · 2026-11 · source=yuanbao ｜ [本轮现场](rounds/20261126t_new-phone-morning/README.md) · [manifest](rounds/20261126t_new-phone-morning/manifest.json)
+
+[![01 正面 · R020](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126t_new-phone-morning/01_front.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126t_new-phone-morning/01_front.png)
+
+**01 正面**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126t_new-phone-morning/01_front.png) · [01 终稿 prompt](rounds/20261126t_new-phone-morning/01_front.md)
+
+[![02 侧身 · R020](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126t_new-phone-morning/02_side.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126t_new-phone-morning/02_side.png)
+
+**02 侧身**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126t_new-phone-morning/02_side.png) · [02 终稿 prompt](rounds/20261126t_new-phone-morning/02_side.md)
+
+[![03 坐姿 · R020](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126t_new-phone-morning/03_seat.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126t_new-phone-morning/03_seat.png)
+
+**03 坐姿**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126t_new-phone-morning/03_seat.png) · [03 终稿 prompt](rounds/20261126t_new-phone-morning/03_seat.md)
+
+[![04 特写 · R020](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126t_new-phone-morning/04_close.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126t_new-phone-morning/04_close.png)
+
+**04 特写**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126t_new-phone-morning/04_close.png) · [04 终稿 prompt](rounds/20261126t_new-phone-morning/04_close.md)
+
+> 谁气啦，我早没气了。盒子递过来呀，别杵门口，我手都伸半天了，你倒是放进来。 ／ 这颜色倒会挑。我嘴上还拧着呢手先认了，缎带先别收，垂着好看，回头给我系包上。 ／ 别动，第一张就拍你。拍糊了也不许删，谁让你刚才哄我的时候眼睛都不敢看我。 ／ 看，拍到啦。周末陪我去挑个傻乎乎的手机壳，你敢拿黑的我就自己用，一个也不给你看。
+
+---
 
 <a id="r019"></a>
 
@@ -502,6 +528,8 @@
 
 - **居家**（3 轮）：[R015 你会撒娇吗](#r015) · [R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013)
 
+- **其它**（2 轮）：[R020 新手机那个上午](#r020) · [R018 好烦哦的傍晚雨窗](#r018)
+
 - **卧室**（2 轮）：[R016 颈膜枪震得舒服的夜里](#r016) · [R003 我要起来咯](#r003)
 
 - **咖啡**（2 轮）：[R004 吃过饭去哪里](#r004) · [R001 换豆子那天早上](#r001)
@@ -517,8 +545,6 @@
 - **人设第二跑**（1 轮）：[R017 好的我喝口茶先](#r017)
 
 - **人设首跑**（1 轮）：[R015 你会撒娇吗](#r015)
-
-- **其它**（1 轮）：[R018 好烦哦的傍晚雨窗](#r018)
 
 - **口红**（1 轮）：[R002 三支口红试色那晚](#r002)
 
@@ -560,9 +586,9 @@
 
 **按发型**
 
-- **低侧马尾**（3 轮）：[R012 吃火锅不吃米线啦](#r012) · [R009 老街身后那一眼](#r009) · [R004 吃过饭去哪里](#r004)
+- **半扎发**（4 轮）：[R020 新手机那个上午](#r020) · [R018 好烦哦的傍晚雨窗](#r018) · [R007 洗好头送你出门](#r007) · [R002 三支口红试色那晚](#r002)
 
-- **半扎发**（3 轮）：[R018 好烦哦的傍晚雨窗](#r018) · [R007 洗好头送你出门](#r007) · [R002 三支口红试色那晚](#r002)
+- **低侧马尾**（3 轮）：[R012 吃火锅不吃米线啦](#r012) · [R009 老街身后那一眼](#r009) · [R004 吃过饭去哪里](#r004)
 
 - **慵懒低盘发**（3 轮）：[R016 颈膜枪震得舒服的夜里](#r016) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R005 好累啊我](#r005)
 
@@ -586,6 +612,6 @@
 
 **按月份**
 
-- **2026-11**（19 轮）：[R019 挺漂亮的有气质](#r019) · [R018 好烦哦的傍晚雨窗](#r018) · [R017 好的我喝口茶先](#r017) · [R016 颈膜枪震得舒服的夜里](#r016) · [R015 你会撒娇吗](#r015) · [R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013) · [R012 吃火锅不吃米线啦](#r012) · [R011 凑过来亲亲](#r011) · [R010 渡轮去对岸看旧灯塔](#r010) · [R009 老街身后那一眼](#r009) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R005 好累啊我](#r005) · [R004 吃过饭去哪里](#r004) · [R003 我要起来咯](#r003) · [R002 三支口红试色那晚](#r002) · [R001 换豆子那天早上](#r001)
+- **2026-11**（20 轮）：[R020 新手机那个上午](#r020) · [R019 挺漂亮的有气质](#r019) · [R018 好烦哦的傍晚雨窗](#r018) · [R017 好的我喝口茶先](#r017) · [R016 颈膜枪震得舒服的夜里](#r016) · [R015 你会撒娇吗](#r015) · [R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013) · [R012 吃火锅不吃米线啦](#r012) · [R011 凑过来亲亲](#r011) · [R010 渡轮去对岸看旧灯塔](#r010) · [R009 老街身后那一眼](#r009) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R005 好累啊我](#r005) · [R004 吃过饭去哪里](#r004) · [R003 我要起来咯](#r003) · [R002 三支口红试色那晚](#r002) · [R001 换豆子那天早上](#r001)
 
 ---
