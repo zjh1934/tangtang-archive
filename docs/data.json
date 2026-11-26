@@ -2,7 +2,7 @@
   "schema": 2,
   "gallery_version": 2,
   "repo": "zjh1934/tangtang-archive",
-  "updated_at": "2026-11-26T18:05:26+08:00",
+  "updated_at": "2026-11-26T18:27:08+08:00",
   "rounds": [
     {
       "round": 1,
@@ -927,6 +927,75 @@
         "04_close：靠沙发坐，狗头搁膝，眼看门的方向",
         "本轮男主局部四张全不出现（他临时走开），按四张全不出现也合法写",
         "槽 1 由上一轮蓝缎人台图用图片创作微调成奶油杏针织家居套，腿部未画出，腿层由文字单定"
+      ],
+      "status": "final"
+    },
+    {
+      "round": 14,
+      "id": "20261126n_lovers-guess-movie-night",
+      "date": "2026-11-26",
+      "title": "好刺激哦你猜我在干嘛",
+      "theme": "guess-movie-night",
+      "outfit_id": "NIGHT-0001",
+      "sketches": [
+        "full_sexy_P001_front#tuned",
+        "full_sexy_P004_front#tuned",
+        "full_sexy_P013_front#tuned",
+        "full_sexy_P015_diag#tuned"
+      ],
+      "base": "rounds/20261126n_lovers-guess-movie-night",
+      "images": [
+        {
+          "file": "01_front.png",
+          "view": "front",
+          "prompt": "01_front.md",
+          "md": "rounds/20261126n_lovers-guess-movie-night/01_front.md"
+        },
+        {
+          "file": "02_side.png",
+          "view": "side",
+          "prompt": "02_side.md",
+          "md": "rounds/20261126n_lovers-guess-movie-night/02_side.md"
+        },
+        {
+          "file": "03_seat.png",
+          "view": "seat",
+          "prompt": "03_seat.md",
+          "md": "rounds/20261126n_lovers-guess-movie-night/03_seat.md"
+        },
+        {
+          "file": "04_close.png",
+          "view": "close",
+          "prompt": "04_close.md",
+          "md": "rounds/20261126n_lovers-guess-movie-night/04_close.md"
+        }
+      ],
+      "lines": [
+        "哼，又让我猜～屏幕蓝成这样，你准是又把那部吓人的翻出来了，爆米花归我，别抢。",
+        "等片尾字幕滚完，你可得把毯子还我；明早那家换豆子的，还等着呢。"
+      ],
+      "month": "2026-11",
+      "hair": "蓬松高丸子头",
+      "tags": [
+        "居家",
+        "看片",
+        "夜"
+      ],
+      "seeds": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "source": "lovers",
+      "notes": [
+        "01_front：远机位全身，冷蓝屏幕光，暖砂丝光到短靴绒口里的脚尖",
+        "02_side：探身够杯，膝前柔亮",
+        "03_seat：捂眼偷看，男主局部为右下角一只竖食指噤声的手＋深灰衬衫袖口，头脸不入画",
+        "04_close：转头正对镜头，两只短靴完整落在下沿内",
+        "槽 1 由代码手搓纯白底无脸人台（赤陶棕羊绒一字露肩罗纹裙），腿部未画出，腿层由四份文字单定",
+        "槽 3 四张为库里原线稿镜像/裁切微调产物，去重账记 #tuned",
+        "6.8 终审许愿式补图：第3张补出深灰袖口、第4张袖长收回肩下三指；第3份定稿按成图稳给出的落点局部解冻，图文一致"
       ],
       "status": "final"
     }

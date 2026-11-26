@@ -1,4 +1,30 @@
-**唐唐 · 终稿图鉴** · 13 轮 52 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · [按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)
+**唐唐 · 终稿图鉴** · 14 轮 56 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · [按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)
+
+<a id="r014"></a>
+
+**R014 · 好刺激哦你猜我在干嘛**
+
+`NIGHT-0001` · 蓬松高丸子头 · 居家 · 看片 · 夜 · 2026-11 · source=lovers ｜ [本轮现场](rounds/20261126n_lovers-guess-movie-night/README.md) · [manifest](rounds/20261126n_lovers-guess-movie-night/manifest.json)
+
+[![01 正面 · R014](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126n_lovers-guess-movie-night/01_front.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126n_lovers-guess-movie-night/01_front.png)
+
+**01 正面**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126n_lovers-guess-movie-night/01_front.png) · [01 终稿 prompt](rounds/20261126n_lovers-guess-movie-night/01_front.md)
+
+[![02 侧身 · R014](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126n_lovers-guess-movie-night/02_side.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126n_lovers-guess-movie-night/02_side.png)
+
+**02 侧身**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126n_lovers-guess-movie-night/02_side.png) · [02 终稿 prompt](rounds/20261126n_lovers-guess-movie-night/02_side.md)
+
+[![03 坐姿 · R014](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126n_lovers-guess-movie-night/03_seat.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126n_lovers-guess-movie-night/03_seat.png)
+
+**03 坐姿**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126n_lovers-guess-movie-night/03_seat.png) · [03 终稿 prompt](rounds/20261126n_lovers-guess-movie-night/03_seat.md)
+
+[![04 特写 · R014](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126n_lovers-guess-movie-night/04_close.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126n_lovers-guess-movie-night/04_close.png)
+
+**04 特写**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126n_lovers-guess-movie-night/04_close.png) · [04 终稿 prompt](rounds/20261126n_lovers-guess-movie-night/04_close.md)
+
+> 哼，又让我猜～屏幕蓝成这样，你准是又把那部吓人的翻出来了，爆米花归我，别抢。 ／ 等片尾字幕滚完，你可得把毯子还我；明早那家换豆子的，还等着呢。
+
+---
 
 <a id="r013"></a>
 
@@ -344,6 +370,8 @@
 
 - **咖啡**（2 轮）：[R004 吃过饭去哪里](#r004) · [R001 换豆子那天早上](#r001)
 
+- **居家**（2 轮）：[R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013)
+
 - **洗漱**（2 轮）：[R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007)
 
 - **亲亲**（1 轮）：[R011 凑过来亲亲](#r011)
@@ -354,15 +382,17 @@
 
 - **地垫**（1 轮）：[R013 看着大黄和它玩一会儿](#r013)
 
-- **宠物**（1 轮）：[R013 看着大黄和它玩一会儿](#r013)
+- **夜**（1 轮）：[R014 好刺激哦你猜我在干嘛](#r014)
 
-- **居家**（1 轮）：[R013 看着大黄和它玩一会儿](#r013)
+- **宠物**（1 轮）：[R013 看着大黄和它玩一会儿](#r013)
 
 - **沙发**（1 轮）：[R005 好累啊我](#r005)
 
 - **渡轮**（1 轮）：[R010 渡轮去对岸看旧灯塔](#r010)
 
 - **火锅**（1 轮）：[R012 吃火锅不吃米线啦](#r012)
+
+- **看片**（1 轮）：[R014 好刺激哦你猜我在干嘛](#r014)
 
 - **窗边**（1 轮）：[R006 一闻到大肠杆菌就不停咳嗽](#r006)
 
@@ -392,10 +422,12 @@
 
 - **未标注**（1 轮）：[R011 凑过来亲亲](#r011)
 
+- **蓬松高丸子头**（1 轮）：[R014 好刺激哦你猜我在干嘛](#r014)
+
 <a id="按月份"></a>
 
 **按月份**
 
-- **2026-11**（13 轮）：[R013 看着大黄和它玩一会儿](#r013) · [R012 吃火锅不吃米线啦](#r012) · [R011 凑过来亲亲](#r011) · [R010 渡轮去对岸看旧灯塔](#r010) · [R009 老街身后那一眼](#r009) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R005 好累啊我](#r005) · [R004 吃过饭去哪里](#r004) · [R003 我要起来咯](#r003) · [R002 三支口红试色那晚](#r002) · [R001 换豆子那天早上](#r001)
+- **2026-11**（14 轮）：[R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013) · [R012 吃火锅不吃米线啦](#r012) · [R011 凑过来亲亲](#r011) · [R010 渡轮去对岸看旧灯塔](#r010) · [R009 老街身后那一眼](#r009) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R005 好累啊我](#r005) · [R004 吃过饭去哪里](#r004) · [R003 我要起来咯](#r003) · [R002 三支口红试色那晚](#r002) · [R001 换豆子那天早上](#r001)
 
 ---
