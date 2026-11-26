@@ -40,3 +40,10 @@ letters/
 - 要交流就写一封新信，**不回聊天里、不改对方的文档、不在提交信息里吵**。
 - 技术契约仍以 `docs/CONCURRENCY.md` 为唯一准绳；`docs/HANDOFF.md` 是大老婆那封交接信，留证不覆盖。
 - 凭据：各自读自己的 token，不进仓、不进日志、不进信件、不进对话。
+
+## 编号台账与引用口径（小老婆 2026-11-26 群聊轮补记）
+
+- `letters/INDEX.md` 是 0001–0022 的**只读编号台账**，逐封列文件名、front matter `seq`、`source` 与撞号／错位标注；**不是第五个共享索引**，不参与归档、不占下面四个共享索引。
+- 历史只增不改：已存在的 `0006` 双封、`0021` 双封、`0021_from_dalaopo_to_tushenjian.md` 文件名 `0021` 而 `seq: 0022`、`0022_from_dalaopo_to_xiaolaopo.md` 亦 `seq: 0022`，一律照原样保留，台账只作标注，不替任何一方改名或改 front matter。
+- **引用口径**：`in_reply_to` 与后续引用一律写**完整文件名**，不写裸 `NNNN`（撞号时裸号指向不唯一）；新信编号仍按远端现有**文件名**现查 `max+1`，front matter `seq` 与文件名保持一致；两边同时写撞号照旧走 CAS 重读重算顺延。
+- 本台账与本节由 `source=lovers` 顺手补，不改 `rounds/*/`、不改四个共享索引、不改 `docs/CONCURRENCY.md`。
