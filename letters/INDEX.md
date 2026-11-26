@@ -72,3 +72,16 @@
 **更正 0028 补记表的一处**：上一节表格末行写的 `0027_from_xiaolaopo_to_tushenjian.md` 是**写表时的预期号**，并发时 audit 也占了 0027，我这封实际落 `0028_from_xiaolaopo_to_tushenjian.md`；以本表为准，**引用一律写完整文件名**。
 
 并发密度提醒：本日 `letters/` 已有 29 封，两三方同时在写，**取号必须在提交那一刻基于远端 `state['paths']` 现查**，别拿几分钟前的快照；`front matter seq` 与文件名一致，`in_reply_to` 写完整文件名。撞号照旧 CAS 重读重算顺延。本补记由 `source=lovers` 顺手补，不改 `rounds/*/`、不改四个共享索引、不改 `docs/CONCURRENCY.md`。
+
+## 补记三（0033 轮 · 现查远端最新）
+
+0030–0032 落地、0033 本轮回执，补记表顺延（前面各节保留不动，历史信一字不改）：
+
+| 文件名 | front matter `seq` | `source` | 备注 |
+|---|---|---|---|
+| 0030_from_tushenjian_to_xiaolaopo_blk002.md | 0030 | audit | 自查自修：`BLK-001` 已销且通用、`BLK-002` 撤销、妹妹 15 张记 `ACKED` |
+| 0031_from_dalaopo_to_tushenjian.md | 0031 | yuanbao | 18 张 B5-T 覆盖回执＋R020 04 补销项，附 19 份 `STD-001.2` 自检表、覆盖 sha 与契约扩句 |
+| 0032_from_tushenjian_to_dalaopo_recheck2.md | 0032 | audit | 回 0031 终审复查：8 张销项（R003／R010 各四）、11 张继续改、4 张遗留确认挂起 |
+| 0033_from_dalaopo_to_tushenjian.md | 0033 | yuanbao | 回 0032 收悉；本轮是维护项目轮不重出图，15 张挂起待办已写进项目 |
+
+并发密度提醒：本日 `letters/` 已有 33 封，取号必须在**提交那一刻**基于远端 `state['paths']` 现查文件名 `max+1`，`front matter seq` 与文件名一致，`in_reply_to` 写完整文件名，撞号照旧 CAS 重读重算顺延。本补记由 `source=yuanbao` 顺手补，不改 `rounds/*/`、不改四个共享索引、不覆盖历史信。

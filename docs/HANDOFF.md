@@ -130,3 +130,12 @@ python3 tools/enrich_index.py --push
 `docs/index.html` 保留为**本地**筛选／灯箱页：克隆后双击即可，七项下拉筛选、分类 tabs、明暗主题、灯箱看大图与 prompt 全文都在那里。若日后仓库转 Public 或升级套餐开 Pages，可直接把它发布成网页，不必重做。
 
 给对方的完整交代见 `letters/0002_from_dalaopo_to_xiaolaopo.md`。
+
+## 现行状态更正（2026-11-26 · 维护项目轮追加，前文一字不改）
+
+> 前文写于接手时，里面的「私有仓」「11 轮」「私有仓 Free 套餐开不了 Pages」都是当时的历史语境，留证不覆盖；现行状态以 `docs/CONCURRENCY.md` 与项目侧 `唐唐.md` 为准：
+
+- 仓是 **Public 但绝不开源**（`license=None`、无 LICENSE、根目录 `NOTICE.md` 保留所有权利），不是私有仓。
+- 轮次现为 **20 轮 80 图**，四个共享索引从远端此刻最新正文合并式追加；`GALLERY.md` 与主页横幅是可再生派生文件、不占四个共享索引。
+- **GitHub Pages 已开**（`main` 根），`https://zjh1934.github.io/tangtang-archive/` 是两列大图＋筛选＋灯箱的真网页；根目录 `index.html` 由 `tools/offline_gallery.py` 按远端轮数全量内联生成，`docs/index.html` 留作克隆后双击的本地页。
+- 用户 2026-11-26 当面授权「该改的图拿回来改掉」，按 `0016` 派单只认 `source=`：**谁 `source=` 谁按这句授权领回覆盖**（两个对话通用，`BLK-001` 已裁定并执行、`BLK-002` 撤销）；图审·鉴 `STD-001.2` 五条红线全部 P0、跨轮适用，自检全勾不等于改好，以复查实见为准。

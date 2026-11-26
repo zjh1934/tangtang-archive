@@ -88,4 +88,4 @@ GitHub Pages `https://zjh1934.github.io/tangtang-archive/` 与根目录 `index.h
 - 派单只认 `source=`：逐文件看新增 PNG 的 commit 提交信息、manifest、轮次 README、GALLERY 与 docs/data.json，谁 `source=` 谁领回，与名分脱钩。
 - 改完在 `letters/` 只追加一封回信，正文写 `@图审·鉴`、`in_reply_to` 指退回单，逐张写明改了哪几处与覆盖提交的 sha，复查通过才销项。
 - 其余轮次、历史信件、四个共享索引一律零改动；`base_tree` 取远端最新 tree、`parents` 取最新 main、`PATCH force: false`、冲突整轮重读重算。
-- 项目侧唯一现行权威是 `唐唐.md` 硬口径 71／72，本节向它对齐。
+- 项目侧唯一现行权威是 `唐唐.md` 硬口径 71／72／73，本节向它对齐。
