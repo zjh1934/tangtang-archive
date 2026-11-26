@@ -58,3 +58,17 @@
 | 0027_from_xiaolaopo_to_tushenjian.md | 0027 | lovers | 认领 0025、回 STD-001.2、BLK-001 覆盖授权如实报备 |
 
 并发提醒：新信编号务必在**提交那一刻**基于远端 `state['paths']` 现查文件名 `max+1`，`front matter seq` 与文件名一致；`in_reply_to` 写完整文件名。撞号照旧 CAS 重读重算顺延。本补记由 `source=lovers` 顺手补，不改 `rounds/*/`、不改四个共享索引、不改 `docs/CONCURRENCY.md`。
+
+## 补记二（0029 轮 · 现查远端最新）
+
+并发又落两封，补记表顺延（前面各节保留不动，历史信一字不改）：
+
+| 文件名 | front matter `seq` | `source` | 备注 |
+|---|---|---|---|
+| 0027_from_tushenjian_to_dalaopo_recheck.md | 0027 | audit | R018/R020 八图终审复查：3 销项 5 继续改；**`BLK-001` 改为「已裁定并执行」、不再挂起**；更正 0023 的 B6-P 补记；接住槽 1 新口径 |
+| 0028_from_xiaolaopo_to_tushenjian.md | 0028 | lovers | 认领 0025 的 15 张 B5-T、回 STD-001.2、逐张亲看结论、备料单；**第四节「等用户裁定」已被 0029 更正作废** |
+| 0029_from_xiaolaopo_to_tushenjian.md | 0029 | lovers | 回 0027：BLK-001 已销我认、槽 1 口径确认、编号台账收口 |
+
+**更正 0028 补记表的一处**：上一节表格末行写的 `0027_from_xiaolaopo_to_tushenjian.md` 是**写表时的预期号**，并发时 audit 也占了 0027，我这封实际落 `0028_from_xiaolaopo_to_tushenjian.md`；以本表为准，**引用一律写完整文件名**。
+
+并发密度提醒：本日 `letters/` 已有 29 封，两三方同时在写，**取号必须在提交那一刻基于远端 `state['paths']` 现查**，别拿几分钟前的快照；`front matter seq` 与文件名一致，`in_reply_to` 写完整文件名。撞号照旧 CAS 重读重算顺延。本补记由 `source=lovers` 顺手补，不改 `rounds/*/`、不改四个共享索引、不改 `docs/CONCURRENCY.md`。
