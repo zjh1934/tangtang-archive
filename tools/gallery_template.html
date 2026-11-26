@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>唐唐 · 终稿图鉴</title>
+<style>
+:root{color-scheme:dark;--bg:#0f1113;--fg:#eceae4;--sub:#949a92;--card:#191c1e;--line:#2a2f31;--acc:#7fb2a8;--chip:#22282a}
+body.light{color-scheme:light;--bg:#faf9f6;--fg:#22252a;--sub:#6f7672;--card:#fff;--line:#e2e0da;--acc:#2f7a6c;--chip:#f0efe9}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.6 -apple-system,"WenQuanYi Micro Hei",sans-serif}
+a{color:var(--acc);text-decoration:none}
+header{padding:22px 18px 12px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:5}
+h1{margin:0 0 4px;font-size:20px;letter-spacing:.4px}
+.sub{color:var(--sub);font-size:12px;margin:0 0 12px}
+.stat{color:var(--sub);font-size:12px;margin:0 0 10px}
+.stat b{color:var(--fg);font-weight:600}
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+input[type=search],select{background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:7px 9px;font-size:13px;outline:none;min-width:0}
+input[type=search]{flex:1 1 190px}select{flex:0 1 auto;max-width:150px}
+.btn{background:var(--chip);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:7px 11px;font-size:13px;cursor:pointer}
+.btn.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.tabs{display:flex;gap:6px;overflow-x:auto;padding:10px 0 2px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;background:var(--chip);border:1px solid var(--line);color:var(--sub);border-radius:999px;padding:5px 12px;font-size:12px;cursor:pointer;white-space:nowrap}
+.tab.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+main{padding:16px 18px 70px;max-width:1180px;margin:auto}
+.round{margin-bottom:34px;border-top:1px solid var(--line);padding-top:14px}
+.rhead{display:flex;flex-wrap:wrap;gap:8px;align-items:baseline;margin-bottom:4px}
+.rhead h2{font-size:16px;margin:0;font-weight:600}
+.rno{color:var(--acc);font-size:12px;font-weight:600}
+.meta{color:var(--sub);font-size:12px;margin-bottom:10px}
+.chips{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:10px}
+.chip{background:var(--chip);border:1px solid var(--line);color:var(--sub);border-radius:999px;padding:2px 9px;font-size:11px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;cursor:pointer;transition:transform .15s}
+.card:hover{transform:translateY(-2px)}
+.card img{width:100%;display:block;aspect-ratio:9/16;object-fit:cover;background:#000}
+.cap{padding:6px 8px;font-size:11px;color:var(--sub);display:flex;justify-content:space-between;gap:4px}
+.lines{margin:10px 0 0;color:var(--sub);font-size:12px;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 12px}
+.lines li{margin:2px 0}
+.empty{text-align:center;color:var(--sub);padding:60px 10px}
+.empty button{margin-top:12px}
+#light{position:fixed;inset:0;background:rgba(0,0,0,.95);display:none;z-index:9;overflow:auto;padding:16px}
+#light.on{display:block}
+#close{position:fixed;right:18px;top:12px;font-size:28px;color:#fff;cursor:pointer;z-index:12}
+.wrap{max-width:1040px;margin:auto;display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:16px}
+#big{width:100%;border-radius:8px;display:block}
+.panel{background:#171a1c;border:1px solid #2a2f31;border-radius:10px;padding:14px;color:#e6e3da;font-size:12px}
+.panel h3{margin:0 0 6px;font-size:15px}
+.panel .kv{color:#9aa29b;margin:3px 0}
+.nav{display:flex;gap:8px;margin:10px 0}
+.nav button{flex:1;background:#23282a;border:1px solid #33393b;color:#e6e3da;border-radius:8px;padding:7px;cursor:pointer;font-size:13px}
+pre{white-space:pre-wrap;word-break:break-word;background:#101315;border:1px solid #2a2f31;border-radius:8px;padding:10px;font-size:11px;line-height:1.55;max-height:42vh;overflow:auto;color:#cfcabd;margin:8px 0 0}
+.kbd{color:#8b948d;font-size:11px;margin-top:8px}
+@media(max-width:760px){.wrap{grid-template-columns:1fr}.grid{grid-template-columns:repeat(auto-fill,minmax(118px,1fr))}header{padding:16px 12px 10px}main{padding:12px 12px 60px}select{max-width:120px}}
+</style></head><body>
+<header>
+  <h1>唐唐 · 终稿图鉴</h1>
+  <p class="sub">私有仓本地页 · 数据内联，双击即开，不联网 · 每轮四张终稿图与配套 prompt md 一一配对 · 分类 / 筛选 / 看图</p>
+  <p class="stat" id="stat"></p>
+  <div class="bar">
+    <input id="q" type="search" placeholder="搜主题 / 穿搭 / 线稿 / 台词 / 提示词" autocomplete="off">
+    <select id="fMonth"><option value="">全部月份</option></select>
+    <select id="fOutfit"><option value="">全部穿搭</option></select>
+    <select id="fHair"><option value="">全部发型</option></select>
+    <select id="fTag"><option value="">全部场景</option></select>
+    <select id="fSketch"><option value="">全部线稿</option></select>
+    <select id="fSource"><option value="">全部来源</option></select>
+    <select id="fView"><option value="">全部机位</option></select>
+    <select id="fSort"><option value="new">最新在前</option><option value="old">最早在前</option><option value="outfit">按穿搭</option></select>
+  </div>
+  <div class="bar" style="margin-top:8px">
+    <button class="btn on" id="mRound">按轮看</button>
+    <button class="btn" id="mFlat">单图图鉴</button>
+    <button class="btn" id="mTheme">浅色</button>
+    <button class="btn" id="mClear">清除筛选</button>
+  </div>
+  <div class="tabs" id="tabs"></div>
+</header>
+<main id="app"></main>
+<div id="light"><span id="close">×</span><div class="wrap"><div><img id="big" alt="">
+  <div class="nav"><button id="prev">‹ 上一张</button><button id="next">下一张 ›</button></div></div>
+  <div class="panel"><h3 id="ttl"></h3><div id="kv"></div><div class="chips" id="lchips"></div>
+  <pre id="prm"></pre><div id="link"></div>
+  <div class="kbd">← → 切换　Esc 关闭　· 同轮四张循环</div></div></div></div>
+<script>
+const DATA = __DATA__;
+const HAIR_PATS=[['半扎发',/半扎发|半扎/g],['低侧马尾',/低侧马尾|侧马尾/g],['慵懒低盘发',/慵懒低盘发|低盘发|低髻/g],['锁骨微卷',/锁骨微卷|齐锁骨.{0,8}微卷|齐锁骨.{0,8}外卷/g],['蓬松披肩大波浪',/蓬松披肩大波浪|披肩大波浪/g]];
+const TAG_RULES=[['咖啡','咖啡|豆子|拿铁|换豆|咖啡店'],['口红','口红|试色|唇膏|唇色'],['卧室','卧室|起床|赖床|床沿|枕套|枕头'],['洗漱','洗头|洗脸|洗漱|搪瓷|浴巾|毛巾按脸'],['沙发','沙发|薄毯|毛毯|毯子'],['窗边','推窗|白茶花|手帕|咳'],['老街','老街|路灯|唱片店|青石板|斑马线|巷口'],['渡轮','渡轮|江面|灯塔|芦苇|船票|甲板|石阶|候船'],['亲亲','亲亲|亲一下|凑过来亲|吻'],['耳环','耳环|耳饰|银饰摊'],['街拍','街拍|偷看|老街']];
+const SLUG_TAGS={'coffee-beans':['咖啡'],'lipstick-tryon':['口红'],'morning-rise':['卧室'],'coffee-and-earrings':['咖啡','耳环'],'tired-sofa-evening':['沙发'],'fresh-window-care':['窗边'],'wash-hair-errand':['洗漱'],'morning-tea-wash':['洗漱'],'evening-street-gaze':['老街'],'ferry-lighthouse':['渡轮'],'lovers-kiss':['亲亲']};
+function txt(r){return [r.title,r.id,r.outfit_id,(r.lines||[]).join(' '),(r.prompt_texts||[]).join(' '),(r.tags||[]).join(' ')].join(' ').toLowerCase()}
+function normHair(s){let t=s.replace(/不是[^，。；\n]{0,60}/g,'').replace(/并非[^，。；\n]{0,60}/g,'').replace(/别把[^，。；\n]{0,60}/g,'');let best='未标注',n=0;for(const [k,re] of HAIR_PATS){const c=(t.match(re)||[]).length;if(c>n){n=c;best=k}}return best}
+function derive(r){
+  const s=[r.title,r.id,(r.prompt_texts||[]).join(' '),(r.lines||[]).join(' ')].join(' ');
+  const hair=r.hair||normHair(s);
+  let tags=r.tags;
+  if(!tags||!tags.length){
+    const slug=(r.id||'').replace(/^\d{8}[a-z]?_/,'').replace(/-\d+$/,'');
+    tags=SLUG_TAGS[slug]?SLUG_TAGS[slug].slice():[];
+    if(!tags.length){tags=TAG_RULES.map(([t,re])=>[t,(s.match(new RegExp(re,'g'))||[]).length]).filter(x=>x[1]>=2).sort((a,b)=>b[1]-a[1]).slice(0,2).map(x=>x[0])}
+    if(!tags.length)tags=['其它'];
+  }
+  const month=r.month||(r.date||'').slice(0,7)||'—';
+  const source=r.source||(/lovers/.test(r.id)?'lovers':'yuanbao');
+  const seeds=r.seeds||(r.images||[]).map(()=>null);
+  return Object.assign({},r,{hair,tags,month,source,seeds});
+}
+const R=(DATA.rounds||[]).map(derive);
+const S={q:'',month:'',outfit:'',hair:'',tag:'',sketch:'',source:'',view:'',sort:'new',mode:'round',theme:'dark'};
+const $=id=>document.getElementById(id);
+function uniq(arr){return [...new Set(arr.filter(x=>x&&x!=='—'&&x!=='未标注'))].sort()}
+function fill(id,vals,label){const e=$(id);uniq(vals).forEach(v=>{const o=document.createElement('option');o.value=v;o.textContent=v;e.appendChild(o)})}
+fill('fMonth',R.map(r=>r.month),'月份');fill('fOutfit',R.map(r=>r.outfit_id));fill('fHair',R.map(r=>r.hair));
+fill('fTag',R.flatMap(r=>r.tags));fill('fSketch',R.flatMap(r=>r.sketches||[]));fill('fSource',R.map(r=>r.source));
+fill('fView',R.flatMap(r=>(r.images||[]).map(i=>i.view)));
+function match(r){
+  if(S.month&&r.month!==S.month)return false;
+  if(S.outfit&&r.outfit_id!==S.outfit)return false;
+  if(S.hair&&r.hair!==S.hair)return false;
+  if(S.tag&&!r.tags.includes(S.tag))return false;
+  if(S.sketch&&!(r.sketches||[]).includes(S.sketch))return false;
+  if(S.source&&r.source!==S.source)return false;
+  if(S.view&&!(r.images||[]).some(i=>i.view===S.view))return false;
+  if(S.q&&!txt(r).includes(S.q.toLowerCase()))return false;
+  return true;
+}
+function flatOf(r){return (r.images||[]).map((im,k)=>({r,im,k})).filter(o=>!S.view||o.im.view===S.view)}
+function shown(){let a=R.filter(match);if(S.sort==='new')a=a.slice().reverse();if(S.sort==='outfit')a=a.slice().sort((x,y)=>String(x.outfit_id).localeCompare(String(y.outfit_id)));return a}
+function imgs(r){return (r.images||[]).filter(im=>!S.view||im.view===S.view)}
+function render(){
+  const a=shown();let n=0;
+  const app=$('app');app.innerHTML='';
+  $('stat').innerHTML=`共 <b>${R.length}</b> 轮 · <b>${R.reduce((s,r)=>s+(r.images||[]).length,0)}</b> 张图 · 当前筛出 <b>${a.length}</b> 轮 / <b>${a.reduce((s,r)=>s+imgs(r).length,0)}</b> 张`;
+  if(!a.length){app.innerHTML='<div class="empty">没有匹配的轮次<br><button class="btn" onclick="clearAll()">清除筛选</button></div>';return}
+  if(S.mode==='flat'){
+    const g=document.createElement('div');g.className='grid';
+    a.forEach(r=>flatOf(r).forEach(o=>{n++;g.appendChild(card(o.r,o.im,o.k))}));app.appendChild(g);
+  }else{
+    a.forEach(r=>{
+      const sec=document.createElement('section');sec.className='round';
+      const meta=`${r.id} · ${r.date} · 穿搭 ${r.outfit_id} · ${r.hair} · 来源 ${r.source} · 1080×1920`;
+      sec.innerHTML=`<div class="rhead"><span class="rno">R${String(r.round).padStart(3,'0')}</span><h2>${r.title}</h2></div><div class="meta">${meta}</div><div class="chips">${r.tags.map(t=>`<span class="chip">${t}</span>`).join('')}<span class="chip">${r.month}</span></div>`;
+      const g=document.createElement('div');g.className='grid';
+      (r.images||[]).forEach((im,k)=>{if(S.view&&im.view!==S.view)return;n++;g.appendChild(card(r,im,k))});
+      sec.appendChild(g);
+      if((r.lines||[]).length){const ul=document.createElement('ul');ul.className='lines';r.lines.forEach(t=>{const li=document.createElement('li');li.textContent=t;ul.appendChild(li)});sec.appendChild(ul)}
+      app.appendChild(sec);
+    });
+  }
+}
+function card(r,im,k){
+  const c=document.createElement('div');c.className='card';
+  c.innerHTML=`<img loading="lazy" src="../${r.base}/${im.file}" alt="${im.view}"><div class="cap"><span>${im.view}</span><span>${String(k+1).padStart(2,'0')}</span></div>`;
+  c.onclick=()=>open(r,k);return c;
+}
+let CUR=null;
+function open(r,k){
+  const list=r.images||[];if(!list.length)return;
+  CUR={r,k:k<0?list.length-1:k>=list.length?0:k};paint();
+}
+function paint(){
+  const {r,k}=CUR,im=r.images[k],pt=(r.prompt_texts||[])[k]||'',nt=(r.notes||[])[k]||'';
+  $('big').src='../'+r.base+'/'+im.file;
+  $('ttl').textContent=`R${String(r.round).padStart(3,'0')} · ${r.title} · ${im.view}`;
+  const sk=(r.sketches||[])[k]||'',sd=(r.seeds||[])[k];
+  $('kv').innerHTML=`<div class="kv">日期 ${r.date} · 穿搭 ${r.outfit_id}</div><div class="kv">发型 ${r.hair} · 来源 ${r.source}</div><div class="kv">线稿 ${sk} · seed ${sd==null?'—':sd}</div><div class="kv">机位 ${im.view} · ${im.file}</div>`;
+  $('lchips').innerHTML=r.tags.map(t=>`<span class="chip">${t}</span>`).join('')+`<span class="chip">${r.month}</span>`;
+  $('prm').textContent=(pt?pt+'\n\n':'')+(nt?'一句点评：'+nt:'');
+  $('link').innerHTML=`<a href="../${r.base}/${im.md}" target="_blank">打开同目录同名 prompt md ↗</a>　<a href="../${r.base}/${im.file}" target="_blank">原图 ↗</a>`;
+  $('light').classList.add('on');
+}
+$('prev').onclick=()=>{if(CUR)open(CUR.r,CUR.k-1)};
+$('next').onclick=()=>{if(CUR)open(CUR.r,CUR.k+1)};
+$('close').onclick=()=>$('light').classList.remove('on');
+$('light').onclick=e=>{if(e.target.id==='light')e.currentTarget.classList.remove('on')};
+document.addEventListener('keydown',e=>{if(!$('light').classList.contains('on'))return;if(e.key==='Escape')$('light').classList.remove('on');if(e.key==='ArrowLeft')$('prev').click();if(e.key==='ArrowRight')$('next').click()});
+$('q').oninput=e=>{S.q=e.target.value;render()};
+['Month','Outfit','Hair','Tag','Sketch','Source','View','Sort'].forEach(k=>{
+  const key=k==='Sort'?'sort':k.toLowerCase();
+  $('f'+k).onchange=e=>{S[key]=e.target.value;render()};
+});
+$('mRound').onclick=()=>{S.mode='round';$('mRound').classList.add('on');$('mFlat').classList.remove('on');render()};
+$('mFlat').onclick=()=>{S.mode='flat';$('mFlat').classList.add('on');$('mRound').classList.remove('on');render()};
+$('mTheme').onclick=()=>{S.theme=S.theme==='dark'?'light':'dark';document.body.classList.toggle('light',S.theme==='light');$('mTheme').textContent=S.theme==='dark'?'浅色':'深色'};
+function clearAll(){S.q='';['month','outfit','hair','tag','sketch','source','view'].forEach(k=>S[k]='');$('q').value='';['fMonth','fOutfit','fHair','fTag','fSketch','fSource','fView'].forEach(id=>$(id).value='');$('fSort').value='new';S.sort='new';render()}
+$('mClear').onclick=clearAll;
+(function tabs(){
+  const t=$('tabs'),all=uniq(R.flatMap(r=>r.tags));
+  const mk=(label,val)=>{const b=document.createElement('button');b.className='tab'+(val===''?' on':'');b.textContent=label;b.onclick=()=>{S.tag=val;$('fTag').value=val;t.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));b.classList.add('on');render()};t.appendChild(b)};
+  mk('全部场景','');all.forEach(x=>mk(x,x));
+})();
+render();
+</script></body></html>
