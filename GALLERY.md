@@ -1,4 +1,30 @@
-**唐唐 · 终稿图鉴** · 24 轮 96 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · [按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)
+**唐唐 · 终稿图鉴** · 25 轮 100 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · [按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)
+
+<a id="r025"></a>
+
+**R025 · 夜宵可乐胃胀·揉肚子**
+
+`LNG-0001` · 蓬松披肩大波浪 · 沙发 · 2026-11 · source=yuanbao ｜ [本轮现场](rounds/20261127y_late-snack-belly-rub/README.md) · [manifest](rounds/20261127y_late-snack-belly-rub/manifest.json)
+
+[![01 正面 · R025](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127y_late-snack-belly-rub/01_front.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127y_late-snack-belly-rub/01_front.png)
+
+**01 正面**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127y_late-snack-belly-rub/01_front.png) · [01 终稿 prompt](rounds/20261127y_late-snack-belly-rub/01_front.md)
+
+[![02 侧身 · R025](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127y_late-snack-belly-rub/02_side.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127y_late-snack-belly-rub/02_side.png)
+
+**02 侧身**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127y_late-snack-belly-rub/02_side.png) · [02 终稿 prompt](rounds/20261127y_late-snack-belly-rub/02_side.md)
+
+[![03 坐姿 · R025](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127y_late-snack-belly-rub/03_seat.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127y_late-snack-belly-rub/03_seat.png)
+
+**03 坐姿**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127y_late-snack-belly-rub/03_seat.png) · [03 终稿 prompt](rounds/20261127y_late-snack-belly-rub/03_seat.md)
+
+[![04 特写 · R025](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127y_late-snack-belly-rub/04_close.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127y_late-snack-belly-rub/04_close.png)
+
+**04 特写**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261127y_late-snack-belly-rub/04_close.png) · [04 终稿 prompt](rounds/20261127y_late-snack-belly-rub/04_close.md)
+
+> 一刷全是那些冷冰冰的东西呀，把手机扣过来嘛，我这不是热的、就在你跟前站着。 ／ 可乐罐我先收走啦，你别动，胃胀就乖乖躺着。我手悬着呢，等你自己先认一句撑。 ／ 顺时针慢慢揉，一圈两圈，你眉头松了我才加半分力。疼就捏我手腕，别硬撑着不吭声。 ／ 看够了没，指尖还点着呢。明早陪我洗那只空玻璃瓶，插一枝狗尾草，敢笑我就插两枝。
+
+---
 
 <a id="r024"></a>
 
@@ -646,6 +672,8 @@
 
 - **客厅**（2 轮）：[R024 把我洗脚](#r024) · [R023 唐唐来给我剪指甲](#r023)
 
+- **沙发**（2 轮）：[R025 夜宵可乐胃胀·揉肚子](#r025) · [R005 好累啊我](#r005)
+
 - **洗漱**（2 轮）：[R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007)
 
 - **窗边**（2 轮）：[R017 好的我喝口茶先](#r017) · [R006 一闻到大肠杆菌就不停咳嗽](#r006)
@@ -688,8 +716,6 @@
 
 - **木脚盆**（1 轮）：[R024 把我洗脚](#r024)
 
-- **沙发**（1 轮）：[R005 好累啊我](#r005)
-
 - **洗脚**（1 轮）：[R024 把我洗脚](#r024)
 
 - **渡轮**（1 轮）：[R010 渡轮去对岸看旧灯塔](#r010)
@@ -722,11 +748,11 @@
 
 - **半扎发**（4 轮）：[R020 新手机那个上午](#r020) · [R018 好烦哦的傍晚雨窗](#r018) · [R007 洗好头送你出门](#r007) · [R002 三支口红试色那晚](#r002)
 
+- **蓬松披肩大波浪**（4 轮）：[R025 夜宵可乐胃胀·揉肚子](#r025) · [R022 傍晚给你捏腿](#r022) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R001 换豆子那天早上](#r001)
+
 - **低侧马尾**（3 轮）：[R012 吃火锅不吃米线啦](#r012) · [R009 老街身后那一眼](#r009) · [R004 吃过饭去哪里](#r004)
 
 - **慵懒低盘发**（3 轮）：[R016 颈膜枪震得舒服的夜里](#r016) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R005 好累啊我](#r005)
-
-- **蓬松披肩大波浪**（3 轮）：[R022 傍晚给你捏腿](#r022) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R001 换豆子那天早上](#r001)
 
 - **锁骨微卷**（2 轮）：[R010 渡轮去对岸看旧灯塔](#r010) · [R003 我要起来咯](#r003)
 
@@ -752,6 +778,6 @@
 
 **按月份**
 
-- **2026-11**（24 轮）：[R024 把我洗脚](#r024) · [R023 唐唐来给我剪指甲](#r023) · [R022 傍晚给你捏腿](#r022) · [R021 干活啊](#r021) · [R020 新手机那个上午](#r020) · [R019 挺漂亮的有气质](#r019) · [R018 好烦哦的傍晚雨窗](#r018) · [R017 好的我喝口茶先](#r017) · [R016 颈膜枪震得舒服的夜里](#r016) · [R015 你会撒娇吗](#r015) · [R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013) · [R012 吃火锅不吃米线啦](#r012) · [R011 凑过来亲亲](#r011) · [R010 渡轮去对岸看旧灯塔](#r010) · [R009 老街身后那一眼](#r009) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R005 好累啊我](#r005) · [R004 吃过饭去哪里](#r004) · [R003 我要起来咯](#r003) · [R002 三支口红试色那晚](#r002) · [R001 换豆子那天早上](#r001)
+- **2026-11**（25 轮）：[R025 夜宵可乐胃胀·揉肚子](#r025) · [R024 把我洗脚](#r024) · [R023 唐唐来给我剪指甲](#r023) · [R022 傍晚给你捏腿](#r022) · [R021 干活啊](#r021) · [R020 新手机那个上午](#r020) · [R019 挺漂亮的有气质](#r019) · [R018 好烦哦的傍晚雨窗](#r018) · [R017 好的我喝口茶先](#r017) · [R016 颈膜枪震得舒服的夜里](#r016) · [R015 你会撒娇吗](#r015) · [R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013) · [R012 吃火锅不吃米线啦](#r012) · [R011 凑过来亲亲](#r011) · [R010 渡轮去对岸看旧灯塔](#r010) · [R009 老街身后那一眼](#r009) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R005 好累啊我](#r005) · [R004 吃过饭去哪里](#r004) · [R003 我要起来咯](#r003) · [R002 三支口红试色那晚](#r002) · [R001 换豆子那天早上](#r001)
 
 ---
