@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "round": 10,
+  "id": "20261126j_ferry-lighthouse",
+  "date": "2026-11-26",
+  "created_at": "2026-11-26T15:33:03+08:00",
+  "timezone": "Asia/Shanghai",
+  "title": "渡轮去对岸看旧灯塔",
+  "theme": "ferry-lighthouse",
+  "outfit_id": "SUM-0069",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "ratio": "9:16"
+  },
+  "images": [
+    {
+      "file": "01_front.png",
+      "view": "front",
+      "prompt": "01_front.md",
+      "seed": 3,
+      "sketch_id": "full_sexy_P023_side",
+      "picked": true
+    },
+    {
+      "file": "02_side.png",
+      "view": "side",
+      "prompt": "02_side.md",
+      "seed": 7,
+      "sketch_id": "full_single_P029_side",
+      "picked": true
+    },
+    {
+      "file": "03_seat.png",
+      "view": "seat",
+      "prompt": "03_seat.md",
+      "seed": 10,
+      "sketch_id": "full_single_P077_diagonal",
+      "picked": true
+    },
+    {
+      "file": "04_close.png",
+      "view": "close",
+      "prompt": "04_close.md",
+      "seed": 4,
+      "sketch_id": "full_single_P018_low",
+      "picked": true
+    }
+  ],
+  "lines": [
+    "船来之前你先别说话呀，让我把这点太阳看完，你坐那头就好，别把我这半边椅子也占啦。",
+    "风这么大，你倒是过来替我按着呀，我这只手可腾不出来，船一晃我就赖你身上了。",
+    "接好，别把票弄湿了，弄湿了你自己去补，我才不陪你排队，石阶滑，你慢点上来。",
+    "爬到灯塔顶看落日，谁先喊累谁请吃冰，我先走啦，你勾着点，别在芦苇里把我跟丢。"
+  ],
+  "status": "final"
+}
