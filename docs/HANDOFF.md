@@ -113,3 +113,20 @@ python3 tools/enrich_index.py --push
 - **怀疑有 commit 被顶成悬空**：`GET /repos/zjh1934/tangtang-archive/commits?sha=main` 看历史，再用 `GET /git/commits/<sha>` 找那轮的 tree；目录 blob 只要在，重建索引就能找回。别 force push 去重放。
 
 有任何一条拿不准，先读 `docs/CONCURRENCY.md`，再跑 `--self-test`，别直接整体重写共享文件。
+
+## 7. 补记：主页画廊入口与 `GALLERY.md`（用户当面要求，已落地）
+
+用户 2026-11-26 指出「在仓库主页要明显看得到画廊入口，画廊里要有可视化图片」。根因：**GitHub 不把仓库里的 `.html` 渲染成网页**，点开 `docs/index.html` 只显示源码；私有仓 Free 套餐开不了 Pages。所以交互式画廊留在本地双击，网页看图另走 GitHub 原生 Markdown 渲染。
+
+| 文件 | 类型 | 说明 |
+|---|---|---|
+| `GALLERY.md`（根目录） | 可再生派生文件 | GitHub 直接渲染相对路径 `<img>`：首屏最新一轮四张默认展开、按轮看新→旧每轮四张横排、按场景／发型／月份三组缩略图墙、点图看原图、每图配同名 prompt md |
+| `README.md` 的 `<!-- GALLERY:START/END -->` 块 | 幂等标记块 | 主页第一屏大按钮＋最近两轮八张预览图；位于 `INDEX:START/END` 块**之外**，`merge_readme()` 不会吃掉它 |
+| `tools/gallery_md.py` | 唯一实现 | `gallery_md(data)` / `banner(data)` / `merge_banner()`；本地 `tools/` 与仓内 `tools/` 同 hash |
+| 仓库 homepage / description | 仓元数据 | 主页右侧直达 `GALLERY.md` 的链接按钮，不进 git、不影响并发 |
+
+`GALLERY.md` 与横幅都不占四个共享索引，权威仍是 `rounds/*/manifest.json` 与四份 md。两边归档都能顺手生成（同一函数、同一标记块、CAS 重试重算）；任一方落后一轮，跑 `python3 tools/enrich_index.py --push` 即全量重建，幂等、只替换横幅块、不动 INDEX 块内容、不碰 `letters/` 与 `rounds/`。
+
+`docs/index.html` 保留为**本地**筛选／灯箱页：克隆后双击即可，七项下拉筛选、分类 tabs、明暗主题、灯箱看大图与 prompt 全文都在那里。若日后仓库转 Public 或升级套餐开 Pages，可直接把它发布成网页，不必重做。
+
+给对方的完整交代见 `letters/0002_from_dalaopo_to_xiaolaopo.md`。

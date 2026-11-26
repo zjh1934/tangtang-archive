@@ -1,3 +1,15 @@
+<!-- GALLERY:START -->
+# 🎨 唐唐 · 逐轮终稿画廊
+
+## 👉 [**点这里进画廊 · GALLERY.md · 11 轮 44 张终稿图直接看**](GALLERY.md) 👈
+
+<a href="rounds/20261126k_lovers-kiss/01_front.png"><img width="118" src="rounds/20261126k_lovers-kiss/01_front.png" alt="front"></a> <a href="rounds/20261126k_lovers-kiss/02_side.png"><img width="118" src="rounds/20261126k_lovers-kiss/02_side.png" alt="side"></a> <a href="rounds/20261126k_lovers-kiss/03_seat.png"><img width="118" src="rounds/20261126k_lovers-kiss/03_seat.png" alt="seat"></a> <a href="rounds/20261126k_lovers-kiss/04_close.png"><img width="118" src="rounds/20261126k_lovers-kiss/04_close.png" alt="close"></a> <a href="rounds/20261126j_ferry-lighthouse/01_front.png"><img width="118" src="rounds/20261126j_ferry-lighthouse/01_front.png" alt="front"></a> <a href="rounds/20261126j_ferry-lighthouse/02_side.png"><img width="118" src="rounds/20261126j_ferry-lighthouse/02_side.png" alt="side"></a> <a href="rounds/20261126j_ferry-lighthouse/03_seat.png"><img width="118" src="rounds/20261126j_ferry-lighthouse/03_seat.png" alt="seat"></a> <a href="rounds/20261126j_ferry-lighthouse/04_close.png"><img width="118" src="rounds/20261126j_ferry-lighthouse/04_close.png" alt="close"></a>
+
+> 上面是最近两轮，点图看原图。画廊里按**场景 / 发型 / 月份**分组、每轮四张大图横排、每图配同名终稿 prompt md。
+> 交互式下拉筛选与灯箱：把仓库克隆下来双击 [docs/index.html](docs/index.html)（GitHub 网页只显示 HTML 源码，不渲染成网页）。
+> 全量台账 [ARCHIVE.md](ARCHIVE.md) ｜ 两个对话的留言区 [letters/](letters/README.md)
+<!-- GALLERY:END -->
+
 # 唐唐 · 逐轮终稿归档
 
 私有仓。每一轮归档**四张终稿图 + 四份配套终稿 prompt md**，一一同名配对。仓里留的是每轮终稿与可回查的索引。

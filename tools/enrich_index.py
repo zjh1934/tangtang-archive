@@ -17,6 +17,7 @@
 import argparse
 import base64
 import concurrent.futures
+import importlib.util
 import json
 import re
 import sys
@@ -24,6 +25,15 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+
+def gallery_mod():
+    """同目录加载唯一实现，保证本地副本与镜像副本共用一份生成逻辑。"""
+    p = Path(__file__).resolve().parent / "gallery_md.py"
+    spec = importlib.util.spec_from_file_location("tangtang_gallery_md", p)
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
 
 REPO = "zjh1934/tangtang-archive"
 BRANCH = "main"
@@ -191,9 +201,11 @@ def render_html(template, data):
     return out
 
 
-def cas_push(tok, files, msg, retries=5):
+def cas_push(tok, build_fn, msg, retries=5):
+    """每次重试都先用这一刻的远端 tree 重新 build_fn 生成文件，杜绝拿旧快照覆盖对方新轮。"""
     for attempt in range(1, retries + 1):
         head, base_tree, paths = remote_tree(tok)
+        files, rounds = build_fn(tok, paths)
         entries = []
         for path, blob in files.items():
             code, r = api("POST", f"/repos/{REPO}/git/blobs",
@@ -219,16 +231,19 @@ def cas_push(tok, files, msg, retries=5):
         if code in (200, 201):
             # 提交后校验：对方最近一轮目录仍完好
             _, _, after = remote_tree(tok)
-            lost = [p for p in paths if p.startswith("rounds/") and p not in after]
+            lost = [p for p in paths if p.startswith(("rounds/", "letters/")) and p not in after]
             assert not lost, f"提交后丢了远端文件：{lost[:5]}"
-            return cm["sha"], paths
+            return cm["sha"], paths, rounds
         print(f"第 {attempt} 次 PATCH 冲突（{code}），重试")
     raise SystemExit("CAS 重试次数用尽，未提交；稍后再跑一次即可")
 
 
 def self_test():
     tpl = (Path(__file__).resolve().parent / "gallery_template.html").read_text(encoding="utf-8")
-    d = make_data([{"round": 1, "id": "x", "base": "rounds/x", "images": [], "tags": ["渡轮"]}])
+    imgs = [{"file": f"{i:02d}_{v}.png", "view": v, "prompt": f"{i:02d}_{v}.md"}
+            for i, v in enumerate(["front", "side", "seat", "close"], 1)]
+    d = make_data([{"round": 1, "id": "x", "base": "rounds/x", "images": imgs,
+                    "tags": ["渡轮"], "lines": ["一句话"]}])
     h = render_html(tpl, d)
     assert re.search(r"^const DATA = \{.*\};$", h, re.M), "DATA 行不满足 merge_index_html 正则"
     # 与另一个对话的 merge_index_html 同规则验证替换
@@ -236,7 +251,19 @@ def self_test():
     h2, n = re.subn(r"^const DATA = \{.*\};$", lambda _: line, h, count=1, flags=re.M)
     assert n == 1 and h2 == h
     assert "id=\"fHair\"" in h and "id=\"tabs\"" in h and "单图图鉴" in h
-    print("self-test OK：DATA 单行兼容 merge_index_html；分类/筛选/图鉴控件齐全")
+    # 防回归：CAS 每次重试都必须重新全量收集，不能拿旧快照覆盖对方新轮
+    src = Path(__file__).read_text(encoding="utf-8")
+    loop = src[src.index("def cas_push"):src.index("def self_test")]
+    assert "for attempt in" in loop and "build_fn(tok, paths)" in loop
+    assert loop.index("for attempt in") < loop.index("build_fn(tok, paths)")
+    gm = gallery_mod()
+    g = gm.gallery_md(d)
+    assert "<img" in g and all(k in g for k in ("按轮看", "按场景", "按发型", "按月份"))
+    b = gm.banner(d)
+    assert "GALLERY.md" in b and "<img" in b
+    assert gm.merge_banner(gm.merge_banner("# T\n<!-- INDEX:START -->\n| R001 | 旧 |\n<!-- INDEX:END -->\n", b), b) \
+        == gm.merge_banner("# T\n<!-- INDEX:START -->\n| R001 | 旧 |\n<!-- INDEX:END -->\n", b)
+    print("self-test OK：DATA 单行兼容 merge_index_html；分类/筛选控件齐全；CAS 重试重跑全量收集；画廊与主页横幅幂等")
 
 
 def main():
@@ -253,28 +280,42 @@ def main():
 
     tpl_path = Path(__file__).resolve().parent / "gallery_template.html"
     tpl = tpl_path.read_text(encoding="utf-8")
+    gm = gallery_mod()
     if a.local:
         rounds = collect_local(a.root)
         data = make_data(rounds)
         root = Path(a.root)
         (root / "docs" / "data.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         (root / "docs" / "index.html").write_text(render_html(tpl, data), encoding="utf-8")
-        print(f"本地重建：{len(rounds)} 轮，{sum(len(r['images']) for r in rounds)} 张图；docs/data.json 与 docs/index.html 已写回")
+        (root / "GALLERY.md").write_text(gm.gallery_md(data), encoding="utf-8")
+        rp = root / "README.md"
+        rp.write_text(gm.merge_banner(rp.read_text(encoding="utf-8"), gm.banner(data)), encoding="utf-8")
+        print(f"本地重建：{len(rounds)} 轮，{sum(len(r['images']) for r in rounds)} 张图；"
+              "docs/data.json、docs/index.html、GALLERY.md 与 README 主页横幅已写回")
         return
 
     tok = token()
-    head, base_tree, paths = remote_tree(tok)
-    rounds = collect_remote(tok, paths)
-    assert len(rounds) >= 1 and all(len(r["images"]) == 4 for r in rounds), "远端轮次或四图配对异常"
-    data = make_data(rounds)
-    files = {
-        "docs/data.json": (json.dumps(data, ensure_ascii=False, indent=2) + "\n").encode("utf-8"),
-        "docs/index.html": render_html(tpl, data).encode("utf-8"),
-        "docs/HANDOFF.md": (Path(__file__).resolve().parent.parent / "docs" / "HANDOFF.md").read_bytes(),
-        "tools/enrich_index.py": Path(__file__).read_bytes(),
-        "tools/gallery_template.html": tpl_path.read_bytes(),
-    }
-    sha, before = cas_push(tok, files, "chore: 画廊 v2（分类/筛选/看图）+ 分类索引重建 | source=yuanbao")
+    handoff = (Path(__file__).resolve().parent.parent / "docs" / "HANDOFF.md")
+
+    def build_all(_tok, paths):
+        rs = collect_remote(_tok, paths)
+        assert len(rs) >= 1 and all(len(r["images"]) == 4 for r in rs), "远端轮次或四图配对异常"
+        data = make_data(rs)
+        # README 是共享索引：从「此刻远端正文」出发只幂等替换横幅块，INDEX 块一字不动
+        readme_now = remote_text(_tok, "README.md") or ""
+        gm = gallery_mod()
+        return {
+            "docs/data.json": (json.dumps(data, ensure_ascii=False, indent=2) + "\n").encode("utf-8"),
+            "docs/index.html": render_html(tpl, data).encode("utf-8"),
+            "GALLERY.md": gm.gallery_md(data).encode("utf-8"),
+            "README.md": gm.merge_banner(readme_now, gm.banner(data)).encode("utf-8"),
+            "docs/HANDOFF.md": handoff.read_bytes(),
+            "tools/enrich_index.py": Path(__file__).read_bytes(),
+            "tools/gallery_template.html": tpl_path.read_bytes(),
+            "tools/gallery_md.py": (Path(__file__).resolve().parent / "gallery_md.py").read_bytes(),
+        }, rs
+
+    sha, before, rounds = cas_push(tok, build_all, "chore: 画廊 v2（分类/筛选/看图）+ 分类索引重建 | source=yuanbao")
     print(f"推送成功 | commit {sha[:8]} | {len(rounds)} 轮 {sum(len(r['images']) for r in rounds)} 张图 | 远端原有 {len([p for p in before if p.startswith('rounds/')])} 个轮次文件全部保留")
     print("未触碰：README.md / ARCHIVE.md / docs/CONCURRENCY.md / tools/merge_index.py / tools/build_index.py / 任何轮次目录")
 
