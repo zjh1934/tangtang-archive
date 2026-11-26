@@ -1,18 +1,8 @@
-# 🎨 唐唐 · 终稿图鉴
-
-**13 轮 · 52 张终稿图**　一屏一张大图，往下滑就是全部；**点图看原图**，每图配同名终稿 prompt md。
-
-> 手机上想两列大图、分类筛选、点开看大图？用交付到手机的**离线单文件画廊**（图片已内联，不联网也能看）；GitHub 网页只显示 `.html` 源码，不渲染成网页。
-
-**直达某一轮**　[R013](#r013) · [R012](#r012) · [R011](#r011) · [R010](#r010) · [R009](#r009) · [R008](#r008) · [R007](#r007) · [R006](#r006) · [R005](#r005) · [R004](#r004) · [R003](#r003) · [R002](#r002) · [R001](#r001)
-
-[按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [全量台账](ARCHIVE.md) · [回主页](README.md)
-
----
+**唐唐 · 终稿图鉴** · 13 轮 52 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · [按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)
 
 <a id="r013"></a>
 
-## R013 · 看着大黄和它玩一会儿
+**R013 · 看着大黄和它玩一会儿**
 
 `HOME-0001` · 慵懒低半扎发 · 居家 · 宠物 · 地垫 · 2026-11 · source=lovers ｜ [本轮现场](rounds/20261126m_lovers-dahuang/README.md) · [manifest](rounds/20261126m_lovers-dahuang/manifest.json)
 
@@ -38,7 +28,7 @@
 
 <a id="r012"></a>
 
-## R012 · 吃火锅不吃米线啦
+**R012 · 吃火锅不吃米线啦**
 
 `HOT-0001` · 低侧马尾 · 火锅 · 铜锅 · 约会 · 2026-11 · source=lovers ｜ [本轮现场](rounds/20261126l_lovers-hotpot/README.md) · [manifest](rounds/20261126l_lovers-hotpot/manifest.json)
 
@@ -64,7 +54,7 @@
 
 <a id="r011"></a>
 
-## R011 · 凑过来亲亲
+**R011 · 凑过来亲亲**
 
 `PTY-0047` · 未标注 · 亲亲 · 2026-11 · source=lovers ｜ [本轮现场](rounds/20261126k_lovers-kiss/README.md) · [manifest](rounds/20261126k_lovers-kiss/manifest.json)
 
@@ -90,7 +80,7 @@
 
 <a id="r010"></a>
 
-## R010 · 渡轮去对岸看旧灯塔
+**R010 · 渡轮去对岸看旧灯塔**
 
 `SUM-0069` · 锁骨微卷 · 渡轮 · 2026-11 · source=yuanbao ｜ [本轮现场](rounds/20261126j_ferry-lighthouse/README.md) · [manifest](rounds/20261126j_ferry-lighthouse/manifest.json)
 
@@ -116,7 +106,7 @@
 
 <a id="r009"></a>
 
-## R009 · 老街身后那一眼
+**R009 · 老街身后那一眼**
 
 `SPR-0186` · 低侧马尾 · 老街 · 2026-11 · source=yuanbao ｜ [本轮现场](rounds/20261126i_evening-street-gaze/README.md) · [manifest](rounds/20261126i_evening-street-gaze/manifest.json)
 
@@ -142,7 +132,7 @@
 
 <a id="r008"></a>
 
-## R008 · 赖床起来泡茶洗头洗脸
+**R008 · 赖床起来泡茶洗头洗脸**
 
 `SPR-0038` · 慵懒低盘发 · 洗漱 · 2026-11 · source=yuanbao ｜ [本轮现场](rounds/20261126h_morning-tea-wash/README.md) · [manifest](rounds/20261126h_morning-tea-wash/manifest.json)
 
@@ -168,7 +158,7 @@
 
 <a id="r007"></a>
 
-## R007 · 洗好头送你出门
+**R007 · 洗好头送你出门**
 
 `SUM-0179` · 半扎发 · 洗漱 · 2026-11 · source=yuanbao ｜ [本轮现场](rounds/20261126g_wash-hair-errand/README.md) · [manifest](rounds/20261126g_wash-hair-errand/manifest.json)
 
@@ -194,7 +184,7 @@
 
 <a id="r006"></a>
 
-## R006 · 一闻到大肠杆菌就不停咳嗽
+**R006 · 一闻到大肠杆菌就不停咳嗽**
 
 `SPR-0014` · 蓬松披肩大波浪 · 窗边 · 2026-11 · source=yuanbao ｜ [本轮现场](rounds/20261126f_fresh-window-care/README.md) · [manifest](rounds/20261126f_fresh-window-care/manifest.json)
 
@@ -220,7 +210,7 @@
 
 <a id="r005"></a>
 
-## R005 · 好累啊我
+**R005 · 好累啊我**
 
 `SPR-0006` · 慵懒低盘发 · 沙发 · 2026-11 · source=yuanbao ｜ [本轮现场](rounds/20261126e_tired-sofa-evening/README.md) · [manifest](rounds/20261126e_tired-sofa-evening/manifest.json)
 
@@ -246,7 +236,7 @@
 
 <a id="r004"></a>
 
-## R004 · 吃过饭去哪里
+**R004 · 吃过饭去哪里**
 
 `SXY-0027` · 低侧马尾 · 咖啡 · 耳环 · 2026-11 · source=yuanbao ｜ [本轮现场](rounds/20261126d_coffee-and-earrings/README.md) · [manifest](rounds/20261126d_coffee-and-earrings/manifest.json)
 
@@ -272,7 +262,7 @@
 
 <a id="r003"></a>
 
-## R003 · 我要起来咯
+**R003 · 我要起来咯**
 
 `SPR-0063` · 锁骨微卷 · 卧室 · 2026-11 · source=yuanbao ｜ [本轮现场](rounds/20261126c_morning-rise/README.md) · [manifest](rounds/20261126c_morning-rise/manifest.json)
 
@@ -298,7 +288,7 @@
 
 <a id="r002"></a>
 
-## R002 · 三支口红试色那晚
+**R002 · 三支口红试色那晚**
 
 `AUT-0080` · 半扎发 · 口红 · 2026-11 · source=yuanbao ｜ [本轮现场](rounds/20261126b_lipstick-tryon/README.md) · [manifest](rounds/20261126b_lipstick-tryon/manifest.json)
 
@@ -324,7 +314,7 @@
 
 <a id="r001"></a>
 
-## R001 · 换豆子那天早上
+**R001 · 换豆子那天早上**
 
 `AUT-0007` · 蓬松披肩大波浪 · 咖啡 · 2026-11 · source=yuanbao ｜ [本轮现场](rounds/20261126_coffee-beans/README.md) · [manifest](rounds/20261126_coffee-beans/manifest.json)
 
@@ -350,7 +340,7 @@
 
 <a id="按场景"></a>
 
-## 按场景
+**按场景**
 
 - **咖啡**（2 轮）：[R004 吃过饭去哪里](#r004) · [R001 换豆子那天早上](#r001)
 
@@ -386,7 +376,7 @@
 
 <a id="按发型"></a>
 
-## 按发型
+**按发型**
 
 - **低侧马尾**（3 轮）：[R012 吃火锅不吃米线啦](#r012) · [R009 老街身后那一眼](#r009) · [R004 吃过饭去哪里](#r004)
 
@@ -404,10 +394,8 @@
 
 <a id="按月份"></a>
 
-## 按月份
+**按月份**
 
 - **2026-11**（13 轮）：[R013 看着大黄和它玩一会儿](#r013) · [R012 吃火锅不吃米线啦](#r012) · [R011 凑过来亲亲](#r011) · [R010 渡轮去对岸看旧灯塔](#r010) · [R009 老街身后那一眼](#r009) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R005 好累啊我](#r005) · [R004 吃过饭去哪里](#r004) · [R003 我要起来咯](#r003) · [R002 三支口红试色那晚](#r002) · [R001 换豆子那天早上](#r001)
 
 ---
-
-> 只增不改：本页由 `tools/gallery_md.py` 从 `rounds/*/manifest.json` 与四份 md 全量重建，两个对话归档时都顺手生成，CAS 安全；历史轮次与 prompt md 一个不动。

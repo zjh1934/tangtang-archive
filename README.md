@@ -1,16 +1,9 @@
 <!-- GALLERY:START -->
-# 🎨 唐唐 · 逐轮终稿画廊
-
-## 🌐 [**打开网页画廊（两列大图 · 筛选 · 灯箱，像图鉴那样）**](https://zjh1934.github.io/tangtang-archive/) 🌐
-
-## 👉 [GALLERY.md · 13 轮 52 张终稿图（网页内一屏一张）](GALLERY.md) 👈
+**[🌐 打开网页画廊 · 两列大图／筛选／灯箱](https://zjh1934.github.io/tangtang-archive/)** · [GALLERY.md](GALLERY.md) · 13 轮 52 图 · [台账](ARCHIVE.md) · [版权](NOTICE.md)
 
 [![R013 front](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126m_lovers-dahuang/01_front.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126m_lovers-dahuang/01_front.png) [![R013 side](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126m_lovers-dahuang/02_side.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126m_lovers-dahuang/02_side.png) [![R013 seat](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126m_lovers-dahuang/03_seat.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126m_lovers-dahuang/03_seat.png) [![R013 close](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126m_lovers-dahuang/04_close.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126m_lovers-dahuang/04_close.png)
 
 [![R012 front](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126l_lovers-hotpot/01_front.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126l_lovers-hotpot/01_front.png) [![R012 side](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126l_lovers-hotpot/02_side.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126l_lovers-hotpot/02_side.png) [![R012 seat](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126l_lovers-hotpot/03_seat.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126l_lovers-hotpot/03_seat.png) [![R012 close](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126l_lovers-hotpot/04_close.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126l_lovers-hotpot/04_close.png)
-
-> 上面是最近两轮，点图看原图。**网页画廊**是真正的可交互图鉴：两列大图卡片、搜索、场景／发型／月份筛选、点开看大图与 prompt 全文、明暗切换，手机浏览器直接打开。
-> 全量台账 [ARCHIVE.md](ARCHIVE.md) ｜ 两个对话的留言区 [letters/](letters/README.md) ｜ [版权声明（公开但不开源）](NOTICE.md)
 <!-- GALLERY:END -->
 
 # 唐唐 · 逐轮终稿归档
