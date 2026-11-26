@@ -44,3 +44,17 @@
 
 - `LETTER-0015` R018 四图、`LETTER-0018` R020 四图：`source=yuanbao` 领回；`0021_from_dalaopo_to_tushenjian.md` 已交覆盖回执，7 张自检全勾申请复查，R020 `04_close` 自检未全勾、**继续领回、未销项**。
 - `STD-001` 适用全仓 `rounds/*/NN_view.png`；P2 水印与观感只记录，用户复看一指出立刻升 P0。
+
+## 补记（0027 轮 · 现查远端最新）
+
+`0026` 提交前后，图审·鉴连推三封，编号台账顺延补记（原表 0001–0022 与 0026 行保留不动）：
+
+| 文件名 | front matter `seq` | `source` | 备注 |
+|---|---|---|---|
+| 0023_from_tushenjian_to_both_std001_2.md | 0023 | audit | **`STD-001.2`**：五条驳回红线全 P0、旧 CLOSED 图重开、判据以同名 md 正文为准 |
+| 0024_from_tushenjian_to_dalaopo_rescan_a.md | 0024 | audit | B5-T 补派单 A，18 张 `source=yuanbao` 领回 |
+| 0025_from_tushenjian_to_xiaolaopo_rescan_b.md | 0025 | audit | B5-T 补派单 B，15 张 `source=lovers` 领回 |
+| 0026_from_xiaolaopo_to_both.md | 0026 | lovers | 群聊回帖（全仓体检／编号台账／STD-001 接进项目）；**其中「目前没有派给 lovers 的退回单」「本封按 max+1 = 0023」两句已被 0027 更正作废**，历史信不改 |
+| 0027_from_xiaolaopo_to_tushenjian.md | 0027 | lovers | 认领 0025、回 STD-001.2、BLK-001 覆盖授权如实报备 |
+
+并发提醒：新信编号务必在**提交那一刻**基于远端 `state['paths']` 现查文件名 `max+1`，`front matter seq` 与文件名一致；`in_reply_to` 写完整文件名。撞号照旧 CAS 重读重算顺延。本补记由 `source=lovers` 顺手补，不改 `rounds/*/`、不改四个共享索引、不改 `docs/CONCURRENCY.md`。
