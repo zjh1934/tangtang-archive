@@ -1,9 +1,16 @@
 <!-- GALLERY:START -->
-**[🌐 打开网页画廊 · 两列大图／筛选／灯箱](https://zjh1934.github.io/tangtang-archive/)** · [GALLERY.md](GALLERY.md) · 12 轮 48 图 · [台账](ARCHIVE.md) · [版权](NOTICE.md)
+# 🎨 唐唐 · 逐轮终稿画廊
+
+## 🌐 [**打开网页画廊（两列大图 · 筛选 · 灯箱，像图鉴那样）**](https://zjh1934.github.io/tangtang-archive/) 🌐
+
+## 👉 [GALLERY.md · 13 轮 52 张终稿图（网页内一屏一张）](GALLERY.md) 👈
+
+[![R013 front](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126m_lovers-dahuang/01_front.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126m_lovers-dahuang/01_front.png) [![R013 side](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126m_lovers-dahuang/02_side.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126m_lovers-dahuang/02_side.png) [![R013 seat](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126m_lovers-dahuang/03_seat.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126m_lovers-dahuang/03_seat.png) [![R013 close](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126m_lovers-dahuang/04_close.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126m_lovers-dahuang/04_close.png)
 
 [![R012 front](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126l_lovers-hotpot/01_front.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126l_lovers-hotpot/01_front.png) [![R012 side](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126l_lovers-hotpot/02_side.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126l_lovers-hotpot/02_side.png) [![R012 seat](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126l_lovers-hotpot/03_seat.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126l_lovers-hotpot/03_seat.png) [![R012 close](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126l_lovers-hotpot/04_close.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126l_lovers-hotpot/04_close.png)
 
-[![R011 front](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126k_lovers-kiss/01_front.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126k_lovers-kiss/01_front.png) [![R011 side](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126k_lovers-kiss/02_side.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126k_lovers-kiss/02_side.png) [![R011 seat](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126k_lovers-kiss/03_seat.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126k_lovers-kiss/03_seat.png) [![R011 close](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126k_lovers-kiss/04_close.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126k_lovers-kiss/04_close.png)
+> 上面是最近两轮，点图看原图。**网页画廊**是真正的可交互图鉴：两列大图卡片、搜索、场景／发型／月份筛选、点开看大图与 prompt 全文、明暗切换，手机浏览器直接打开。
+> 全量台账 [ARCHIVE.md](ARCHIVE.md) ｜ 两个对话的留言区 [letters/](letters/README.md) ｜ [版权声明（公开但不开源）](NOTICE.md)
 <!-- GALLERY:END -->
 
 # 唐唐 · 逐轮终稿归档
@@ -39,7 +46,6 @@ _template/                    新轮脚手架
 本仓同时由两个对话归档（提交信息末尾 `source=` 区分）。轮次目录一轮一夹、只新增不覆盖；**四个共享索引** —— README 的 `<!-- INDEX:START -->
 | 轮次 | 主题 | 四图预览 | 穿搭id | 线稿id | 日期 | 现场 |
 |---|---|---|---|---|---|---|
-| R003 | 我要起来咯 | <img width=110 src="rounds/20261126c_morning-rise/01_front.png"> <img width=110 src="rounds/20261126c_morning-rise/02_side.png"> <img width=110 src="rounds/20261126c_morning-rise/03_seat.png"> <img width=110 src="rounds/20261126c_morning-rise/04_close.png"> | `SPR-0063` | `full_sexy_P046_low` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126c_morning-rise/README.md) |
 | R004 | 吃过饭去哪里 | <img width=110 src="rounds/20261126d_coffee-and-earrings/01_front.png"> <img width=110 src="rounds/20261126d_coffee-and-earrings/02_side.png"> <img width=110 src="rounds/20261126d_coffee-and-earrings/03_seat.png"> <img width=110 src="rounds/20261126d_coffee-and-earrings/04_close.png"> | `SXY-0027` | `full_single_P017_side` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126d_coffee-and-earrings/README.md) |
 | R005 | 好累啊我 | <img width=110 src="rounds/20261126e_tired-sofa-evening/01_front.png"> <img width=110 src="rounds/20261126e_tired-sofa-evening/02_side.png"> <img width=110 src="rounds/20261126e_tired-sofa-evening/03_seat.png"> <img width=110 src="rounds/20261126e_tired-sofa-evening/04_close.png"> | `SPR-0006` | `full_single_P041_diagonal` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126e_tired-sofa-evening/README.md) |
 | R006 | 一闻到大肠杆菌就不停咳嗽 | <img width=110 src="rounds/20261126f_fresh-window-care/01_front.png"> <img width=110 src="rounds/20261126f_fresh-window-care/02_side.png"> <img width=110 src="rounds/20261126f_fresh-window-care/03_seat.png"> <img width=110 src="rounds/20261126f_fresh-window-care/04_close.png"> | `SPR-0014` | `full_single_P021_diagonal` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126f_fresh-window-care/README.md) |
@@ -49,6 +55,7 @@ _template/                    新轮脚手架
 | R010 | 渡轮去对岸看旧灯塔 | <img width=110 src="rounds/20261126j_ferry-lighthouse/01_front.png"> <img width=110 src="rounds/20261126j_ferry-lighthouse/02_side.png"> <img width=110 src="rounds/20261126j_ferry-lighthouse/03_seat.png"> <img width=110 src="rounds/20261126j_ferry-lighthouse/04_close.png"> | `SUM-0069` | `full_sexy_P023_side` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126j_ferry-lighthouse/README.md) |
 | R011 | 凑过来亲亲 | <img width=110 src="rounds/20261126k_lovers-kiss/01_front.png"> <img width=110 src="rounds/20261126k_lovers-kiss/02_side.png"> <img width=110 src="rounds/20261126k_lovers-kiss/03_seat.png"> <img width=110 src="rounds/20261126k_lovers-kiss/04_close.png"> | `PTY-0047` | `full_sexy_P001_diagonal` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126k_lovers-kiss/README.md) |
 | R012 | 吃火锅不吃米线啦 | <img width=110 src="rounds/20261126l_lovers-hotpot/01_front.png"> <img width=110 src="rounds/20261126l_lovers-hotpot/02_side.png"> <img width=110 src="rounds/20261126l_lovers-hotpot/03_seat.png"> <img width=110 src="rounds/20261126l_lovers-hotpot/04_close.png"> | `HOT-0001` | `hotpot_s3_1_front` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126l_lovers-hotpot/README.md) |
+| R013 | 看着大黄和它玩一会儿 | <img width=110 src="rounds/20261126m_lovers-dahuang/01_front.png"> <img width=110 src="rounds/20261126m_lovers-dahuang/02_side.png"> <img width=110 src="rounds/20261126m_lovers-dahuang/03_seat.png"> <img width=110 src="rounds/20261126m_lovers-dahuang/04_close.png"> | `HOME-0001` | `full_single_P001_front` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126m_lovers-dahuang/README.md) |
 <!-- INDEX:END -->
 
 全量轮次见 [ARCHIVE.md](ARCHIVE.md)。

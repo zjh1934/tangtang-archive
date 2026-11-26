@@ -2,7 +2,7 @@
   "schema": 2,
   "gallery_version": 2,
   "repo": "zjh1934/tangtang-archive",
-  "updated_at": "2026-11-26T17:18:23+08:00",
+  "updated_at": "2026-11-26T18:05:26+08:00",
   "rounds": [
     {
       "round": 1,
@@ -859,6 +859,74 @@
         "03_seat：侧坐撑座面，男主局部为一只推皮夹的手，头脸不入画",
         "04_close：起身拢发、单脚后点，四张统一同一层腿部覆盖",
         "槽 1 为本地候选蓝缎蓬蓬裙人台图，腿部未画出，腿层由四份文字正向定"
+      ],
+      "status": "final"
+    },
+    {
+      "round": 13,
+      "id": "20261126m_lovers-dahuang",
+      "date": "2026-11-26",
+      "title": "看着大黄和它玩一会儿",
+      "theme": "dahuang",
+      "outfit_id": "HOME-0001",
+      "sketches": [
+        "full_single_P001_front",
+        "full_single_P041_front",
+        "full_sexy_P003_diag",
+        "full_single_P061_front"
+      ],
+      "base": "rounds/20261126m_lovers-dahuang",
+      "images": [
+        {
+          "file": "01_front.png",
+          "view": "front",
+          "prompt": "01_front.md",
+          "md": "rounds/20261126m_lovers-dahuang/01_front.md"
+        },
+        {
+          "file": "02_side.png",
+          "view": "side",
+          "prompt": "02_side.md",
+          "md": "rounds/20261126m_lovers-dahuang/02_side.md"
+        },
+        {
+          "file": "03_seat.png",
+          "view": "seat",
+          "prompt": "03_seat.md",
+          "md": "rounds/20261126m_lovers-dahuang/03_seat.md"
+        },
+        {
+          "file": "04_close.png",
+          "view": "close",
+          "prompt": "04_close.md",
+          "md": "rounds/20261126m_lovers-dahuang/04_close.md"
+        }
+      ],
+      "lines": [
+        "去吧去吧，大黄归我管～它把布偶球叼到我裙摆上了，你慢点，别蹲到天亮。",
+        "回来给我倒杯温水呀；明早那家换豆子的，还等着呢。"
+      ],
+      "month": "2026-11",
+      "hair": "慵懒低半扎发",
+      "tags": [
+        "居家",
+        "宠物",
+        "地垫"
+      ],
+      "seeds": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "source": "lovers",
+      "notes": [
+        "01_front：盘腿坐，远机位全身，腿层到拖鞋里的脚尖",
+        "02_side：跪坐接球，膝前柔亮",
+        "03_seat：侧坐举球，舒展腿脚尖",
+        "04_close：靠沙发坐，狗头搁膝，眼看门的方向",
+        "本轮男主局部四张全不出现（他临时走开），按四张全不出现也合法写",
+        "槽 1 由上一轮蓝缎人台图用图片创作微调成奶油杏针织家居套，腿部未画出，腿层由文字单定"
       ],
       "status": "final"
     }
