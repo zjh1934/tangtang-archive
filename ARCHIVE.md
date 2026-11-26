@@ -18,3 +18,4 @@
 | R012 | `20261126l_lovers-hotpot` | 吃火锅不吃米线啦 | `HOT-0001` | 2026-11-26 |
 | R013 | `20261126m_lovers-dahuang` | 看着大黄和它玩一会儿 | `HOME-0001` | 2026-11-26 |
 | R014 | `20261126n_lovers-guess-movie-night` | 好刺激哦你猜我在干嘛 | `NIGHT-0001` | 2026-11-26 |
+| R015 | `20261126o_lovers-sajiao-coquette` | 你会撒娇吗 | `SAJ-0001` | 2026-11-26 |

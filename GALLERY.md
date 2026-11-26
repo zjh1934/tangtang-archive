@@ -1,4 +1,30 @@
-**唐唐 · 终稿图鉴** · 14 轮 56 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · [按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)
+**唐唐 · 终稿图鉴** · 15 轮 60 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · [按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)
+
+<a id="r015"></a>
+
+**R015 · 你会撒娇吗**
+
+`SAJ-0001` · 及肩下两指蓬松波浪卷发 · 撒娇 · 居家 · 傍晚 · 人设首跑 · 2026-11 · source=lovers ｜ [本轮现场](rounds/20261126o_lovers-sajiao-coquette/README.md) · [manifest](rounds/20261126o_lovers-sajiao-coquette/manifest.json)
+
+[![01 正面 · R015](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126o_lovers-sajiao-coquette/01_front.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126o_lovers-sajiao-coquette/01_front.png)
+
+**01 正面**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126o_lovers-sajiao-coquette/01_front.png) · [01 终稿 prompt](rounds/20261126o_lovers-sajiao-coquette/01_front.md)
+
+[![02 侧身 · R015](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126o_lovers-sajiao-coquette/02_side.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126o_lovers-sajiao-coquette/02_side.png)
+
+**02 侧身**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126o_lovers-sajiao-coquette/02_side.png) · [02 终稿 prompt](rounds/20261126o_lovers-sajiao-coquette/02_side.md)
+
+[![03 坐姿 · R015](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126o_lovers-sajiao-coquette/03_seat.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126o_lovers-sajiao-coquette/03_seat.png)
+
+**03 坐姿**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126o_lovers-sajiao-coquette/03_seat.png) · [03 终稿 prompt](rounds/20261126o_lovers-sajiao-coquette/03_seat.md)
+
+[![04 特写 · R015](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126o_lovers-sajiao-coquette/04_close.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126o_lovers-sajiao-coquette/04_close.png)
+
+**04 特写**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126o_lovers-sajiao-coquette/04_close.png) · [04 终稿 prompt](rounds/20261126o_lovers-sajiao-coquette/04_close.md)
+
+> 会不会？我歪个头你就知道啦～长手套都举酸了，你倒是先哄我一句呀。 ／ 等会儿那家换豆子的，你陪我去嘛，不许又说困。
+
+---
 
 <a id="r014"></a>
 
@@ -368,13 +394,17 @@
 
 **按场景**
 
-- **咖啡**（2 轮）：[R004 吃过饭去哪里](#r004) · [R001 换豆子那天早上](#r001)
+- **居家**（3 轮）：[R015 你会撒娇吗](#r015) · [R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013)
 
-- **居家**（2 轮）：[R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013)
+- **咖啡**（2 轮）：[R004 吃过饭去哪里](#r004) · [R001 换豆子那天早上](#r001)
 
 - **洗漱**（2 轮）：[R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007)
 
 - **亲亲**（1 轮）：[R011 凑过来亲亲](#r011)
+
+- **人设首跑**（1 轮）：[R015 你会撒娇吗](#r015)
+
+- **傍晚**（1 轮）：[R015 你会撒娇吗](#r015)
 
 - **卧室**（1 轮）：[R003 我要起来咯](#r003)
 
@@ -385,6 +415,8 @@
 - **夜**（1 轮）：[R014 好刺激哦你猜我在干嘛](#r014)
 
 - **宠物**（1 轮）：[R013 看着大黄和它玩一会儿](#r013)
+
+- **撒娇**（1 轮）：[R015 你会撒娇吗](#r015)
 
 - **沙发**（1 轮）：[R005 好累啊我](#r005)
 
@@ -418,6 +450,8 @@
 
 - **锁骨微卷**（2 轮）：[R010 渡轮去对岸看旧灯塔](#r010) · [R003 我要起来咯](#r003)
 
+- **及肩下两指蓬松波浪卷发**（1 轮）：[R015 你会撒娇吗](#r015)
+
 - **慵懒低半扎发**（1 轮）：[R013 看着大黄和它玩一会儿](#r013)
 
 - **未标注**（1 轮）：[R011 凑过来亲亲](#r011)
@@ -428,6 +462,6 @@
 
 **按月份**
 
-- **2026-11**（14 轮）：[R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013) · [R012 吃火锅不吃米线啦](#r012) · [R011 凑过来亲亲](#r011) · [R010 渡轮去对岸看旧灯塔](#r010) · [R009 老街身后那一眼](#r009) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R005 好累啊我](#r005) · [R004 吃过饭去哪里](#r004) · [R003 我要起来咯](#r003) · [R002 三支口红试色那晚](#r002) · [R001 换豆子那天早上](#r001)
+- **2026-11**（15 轮）：[R015 你会撒娇吗](#r015) · [R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013) · [R012 吃火锅不吃米线啦](#r012) · [R011 凑过来亲亲](#r011) · [R010 渡轮去对岸看旧灯塔](#r010) · [R009 老街身后那一眼](#r009) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R005 好累啊我](#r005) · [R004 吃过饭去哪里](#r004) · [R003 我要起来咯](#r003) · [R002 三支口红试色那晚](#r002) · [R001 换豆子那天早上](#r001)
 
 ---

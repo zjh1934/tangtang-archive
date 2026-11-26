@@ -2,7 +2,7 @@
   "schema": 2,
   "gallery_version": 2,
   "repo": "zjh1934/tangtang-archive",
-  "updated_at": "2026-11-26T18:27:08+08:00",
+  "updated_at": "2026-11-26T18:55:59+08:00",
   "rounds": [
     {
       "round": 1,
@@ -996,6 +996,79 @@
         "槽 1 由代码手搓纯白底无脸人台（赤陶棕羊绒一字露肩罗纹裙），腿部未画出，腿层由四份文字单定",
         "槽 3 四张为库里原线稿镜像/裁切微调产物，去重账记 #tuned",
         "6.8 终审许愿式补图：第3张补出深灰袖口、第4张袖长收回肩下三指；第3份定稿按成图稳给出的落点局部解冻，图文一致"
+      ],
+      "status": "final"
+    },
+    {
+      "round": 15,
+      "id": "20261126o_lovers-sajiao-coquette",
+      "date": "2026-11-26",
+      "title": "你会撒娇吗",
+      "theme": "sajiao-coquette",
+      "outfit_id": "SAJ-0001",
+      "sketches": [
+        "full_sexy_P001_front#tuned",
+        "full_sexy_P015_diag#mirror#tuned",
+        "full_sexy_P004_front#tuned",
+        "full_sexy_P013_front#tuned"
+      ],
+      "base": "rounds/20261126o_lovers-sajiao-coquette",
+      "images": [
+        {
+          "file": "01_front.png",
+          "view": "front",
+          "prompt": "01_front.md",
+          "md": "rounds/20261126o_lovers-sajiao-coquette/01_front.md"
+        },
+        {
+          "file": "02_side.png",
+          "view": "side",
+          "prompt": "02_side.md",
+          "md": "rounds/20261126o_lovers-sajiao-coquette/02_side.md"
+        },
+        {
+          "file": "03_seat.png",
+          "view": "seat",
+          "prompt": "03_seat.md",
+          "md": "rounds/20261126o_lovers-sajiao-coquette/03_seat.md"
+        },
+        {
+          "file": "04_close.png",
+          "view": "close",
+          "prompt": "04_close.md",
+          "md": "rounds/20261126o_lovers-sajiao-coquette/04_close.md"
+        }
+      ],
+      "lines": [
+        "会不会？我歪个头你就知道啦～长手套都举酸了，你倒是先哄我一句呀。",
+        "等会儿那家换豆子的，你陪我去嘛，不许又说困。"
+      ],
+      "month": "2026-11",
+      "hair": "及肩下两指蓬松波浪卷发",
+      "tags": [
+        "撒娇",
+        "居家",
+        "傍晚",
+        "人设首跑"
+      ],
+      "seeds": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "source": "lovers",
+      "notes": [
+        "01_front：远机位全身，S 形重心，暖黄落地灯在画左",
+        "02_side：男主局部为一截深灰衬衫袖口与手腕，头脸不入画",
+        "03_seat：前倾捧脸，膝前丝光柔亮",
+        "04_close：勾发尾回眸，两只凉鞋完整落在下沿内",
+        "槽 1 由 --fresh 远端直取 PTY-0025（裸米鱼骨束身吊带＋薄纱蓬短裙＋长手套＋珠饰小方包＋交叉绑带细高跟），人台没画腿，腿层由四份文字单定",
+        "槽 3 四张为库里原线稿镜像/裁切微调产物，去重账记 #tuned",
+        "第 3 步审提示词 Agent 按 18 岁男大老色批人设给出正向补写句：腰线收得干净／曲线从锁骨经腰到胯／S 形重心／锁骨整段落光／膝前柔亮／回眸眼尾／若隐若现落光，全部采纳并逐字写进四份",
+        "接住上轮「这大型我不喜欢」：本轮改贴身收腰＋短裙摆＋腿线修长，不取厚钝直筒廓形",
+        "6.8 终审：第2张初判不合格（站姿与定稿坐姿不符、男主局部未出现），许愿式1次修不动；回流第6步换槽3_2为 full_sexy_P015_diag 镜像微调、局部解冻第2份定稿为站姿＋「他一只手」打头，三槽重生成",
+        "6.8 终审四张全合格；第2张经许愿式1次＋回流换骨架重生成修到合格；男主手出现，深灰袖口未渲出按合法落点放行"
       ],
       "status": "final"
     }
