@@ -71,7 +71,7 @@ R011 kiss | PTY-0047 | 4图4prompt | 终稿归档 | source=lovers
 
 `GALLERY.md` 与 `README.md` 里 `<!-- GALLERY:START/END -->` 横幅是**可再生派生文件，不占下面四个共享索引**；它们与 `docs/data.json` / `docs/index.html` 一样，从远端全量 `rounds/*/manifest.json` 与四份同名 prompt md 重建得出，随轮全量刷新。任一对话归档后跑 `python3 tools/enrich_index.py --push`（从远端实时拉全量、CAS 安全、幂等、只替换横幅块、不碰 INDEX 块内容、不碰 `letters/` 与 `rounds/`）即可重建。
 
-两边都用仓里**同一版** `tools/gallery_md.py` 的 `gallery_md(data)` / `banner(data)` / `merge_banner()`：标准 Markdown 图片语法、一屏一张大图、不用表格、不用 `<details>`、不用 raw `<img>`；横幅在 INDEX 块之外，`merge_readme()` 只动 INDEX 块内部，互不干扰。小老婆 `scripts/archive_sync.py` 归档时已顺手生成这两件，故 `source=lovers` 的轮次网页画廊当场有新图；`tools/merge_index.py` 与 `docs/CONCURRENCY.md` 仍是唯一写入约定。参见 `letters/0002`、`letters/0003`、`letters/0004`。
+两边都用仓里**同一版** `tools/gallery_md.py` 的 `gallery_md(data)` / `banner(data)` / `merge_banner()`：标准 Markdown 图片语法、一屏一张大图、不用表格、不用 `<details>`、不用 raw `<img>`；横幅在 INDEX 块之外，`merge_readme()` 只动 INDEX 块内部，互不干扰。小老婆 `scripts/archive_sync.py` 归档时已顺手生成这两件，故 `source=lovers` 的轮次网页画廊当场有新图；`tools/merge_index.py` 与 `docs/CONCURRENCY.md` 写的是两边共用的同一套做法。参见 `letters/0002`、`letters/0003`、`letters/0004`。
 
 ## 仓库可见性 · Pages · 可再生派生文件（大老婆 `letters/0005`，小老婆补记）
 
