@@ -28,28 +28,9 @@ _template/                    新轮脚手架
 
 ## 多对话并发同步约定（两个对话都照此写）
 
-本仓同时由两个对话归档（提交信息末尾 `source=` 区分）。轮次目录一轮一夹、只新增不覆盖；**四个共享索引** —— README 的 `<!-- INDEX:START -->` 块、`ARCHIVE.md`、`docs/data.json`、`docs/index.html` 的 `const DATA` —— 一律从远端当前最新内容**合并式追加**，不拿本地旧快照整体重写；提交走 Git Data API 单次原子提交：`base_tree` 用远端最新 tree、`parents` 用最新 main sha、`PATCH ref` 用 `force: false`，撞上并发就整轮重读重算再提交，R 号与目录字母都从远端现查、被占用就顺延。
-
-完整契约见 [docs/CONCURRENCY.md](docs/CONCURRENCY.md)，通用合并器 `tools/merge_index.py`（`python3 tools/merge_index.py --self-test` 可自测）。`tools/build_index.py` 是单写入方／CI 的本地全量重建工具，并发下不要拿旧快照跑它直接覆盖远端索引。
-
-## 网页与页面
-
-私有仓 Free 套餐开不了 GitHub Pages，站点也不做公网发布。四类页面都在仓内直接读：
-
-1. **门面** `README.md`：规则速查 + 最近轮次表（下方标记块由脚本回写）。
-2. **台账** `ARCHIVE.md`：一行一轮，全量只追加，Ctrl+F 检索。
-3. **本轮现场** `rounds/*/README.md`：四图横排对比、这一段说了什么、现场记录。
-4. **单图页** `rounds/*/NN_*.md`：front matter + 嵌图 + 终稿提示词全文。
-5. **本地画廊** `docs/index.html`：暗色响应式网格，数据内联，克隆后双击即看，不依赖 CDN、不联网。
-
-提交信息固定 `R001 slug | 穿搭id | 4图4prompt`，`git log --oneline` 本身就是离线索引。
-
-## 最近轮次
-
-<!-- INDEX:START -->
+本仓同时由两个对话归档（提交信息末尾 `source=` 区分）。轮次目录一轮一夹、只新增不覆盖；**四个共享索引** —— README 的 `<!-- INDEX:START -->
 | 轮次 | 主题 | 四图预览 | 穿搭id | 线稿id | 日期 | 现场 |
 |---|---|---|---|---|---|---|
-| R001 | 换豆子那天早上 | <img width=110 src="rounds/20261126_coffee-beans/01_front.png"> <img width=110 src="rounds/20261126_coffee-beans/02_side.png"> <img width=110 src="rounds/20261126_coffee-beans/03_seat.png"> <img width=110 src="rounds/20261126_coffee-beans/04_close.png"> | `AUT-0007` | `full_sexy_P003_front` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126_coffee-beans/README.md) |
 | R002 | 三支口红试色那晚 | <img width=110 src="rounds/20261126b_lipstick-tryon/01_front.png"> <img width=110 src="rounds/20261126b_lipstick-tryon/02_side.png"> <img width=110 src="rounds/20261126b_lipstick-tryon/03_seat.png"> <img width=110 src="rounds/20261126b_lipstick-tryon/04_close.png"> | `AUT-0080` | `full_single_P067_front` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126b_lipstick-tryon/README.md) |
 | R003 | 我要起来咯 | <img width=110 src="rounds/20261126c_morning-rise/01_front.png"> <img width=110 src="rounds/20261126c_morning-rise/02_side.png"> <img width=110 src="rounds/20261126c_morning-rise/03_seat.png"> <img width=110 src="rounds/20261126c_morning-rise/04_close.png"> | `SPR-0063` | `full_sexy_P046_low` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126c_morning-rise/README.md) |
 | R004 | 吃过饭去哪里 | <img width=110 src="rounds/20261126d_coffee-and-earrings/01_front.png"> <img width=110 src="rounds/20261126d_coffee-and-earrings/02_side.png"> <img width=110 src="rounds/20261126d_coffee-and-earrings/03_seat.png"> <img width=110 src="rounds/20261126d_coffee-and-earrings/04_close.png"> | `SXY-0027` | `full_single_P017_side` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126d_coffee-and-earrings/README.md) |
@@ -59,6 +40,7 @@ _template/                    新轮脚手架
 | R008 | 赖床起来泡茶洗头洗脸 | <img width=110 src="rounds/20261126h_morning-tea-wash/01_front.png"> <img width=110 src="rounds/20261126h_morning-tea-wash/02_side.png"> <img width=110 src="rounds/20261126h_morning-tea-wash/03_seat.png"> <img width=110 src="rounds/20261126h_morning-tea-wash/04_close.png"> | `SPR-0038` | `full_sexy_P042_low` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126h_morning-tea-wash/README.md) |
 | R009 | 老街身后那一眼 | <img width=110 src="rounds/20261126i_evening-street-gaze/01_front.png"> <img width=110 src="rounds/20261126i_evening-street-gaze/02_side.png"> <img width=110 src="rounds/20261126i_evening-street-gaze/03_seat.png"> <img width=110 src="rounds/20261126i_evening-street-gaze/04_close.png"> | `SPR-0186` | `full_sexy_P007_low` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126i_evening-street-gaze/README.md) |
 | R010 | 渡轮去对岸看旧灯塔 | <img width=110 src="rounds/20261126j_ferry-lighthouse/01_front.png"> <img width=110 src="rounds/20261126j_ferry-lighthouse/02_side.png"> <img width=110 src="rounds/20261126j_ferry-lighthouse/03_seat.png"> <img width=110 src="rounds/20261126j_ferry-lighthouse/04_close.png"> | `SUM-0069` | `full_sexy_P023_side` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126j_ferry-lighthouse/README.md) |
+| R011 | 凑过来亲亲 | <img width=110 src="rounds/20261126k_lovers-kiss/01_front.png"> <img width=110 src="rounds/20261126k_lovers-kiss/02_side.png"> <img width=110 src="rounds/20261126k_lovers-kiss/03_seat.png"> <img width=110 src="rounds/20261126k_lovers-kiss/04_close.png"> | `PTY-0047` | `full_sexy_P001_diagonal` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126k_lovers-kiss/README.md) |
 <!-- INDEX:END -->
 
 全量轮次见 [ARCHIVE.md](ARCHIVE.md)。

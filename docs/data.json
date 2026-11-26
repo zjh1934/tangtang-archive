@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repo": "zjh1934/tangtang-archive",
-  "updated_at": "2026-11-26T15:33:03+08:00",
+  "updated_at": "2026-11-26T15:43:39+08:00",
   "rounds": [
     {
       "round": 1,
@@ -461,6 +461,50 @@
         "风这么大，你倒是过来替我按着呀，我这只手可腾不出来，船一晃我就赖你身上了。",
         "接好，别把票弄湿了，弄湿了你自己去补，我才不陪你排队，石阶滑，你慢点上来。",
         "爬到灯塔顶看落日，谁先喊累谁请吃冰，我先走啦，你勾着点，别在芦苇里把我跟丢。"
+      ]
+    },
+    {
+      "round": 11,
+      "id": "20261126k_lovers-kiss",
+      "date": "2026-11-26",
+      "title": "凑过来亲亲",
+      "outfit_id": "PTY-0047",
+      "sketches": [
+        "full_sexy_P001_diagonal",
+        "full_sexy_P034_front",
+        "full_sexy_P035_diagonal",
+        "full_sexy_P019_front"
+      ],
+      "base": "rounds/20261126k_lovers-kiss",
+      "images": [
+        {
+          "file": "01_front.png",
+          "view": "front",
+          "prompt": "01_front.md",
+          "md": "rounds/20261126k_lovers-kiss/01_front.md"
+        },
+        {
+          "file": "02_side.png",
+          "view": "side",
+          "prompt": "02_side.md",
+          "md": "rounds/20261126k_lovers-kiss/02_side.md"
+        },
+        {
+          "file": "03_seat.png",
+          "view": "seat",
+          "prompt": "03_seat.md",
+          "md": "rounds/20261126k_lovers-kiss/03_seat.md"
+        },
+        {
+          "file": "04_close.png",
+          "view": "close",
+          "prompt": "04_close.md",
+          "md": "rounds/20261126k_lovers-kiss/04_close.md"
+        }
+      ],
+      "lines": [
+        "凑过来啦～亲一下就亲一下，先说好不许蹭花我刚补的口红😘",
+        "等会儿那家新开的你陪我去嘛，我那九张图还压着没修呢，不许又说困。"
       ]
     }
   ]
