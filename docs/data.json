@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repo": "zjh1934/tangtang-archive",
-  "updated_at": "2026-11-26T10:15:04+08:00",
+  "updated_at": "2026-11-26T10:50:26+08:00",
   "rounds": [
     {
       "round": 1,
@@ -139,6 +139,52 @@
         "你终于舍得动啦，我还以为要我掀被子。坐好先别急着下床，昨夜分错那支的账，吹头发时慢慢算。",
         "我要起来咯这句我替你先说啦，赢你半招。窗帘缝那道光照进来，我伸个懒腰，你站门边看着就好。",
         "凑近点呀，先别眨眼。今天涂哪支你来说，说错我就去够莓紫那支；不过吹头发那回，你欠我的还没销。"
+      ]
+    },
+    {
+      "round": 4,
+      "id": "20261126d_coffee-and-earrings",
+      "date": "2026-11-26",
+      "title": "吃过饭去哪里",
+      "outfit_id": "SXY-0027",
+      "sketches": [
+        "full_single_P017_side",
+        "full_sexy_P007_diagonal",
+        "full_sexy_P006_side",
+        "full_sexy_P001_diagonal"
+      ],
+      "base": "rounds/20261126d_coffee-and-earrings",
+      "images": [
+        {
+          "file": "01_front.png",
+          "view": "front",
+          "prompt": "01_front.md",
+          "md": "rounds/20261126d_coffee-and-earrings/01_front.md"
+        },
+        {
+          "file": "02_side.png",
+          "view": "side",
+          "prompt": "02_side.md",
+          "md": "rounds/20261126d_coffee-and-earrings/02_side.md"
+        },
+        {
+          "file": "03_seat.png",
+          "view": "seat",
+          "prompt": "03_seat.md",
+          "md": "rounds/20261126d_coffee-and-earrings/03_seat.md"
+        },
+        {
+          "file": "04_close.png",
+          "view": "close",
+          "prompt": "04_close.md",
+          "md": "rounds/20261126d_coffee-and-earrings/04_close.md"
+        }
+      ],
+      "lines": [
+        "吃好啦就别坐着发呆，手给我。先去那家换了豆子的店，扣了两天的豆子今天还你，路上不许问第三遍。",
+        "走快些呀，巷口那面墙我等你好久了。你数我几步都行，就是别把我今早自己挑的正红看漏了。",
+        "到啦，闻见没，深烘的新豆子。我替你扣到今天才拿出来，这杯你请，谁让你前天只惦记探店。",
+        "凑近点看，这粒小珍珠贴我耳垂好不好看。说错我就去够莓紫那对，反正付账的是你，吹头发那回还欠着呢。"
       ]
     }
   ]
