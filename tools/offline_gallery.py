@@ -84,20 +84,21 @@ def render(items, rounds_meta):
 html[data-t="light"]{{--bg:#faf9f6;--card:#fff;--fg:#22252a;--sub:#767b82;--acc:#c2416c;--line:#e5e2dc;--chip:#f0eeea}}
 *{{box-sizing:border-box;-webkit-tap-highlight-color:transparent}}
 body{{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}}
-header{{padding:22px 18px 10px;position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}}
-.kicker{{font-size:11px;letter-spacing:.22em;color:var(--sub);text-transform:uppercase}}
-h1{{margin:6px 0 3px;font-size:25px;letter-spacing:.04em}}
-.sub{{font-size:12px;color:var(--sub);line-height:1.6}}
-.tabs{{display:flex;gap:8px;overflow-x:auto;padding:12px 18px 0;scrollbar-width:none}}
+header{{padding:7px 12px 6px;position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}}
+.bar{{display:flex;align-items:center;gap:9px;font-size:14px;line-height:1.2}}
+.bar b{{font-weight:600;letter-spacing:.02em;white-space:nowrap}}
+.bar .stat{{color:var(--sub);font-size:11px;white-space:nowrap}}
+.bar .sp{{flex:1}}
+button#themeBtn{{width:30px;height:27px;flex:0 0 auto;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--fg);font-size:15px;cursor:pointer}}
+.tabs{{display:flex;gap:6px;overflow-x:auto;padding:6px 0 0;scrollbar-width:none}}
 .tabs::-webkit-scrollbar{{display:none}}
-.tab{{flex:0 0 auto;padding:8px 15px;border-radius:999px;background:var(--chip);color:var(--sub);font-size:13px;border:1px solid var(--line);cursor:pointer}}
+.tab{{flex:0 0 auto;padding:5px 12px;border-radius:999px;background:var(--chip);color:var(--sub);font-size:12px;border:1px solid var(--line);cursor:pointer}}
 .tab.on{{background:var(--acc);color:#fff;border-color:var(--acc)}}
-.tools{{display:flex;gap:8px;padding:12px 18px;flex-wrap:wrap}}
-input[type=search],select{{background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:13px;outline:none}}
+.tools{{display:flex;gap:6px;padding:6px 0 0;flex-wrap:wrap}}
+input[type=search],select{{background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:9px;padding:8px 10px;font-size:12px;outline:none}}
 input[type=search]{{flex:1 1 100%}}
-select{{flex:1 1 30%;min-width:96px}}
-.count{{padding:0 18px 10px;font-size:12px;color:var(--sub)}}
-.grid{{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;padding:0 12px 40px}}
+select{{flex:1 1 30%;min-width:88px}}
+.grid{{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;padding:8px 10px 40px}}
 .card{{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;cursor:pointer}}
 .card img{{width:100%;display:block;aspect-ratio:9/16;object-fit:cover;background:#000}}
 .card .m{{padding:9px 10px 11px}}
@@ -116,23 +117,18 @@ select{{flex:1 1 30%;min-width:96px}}
 #lbInfo pre{{white-space:pre-wrap;word-break:break-word;font-family:inherit;margin:8px 0 0;color:#b9bdc3}}
 .nav{{display:flex;gap:10px;justify-content:center;padding:8px}}
 .nav button{{flex:1;max-width:140px;background:#2a2e34;color:#fff;border:0;border-radius:9px;padding:10px;font-size:14px}}
-#themeBtn{{position:fixed;right:14px;bottom:18px;z-index:30;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--fg);font-size:17px}}
 </style></head><body>
 <header>
- <div class="kicker">TANGTANG · FINAL FRAMES</div>
- <h1>唐唐 · 终稿图鉴</h1>
- <div class="sub">{len(rounds_meta)} 轮 · {len(items)} 张终稿图　两列大图，点开看全屏与终稿 prompt<br>图片已内联，不联网也能看 · 数据来自归档仓 rounds/</div>
+ <div class="bar"><b>唐唐 · 终稿图鉴</b><span class="stat">{len(rounds_meta)}轮·{len(items)}图</span><span class="sp"></span><span class="stat" id="count"></span><button id="themeBtn" title="切换明暗">◐</button></div>
+ <div class="tabs" id="tabs"></div>
+ <div class="tools">
+  <input type="search" id="q" placeholder="搜轮次 / 标题 / 穿搭 id / 发型 / 场景">
+  <select id="fTag"><option value="">全部场景</option>{opts(tags)}</select>
+  <select id="fHair"><option value="">全部发型</option>{opts(hairs)}</select>
+  <select id="fMonth"><option value="">全部月份</option>{opts(months)}</select>
+ </div>
 </header>
-<div class="tabs" id="tabs"></div>
-<div class="tools">
- <input type="search" id="q" placeholder="搜轮次 / 标题 / 穿搭 id / 发型 / 场景">
- <select id="fTag"><option value="">全部场景</option>{opts(tags)}</select>
- <select id="fHair"><option value="">全部发型</option>{opts(hairs)}</select>
- <select id="fMonth"><option value="">全部月份</option>{opts(months)}</select>
-</div>
-<div class="count" id="count"></div>
 <div class="grid" id="grid"></div>
-<button id="themeBtn" title="切换明暗">◐</button>
 <div id="lb">
  <div id="lbTop"><span id="lbTitle"></span><button onclick="closeLB()">关闭 ✕</button></div>
  <div id="lbImg"><img id="lbBig" src="" alt=""></div>
@@ -164,7 +160,7 @@ function render(){{
  else if(view==='按发型')shown.sort((a,b)=>a.hair.localeCompare(b.hair)||a.n-b.n);
  else if(view==='按月份')shown.sort((a,b)=>b.month.localeCompare(a.month)||a.n-b.n);
  else shown.sort((a,b)=>a.n-b.n);
- $('#count').textContent=`共 ${{shown.length}} 张 · 当前「${{view}}」`;
+ $('#count').textContent=`${{shown.length}} 张`;
  $('#grid').innerHTML=shown.length?shown.map(x=>`<div class="card" data-n="${{x.n}}"><img src="${{x.src}}" alt="${{esc(x.slot)}}" loading="lazy"><div class="m"><div class="r">R${{String(x.round).padStart(3,'0')}} · ${{esc(x.slot)}}</div><div class="t">${{esc(x.title)}}</div><div class="g">${{esc(x.hair)}} · ${{esc(x.tags.join('/'))}} · ${{esc(x.month)}}</div></div></div>`).join(''):'<div class="empty">没有匹配的图，清一下筛选试试～</div>';
 }}
 $('#grid').onclick=e=>{{const c=e.target.closest('.card');if(c)openLB(shown.findIndex(x=>x.n==c.dataset.n));}};
@@ -201,7 +197,11 @@ def self_test():
                                 "openLB", "step(-1)", "data:image/jpeg;base64"))
     assert "</html>" in h
     assert "data:image/jpeg;base64," in h and "fTag" in h and "fHair" in h
-    print(f"self-test OK：离线单文件画廊结构齐全（{len(h)} 字符模板）")
+    assert "<h1" not in h and "kicker" not in h and 'class="sub"' not in h, "不要大字标题与说明段"
+    assert 'class="bar"' in h and 'id="count"' in h
+    seg = h[h.index("</header>"):h.index('<div class="grid"')]
+    assert "<div" not in seg and len(seg) < 80, "门条之后立刻就是图网格"
+    print(f"self-test OK：离线单文件画廊结构齐全，顶栏一行、首屏即图（{len(h)} 字符模板）")
 
 
 def main():

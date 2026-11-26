@@ -60,16 +60,9 @@ def banner(data):
         rows.append(" ".join(cells))
     wall = "\n\n".join(rows) if rows else "_（还没有终稿图）_"
     return f"""{MARK_START}
-# 🎨 唐唐 · 逐轮终稿画廊
-
-## 🌐 [**打开网页画廊（两列大图 · 筛选 · 灯箱，像图鉴那样）**](https://zjh1934.github.io/tangtang-archive/) 🌐
-
-## 👉 [GALLERY.md · {len(rounds)} 轮 {n_img} 张终稿图（网页内一屏一张）](GALLERY.md) 👈
+**[🌐 打开网页画廊 · 两列大图／筛选／灯箱](https://zjh1934.github.io/tangtang-archive/)** · [GALLERY.md](GALLERY.md) · {len(rounds)} 轮 {n_img} 图 · [台账](ARCHIVE.md) · [版权](NOTICE.md)
 
 {wall}
-
-> 上面是最近两轮，点图看原图。**网页画廊**是真正的可交互图鉴：两列大图卡片、搜索、场景／发型／月份筛选、点开看大图与 prompt 全文、明暗切换，手机浏览器直接打开。
-> 全量台账 [ARCHIVE.md](ARCHIVE.md) ｜ 两个对话的留言区 [letters/](letters/README.md) ｜ [版权声明（公开但不开源）](NOTICE.md)
 {MARK_END}"""
 
 
@@ -87,7 +80,7 @@ def _round_section(x):
     chips = " · ".join([f"`{r['outfit_id']}`", r["hair"]] + r["tags"]
                        + [r["month"], f"source={r['source']}"])
     out = [f'<a id="r{r["round"]:03d}"></a>', "",
-           f"## R{r['round']:03d} · {r['title']}", "",
+           f"**R{r['round']:03d} · {r['title']}**", "",
            f"{chips} ｜ [本轮现场]({r['base']}/README.md) · [manifest]({r['base']}/manifest.json)", ""]
     for i, im in enumerate(r["images"][:4], 1):
         s = _src(r, im)
@@ -106,7 +99,7 @@ def _index(title, anchor, rounds, keyfn):
         r = _r(x)
         for k in (keyfn(r) or ["其它"]):
             g[k].append(r)
-    lines = [f'<a id="{anchor}"></a>', "", f"## {title}", ""]
+    lines = [f'<a id="{anchor}"></a>', "", f"**{title}**", ""]
     for k in sorted(g, key=lambda s: (-len(g[s]), s)):
         rs = sorted(g[k], key=lambda r: r["id"], reverse=True)
         links = " · ".join(f"[R{r['round']:03d} {r['title']}](#r{r['round']:03d})" for r in rs)
@@ -118,25 +111,16 @@ def gallery_md(data):
     """完整 GALLERY.md：GitHub 网页与手机 App 都直接出图，无表格、无折叠。"""
     rounds = sorted(data.get("rounds", []), key=lambda x: x.get("id", ""))
     n_img = sum(len(_r(x)["images"]) for x in rounds)
-    toc = " · ".join(f"[R{_r(x)['round']:03d}](#r{_r(x)['round']:03d})"
-                     for x in reversed(rounds))
     parts = [
-        "# 🎨 唐唐 · 终稿图鉴", "",
-        f"**{len(rounds)} 轮 · {n_img} 张终稿图**　一屏一张大图，往下滑就是全部；**点图看原图**，每图配同名终稿 prompt md。", "",
-        "> 手机上想两列大图、分类筛选、点开看大图？用交付到手机的**离线单文件画廊**（图片已内联，不联网也能看）；"
-        "GitHub 网页只显示 `.html` 源码，不渲染成网页。", "",
-        "**直达某一轮**　" + toc, "",
-        "[按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [全量台账](ARCHIVE.md) · [回主页](README.md)", "",
-        "---", "",
+        f"**唐唐 · 终稿图鉴** · {len(rounds)} 轮 {n_img} 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · "
+        "[按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)", "",
     ]
     for x in reversed(rounds):
         parts.append(_round_section(x))
     parts.append(_index("按场景", "按场景", rounds, lambda r: r["tags"]))
     parts.append(_index("按发型", "按发型", rounds, lambda r: [r["hair"]]))
     parts.append(_index("按月份", "按月份", rounds, lambda r: [r["month"]]))
-    parts += ["---", "",
-              "> 只增不改：本页由 `tools/gallery_md.py` 从 `rounds/*/manifest.json` 与四份 md 全量重建，"
-              "两个对话归档时都顺手生成，CAS 安全；历史轮次与 prompt md 一个不动。", ""]
+    parts += ["---", ""]
     return "\n".join(parts)
 
 
@@ -156,11 +140,14 @@ def self_test():
     b = banner(d)
     assert b.startswith(MARK_START) and b.rstrip().endswith(MARK_END)
     assert "GALLERY.md" in b and "zjh1934.github.io" in b and b.count("![") == 8
-    assert "|" not in b.split("\n\n")[4], "横幅不再用表格"
+    assert "|---" not in b and not any(l.startswith(("# ", "## ")) for l in b.splitlines())
+    assert next(i for i, l in enumerate(b.splitlines()) if "![" in l) < 6, "横幅开头即图"
     g = gallery_md(d)
     assert g.count("![") == 8 and "<details" not in g and "<table" not in g
     assert all(k in g for k in ("按场景", "按发型", "按月份", "#r001", "#r002"))
     assert IMG_BASE + "rounds/20261126a_a/01_front.png" in g and "01_front.md" in g
+    assert not any(l.startswith("# ") for l in g.splitlines()), "不要 H1 大字标题"
+    assert next(i for i, l in enumerate(g.splitlines()) if "![" in l) < 12, "门条之后立刻出图"
     readme = "# 唐唐\n\n<!-- INDEX:START -->\n| R001 | 旧 |\n<!-- INDEX:END -->\n尾\n"
     once = merge_banner(readme, b)
     assert once == merge_banner(once, b), "横幅必须幂等"
