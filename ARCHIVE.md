@@ -20,3 +20,4 @@
 | R014 | `20261126n_lovers-guess-movie-night` | 好刺激哦你猜我在干嘛 | `NIGHT-0001` | 2026-11-26 |
 | R015 | `20261126o_lovers-sajiao-coquette` | 你会撒娇吗 | `SAJ-0001` | 2026-11-26 |
 | R016 | `20261126p_neck-massage-night` | 颈膜枪震得舒服的夜里 | `LNG-0020` | 2026-11-26 |
+| R017 | `20261126q_lovers-tea-whisper` | 好的我喝口茶先 | `TEA-0001` | 2026-11-26 |
