@@ -21,3 +21,4 @@
 | R015 | `20261126o_lovers-sajiao-coquette` | 你会撒娇吗 | `SAJ-0001` | 2026-11-26 |
 | R016 | `20261126p_neck-massage-night` | 颈膜枪震得舒服的夜里 | `LNG-0020` | 2026-11-26 |
 | R017 | `20261126q_lovers-tea-whisper` | 好的我喝口茶先 | `TEA-0001` | 2026-11-26 |
+| R018 | `20261126r_rainy-window-mood` | 好烦哦的傍晚雨窗 | `SXY-0001` | 2026-11-26 |

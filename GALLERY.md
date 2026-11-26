@@ -1,4 +1,30 @@
-**唐唐 · 终稿图鉴** · 17 轮 68 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · [按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)
+**唐唐 · 终稿图鉴** · 18 轮 72 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · [按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)
+
+<a id="r018"></a>
+
+**R018 · 好烦哦的傍晚雨窗**
+
+`SXY-0001` · 半扎发 · 其它 · 2026-11 · source=yuanbao ｜ [本轮现场](rounds/20261126r_rainy-window-mood/README.md) · [manifest](rounds/20261126r_rainy-window-mood/manifest.json)
+
+[![01 正面 · R018](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126r_rainy-window-mood/01_front.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126r_rainy-window-mood/01_front.png)
+
+**01 正面**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126r_rainy-window-mood/01_front.png) · [01 终稿 prompt](rounds/20261126r_rainy-window-mood/01_front.md)
+
+[![02 侧身 · R018](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126r_rainy-window-mood/02_side.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126r_rainy-window-mood/02_side.png)
+
+**02 侧身**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126r_rainy-window-mood/02_side.png) · [02 终稿 prompt](rounds/20261126r_rainy-window-mood/02_side.md)
+
+[![03 坐姿 · R018](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126r_rainy-window-mood/03_seat.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126r_rainy-window-mood/03_seat.png)
+
+**03 坐姿**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126r_rainy-window-mood/03_seat.png) · [03 终稿 prompt](rounds/20261126r_rainy-window-mood/03_seat.md)
+
+[![04 特写 · R018](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126r_rainy-window-mood/04_close.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126r_rainy-window-mood/04_close.png)
+
+**04 特写**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126r_rainy-window-mood/04_close.png) · [04 终稿 prompt](rounds/20261126r_rainy-window-mood/04_close.md)
+
+> 别站着呀，我今天烦得很，手机都扣过去了。你先别问，过来陪我数会儿窗上的雨就行。 ／ 你看这道雨痕，我划到一半就不想划了。白天那些破事谁爱管谁管，我今晚只管这扇窗。 ／ 坐近点嘛，脚上这只拖鞋晃半天你都不接话。淋这么久，你倒是说句哄我的呀。 ／ 好啦不烦了，手给你，拉我起来。等雨停陪我把阳台那盆薄荷搬进来，顺路买两个咸蛋黄酥。
+
+---
 
 <a id="r017"></a>
 
@@ -464,6 +490,8 @@
 
 - **人设首跑**（1 轮）：[R015 你会撒娇吗](#r015)
 
+- **其它**（1 轮）：[R018 好烦哦的傍晚雨窗](#r018)
+
 - **口红**（1 轮）：[R002 三支口红试色那晚](#r002)
 
 - **喝茶**（1 轮）：[R017 好的我喝口茶先](#r017)
@@ -500,9 +528,9 @@
 
 - **低侧马尾**（3 轮）：[R012 吃火锅不吃米线啦](#r012) · [R009 老街身后那一眼](#r009) · [R004 吃过饭去哪里](#r004)
 
-- **慵懒低盘发**（3 轮）：[R016 颈膜枪震得舒服的夜里](#r016) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R005 好累啊我](#r005)
+- **半扎发**（3 轮）：[R018 好烦哦的傍晚雨窗](#r018) · [R007 洗好头送你出门](#r007) · [R002 三支口红试色那晚](#r002)
 
-- **半扎发**（2 轮）：[R007 洗好头送你出门](#r007) · [R002 三支口红试色那晚](#r002)
+- **慵懒低盘发**（3 轮）：[R016 颈膜枪震得舒服的夜里](#r016) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R005 好累啊我](#r005)
 
 - **蓬松披肩大波浪**（2 轮）：[R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R001 换豆子那天早上](#r001)
 
@@ -522,6 +550,6 @@
 
 **按月份**
 
-- **2026-11**（17 轮）：[R017 好的我喝口茶先](#r017) · [R016 颈膜枪震得舒服的夜里](#r016) · [R015 你会撒娇吗](#r015) · [R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013) · [R012 吃火锅不吃米线啦](#r012) · [R011 凑过来亲亲](#r011) · [R010 渡轮去对岸看旧灯塔](#r010) · [R009 老街身后那一眼](#r009) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R005 好累啊我](#r005) · [R004 吃过饭去哪里](#r004) · [R003 我要起来咯](#r003) · [R002 三支口红试色那晚](#r002) · [R001 换豆子那天早上](#r001)
+- **2026-11**（18 轮）：[R018 好烦哦的傍晚雨窗](#r018) · [R017 好的我喝口茶先](#r017) · [R016 颈膜枪震得舒服的夜里](#r016) · [R015 你会撒娇吗](#r015) · [R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013) · [R012 吃火锅不吃米线啦](#r012) · [R011 凑过来亲亲](#r011) · [R010 渡轮去对岸看旧灯塔](#r010) · [R009 老街身后那一眼](#r009) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R005 好累啊我](#r005) · [R004 吃过饭去哪里](#r004) · [R003 我要起来咯](#r003) · [R002 三支口红试色那晚](#r002) · [R001 换豆子那天早上](#r001)
 
 ---
