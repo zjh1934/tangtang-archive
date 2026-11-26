@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 """扫 rounds/*/manifest.json：校验每轮 4 图 4 md 配对，回写根 README 标记块与 ARCHIVE.md，产出 docs/data.json。"""
+
+# 并发提示（两个对话同时在写）：本脚本是本地全量重建，适合单写入方或 CI 兜底。
+# 并发写入请走 tools/merge_index.py 的合并式回写 + CAS 原子提交，见 docs/CONCURRENCY.md；
+# 拿一份旧快照跑本脚本再提交，会把另一个对话刚加的轮次抹掉。
 import json, re
 from pathlib import Path
 

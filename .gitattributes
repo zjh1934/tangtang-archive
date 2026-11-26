@@ -2,3 +2,4 @@
 *.md text
 *.json text
 manifest.json merge=union
+ARCHIVE.md merge=union

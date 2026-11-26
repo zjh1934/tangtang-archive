@@ -26,6 +26,12 @@ _template/                    新轮脚手架
 - 原图 PNG 永不转码、永不覆盖；预览用 `<img width=160>` 缩放原图，不另存缩略图。
 - 每轮追加只新增一个目录并回写索引，历史文件零改动。
 
+## 多对话并发同步约定（两个对话都照此写）
+
+本仓同时由两个对话归档（提交信息末尾 `source=` 区分）。轮次目录一轮一夹、只新增不覆盖；**四个共享索引** —— README 的 `<!-- INDEX:START -->` 块、`ARCHIVE.md`、`docs/data.json`、`docs/index.html` 的 `const DATA` —— 一律从远端当前最新内容**合并式追加**，不拿本地旧快照整体重写；提交走 Git Data API 单次原子提交：`base_tree` 用远端最新 tree、`parents` 用最新 main sha、`PATCH ref` 用 `force: false`，撞上并发就整轮重读重算再提交，R 号与目录字母都从远端现查、被占用就顺延。
+
+完整契约见 [docs/CONCURRENCY.md](docs/CONCURRENCY.md)，通用合并器 `tools/merge_index.py`（`python3 tools/merge_index.py --self-test` 可自测）。`tools/build_index.py` 是单写入方／CI 的本地全量重建工具，并发下不要拿旧快照跑它直接覆盖远端索引。
+
 ## 网页与页面
 
 私有仓 Free 套餐开不了 GitHub Pages，站点也不做公网发布。四类页面都在仓内直接读：
