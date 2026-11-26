@@ -23,7 +23,7 @@ VIEWS = ["front", "side", "seat", "close"]
 VIEW_CN = {"front": "正面", "side": "侧身", "seat": "坐姿", "close": "特写"}
 # 公开仓用绝对直链：GitHub 手机 App 的 Markdown 预览不重写相对 src（会变成死图），
 # 绝对 raw URL 在网页、App、第三方预览器里都能直接出图。
-IMG_BASE = "https://raw.githubusercontent.com/zjh1934/tangtang-archive/main/"
+IMG_BASE = "https://github.com/zjh1934/tangtang-archive/raw/main/"
 
 
 def _r(r):

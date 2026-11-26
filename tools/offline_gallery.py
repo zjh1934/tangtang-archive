@@ -200,6 +200,7 @@ def self_test():
     assert all(k in h for k in ("grid-template-columns:repeat(2,1fr)", "fHair", "fTag", "fMonth",
                                 "openLB", "step(-1)", "data:image/jpeg;base64"))
     assert "</html>" in h
+    assert "data:image/jpeg;base64," in h and "fTag" in h and "fHair" in h
     print(f"self-test OK：离线单文件画廊结构齐全（{len(h)} 字符模板）")
 
 
