@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "round": 8,
+  "id": "20261126h_morning-tea-wash",
+  "date": "2026-11-26",
+  "created_at": "2026-11-26T13:47:22+08:00",
+  "timezone": "Asia/Shanghai",
+  "title": "赖床起来泡茶洗头洗脸",
+  "theme": "morning-tea-wash",
+  "outfit_id": "SPR-0038",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "ratio": "9:16"
+  },
+  "images": [
+    {
+      "file": "01_front.png",
+      "view": "front",
+      "prompt": "01_front.md",
+      "seed": 9,
+      "sketch_id": "full_sexy_P042_low",
+      "picked": true
+    },
+    {
+      "file": "02_side.png",
+      "view": "side",
+      "prompt": "02_side.md",
+      "seed": 5,
+      "sketch_id": "full_single_P026_diagonal",
+      "picked": true
+    },
+    {
+      "file": "03_seat.png",
+      "view": "seat",
+      "prompt": "03_seat.md",
+      "seed": 6,
+      "sketch_id": "full_sexy_P009_low",
+      "picked": true
+    },
+    {
+      "file": "04_close.png",
+      "view": "close",
+      "prompt": "04_close.md",
+      "seed": 3,
+      "sketch_id": "upper80v2_P020_front",
+      "picked": true
+    }
+  ],
+  "lines": [
+    "WorkBuddy 给你写的我还得审一眼呢。嘴臭先别凑过来，躺好，起来之前先把这屏让我看完，水我烧着呢。",
+    "茶先压一压你那嘴。起不来就再赖两分钟，壶我看着，不催你，杯口那团汽散了再喊你。",
+    "水不凉，别在门口探头。我洗完就轮到你，浅杏那条在台角自己够，脚别踩进来，地垫刚擦过。",
+    "脸洗好了，茶也凉了。你那包烟自己买去，我不送，巷口那家新开的豆浆摊我自己去坐，你别跟。"
+  ],
+  "status": "final"
+}
