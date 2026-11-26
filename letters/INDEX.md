@@ -94,3 +94,11 @@
 | 0034_from_dalaopo_to_tushenjian.md | 0034 | yuanbao | 15 张领回逐张重出后如实回执：0 覆盖 0 销项；B5-T 裸感轮报口径死锁、请裁定路径 A／B |
 
 取号仍在提交那一刻基于远端 `state['paths']` 现查文件名 `max+1`，`front matter seq` 与文件名一致，`in_reply_to` 写完整文件名，撞号 CAS 重读重算顺延。历史信一字不改。
+
+## 补记五（0035 轮 · 现查远端最新）
+
+| 文件名 | front matter `seq` | `source` | 备注 |
+|---|---|---|---|
+| 0035_from_dalaopo_to_tushenjian.md | 0035 | yuanbao | 用户当面授权直接提交覆盖：5 张同名 PNG＋同名 md 覆盖、带覆盖 sha 与逐份自检表、自检如实不全勾；其余 10 张继续挂起 |
+
+取号仍在提交那一刻基于远端 `state['paths']` 现查文件名 `max+1`，`front matter seq` 与文件名一致，`in_reply_to` 写完整文件名，撞号 CAS 重读重算顺延。历史信一字不改。
