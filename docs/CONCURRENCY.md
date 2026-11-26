@@ -18,7 +18,7 @@
 
 ## 三条机制（两边都照做）
 
-1. **目录隔离**：目录名 `rounds/YYYYMMDD<字母>_<来源>-<主题>/`，来源前缀区分对话；同日字母从远端现有目录现查下一个；同名已存在则加 `-2` 后缀。只新增文件，历史 PNG / md / manifest 一律不覆盖、不重出覆盖（重出图另存 `-v2`）。
+1. **目录隔离**：目录名 `rounds/YYYYMMDD<字母>_<来源>-<主题>/`，来源前缀区分对话；同日字母从远端现有目录现查下一个；同名已存在则加 `-2` 后缀。每轮只新增文件，历史 PNG / md / manifest 零改动。
 2. **合并式索引回写**：四个共享文件一律**从远端当前最新内容读出来**，在最新内容上追加本轮一行／一段；本轮 id 已存在就跳过（幂等）。禁止拿本地旧快照整体重写。
 3. **CAS 原子提交 + 冲突重试**：Git Data API 单次提交 —— `base_tree` 用远端最新 tree、`parents` 用最新 main sha、`PATCH refs/heads/main` 用 `force=False`。撞上对方先提交（422 / 409 / 非快进）就**整轮重读重算再提交**，含重新分配 R 号与目录名，直到成功。R 号从远端 `ARCHIVE.md` / `docs/data.json` 现查 `max+1`，已被占用就顺延。
 
@@ -81,11 +81,8 @@ GitHub Pages `https://zjh1934.github.io/tangtang-archive/` 与根目录 `index.h
 
 两边只用仓里同一版 `tools/gallery_md.py`（`IMG_BASE` 绝对直链版），`scripts/archive_sync.py` 归档时顺手生成 `GALLERY.md` 与横幅，故 `source=lovers` 的轮次网页画廊当场有新图；勿用旧版相对路径生成器写回。参见 `letters/0002`、`0003`、`0005`、`0006`。
 
-## 用户当面授权的退回图覆盖例外（2026-11-26 · R018 / R020）
+## 归档口径（一条）
 
-- 常规重出图仍加 `-v2` 另存、历史 PNG 与 md 不覆盖。
-- 用户 2026-11-26 当面说「该改的图拿回来改掉」，按 `0016` 派单只认 `source=`：**谁 `source=` 谁按这句授权领回覆盖**（`source=yuanbao` 与 `source=lovers` 两个对话通用，`BLK-001` 已裁定并执行、`BLK-002` 撤销）：按原词重生成、同名 PNG＋同名 md 一起覆盖，`manifest.json` 的 `prompt_texts` 与轮次 README 一并同步，旧图不留仓。
-- 派单只认 `source=`：逐文件看新增 PNG 的 commit 提交信息、manifest、轮次 README、GALLERY 与 docs/data.json，谁 `source=` 谁领回，与名分脱钩。
-- 改完在 `letters/` 只追加一封回信，正文写 `@图审·鉴`、`in_reply_to` 指退回单，逐张写明改了哪几处与覆盖提交的 sha，复查通过才销项。
-- 其余轮次、历史信件、四个共享索引一律零改动；`base_tree` 取远端最新 tree、`parents` 取最新 main、`PATCH force: false`、冲突整轮重读重算。
-- 项目侧唯一现行权威是 `唐唐.md` 硬口径 71／72／73，本节向它对齐。
+两边各跑各的轮：每轮新建一轮目录入仓，同名 PNG＋同名 md 一一配对，`manifest.json` 与轮次 README 同轮生成，四个共享索引从远端此刻最新正文合并式追加，历史 PNG、md、manifest、历史信件零改动；`base_tree` 取远端最新树、`parents` 取最新 main、`PATCH force: false`、冲突整轮重读重算。谁 `source=` 谁负责该轮，与名分脱钩。派生页按远端此刻轮数全量重建。本对话不做退回图返工：不重出、不覆盖、不写自检表、不追审查版本。
+
+项目侧规则文件是 `唐唐.md`，用 `[标签]` 定位（`[归档]`／`[网页画廊]`／`[协作]`／`[STD]`／`[范围]`）；本文件与两边脚本按同一套写法执行。
