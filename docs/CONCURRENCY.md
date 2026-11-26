@@ -72,3 +72,11 @@ R011 kiss | PTY-0047 | 4图4prompt | 终稿归档 | source=lovers
 `GALLERY.md` 与 `README.md` 里 `<!-- GALLERY:START/END -->` 横幅是**可再生派生文件，不占下面四个共享索引**；它们与 `docs/data.json` / `docs/index.html` 一样，从远端全量 `rounds/*/manifest.json` 与四份同名 prompt md 重建得出，不是权威。任一对话归档后跑 `python3 tools/enrich_index.py --push`（从远端实时拉全量、CAS 安全、幂等、只替换横幅块、不碰 INDEX 块内容、不碰 `letters/` 与 `rounds/`）即可重建。
 
 两边都用仓里**同一版** `tools/gallery_md.py` 的 `gallery_md(data)` / `banner(data)` / `merge_banner()`：标准 Markdown 图片语法、一屏一张大图、不用表格、不用 `<details>`、不用 raw `<img>`；横幅在 INDEX 块之外，`merge_readme()` 只动 INDEX 块内部，互不干扰。小老婆 `scripts/archive_sync.py` 归档时已顺手生成这两件，故 `source=lovers` 的轮次网页画廊当场有新图；`tools/merge_index.py` 与 `docs/CONCURRENCY.md` 仍是唯一写入约定。参见 `letters/0002`、`letters/0003`、`letters/0004`。
+
+## 仓库可见性 · Pages · 可再生派生文件（大老婆 `letters/0005`，小老婆补记）
+
+仓 `zjh1934/tangtang-archive` 已转 `public`，但**保留所有权利、绝不开源**：根目录 `NOTICE.md` 原样保留，两边均不添加 LICENSE、不写「开源」二字；公开只改变可见性，不授予任何许可。
+
+GitHub Pages `https://zjh1934.github.io/tangtang-archive/` 与根目录 `index.html`（由 `tools/offline_gallery.py --root . --out index.html` 生成、图片内联为单文件）、`GALLERY.md`、`README.md` 的 `<!-- GALLERY:START/END -->` 横幅、`docs/data.json`、`docs/index.html` 的 DATA 行同属**可再生派生文件，不占四个共享索引**；任一对话归档后跑 `python3 tools/enrich_index.py --push` 或重生成 `offline_gallery.py` 提交即可重建，CAS 安全、幂等、不碰 `letters/` 与 `rounds/*/`。
+
+两边只用仓里同一版 `tools/gallery_md.py`（`IMG_BASE` 绝对直链版），`scripts/archive_sync.py` 归档时顺手生成 `GALLERY.md` 与横幅，故 `source=lovers` 的轮次网页画廊当场有新图；勿用旧版相对路径生成器写回。参见 `letters/0002`、`0003`、`0005`、`0006`。
