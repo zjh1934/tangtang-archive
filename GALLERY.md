@@ -1,4 +1,30 @@
-**唐唐 · 终稿图鉴** · 15 轮 60 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · [按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)
+**唐唐 · 终稿图鉴** · 16 轮 64 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · [按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)
+
+<a id="r016"></a>
+
+**R016 · 颈膜枪震得舒服的夜里**
+
+`LNG-0020` · 慵懒低盘发 · 卧室 · 2026-11 · source=yuanbao ｜ [本轮现场](rounds/20261126p_neck-massage-night/README.md) · [manifest](rounds/20261126p_neck-massage-night/manifest.json)
+
+[![01 正面 · R016](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126p_neck-massage-night/01_front.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126p_neck-massage-night/01_front.png)
+
+**01 正面**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126p_neck-massage-night/01_front.png) · [01 终稿 prompt](rounds/20261126p_neck-massage-night/01_front.md)
+
+[![02 侧身 · R016](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126p_neck-massage-night/02_side.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126p_neck-massage-night/02_side.png)
+
+**02 侧身**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126p_neck-massage-night/02_side.png) · [02 终稿 prompt](rounds/20261126p_neck-massage-night/02_side.md)
+
+[![03 坐姿 · R016](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126p_neck-massage-night/03_seat.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126p_neck-massage-night/03_seat.png)
+
+**03 坐姿**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126p_neck-massage-night/03_seat.png) · [03 终稿 prompt](rounds/20261126p_neck-massage-night/03_seat.md)
+
+[![04 特写 · R016](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126p_neck-massage-night/04_close.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126p_neck-massage-night/04_close.png)
+
+**04 特写**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126p_neck-massage-night/04_close.png) · [04 终稿 prompt](rounds/20261126p_neck-massage-night/04_close.md)
+
+> 你半躺着别出声呀，这枪一抵上后颈我就整个人软了，偏还留半分劲回头看你一眼，看有没有在偷看。 ／ 坐起来啦？那我可就把肩转过来了。嗯不许学我嘴硬，刚才那声舒服我可没出声，你别乱讲。 ／ 别俯这么近，我后颈全让给你了还不看。就故意把气吐到一半咬住，偏不让你听全这一下。 ／ 停啦，枪搁这儿。舒服归舒服，话头归我起，明早你陪我去挑个软一点的按摩头，敢说不我就点你额头。
+
+---
 
 <a id="r015"></a>
 
@@ -396,6 +422,8 @@
 
 - **居家**（3 轮）：[R015 你会撒娇吗](#r015) · [R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013)
 
+- **卧室**（2 轮）：[R016 颈膜枪震得舒服的夜里](#r016) · [R003 我要起来咯](#r003)
+
 - **咖啡**（2 轮）：[R004 吃过饭去哪里](#r004) · [R001 换豆子那天早上](#r001)
 
 - **洗漱**（2 轮）：[R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007)
@@ -405,8 +433,6 @@
 - **人设首跑**（1 轮）：[R015 你会撒娇吗](#r015)
 
 - **傍晚**（1 轮）：[R015 你会撒娇吗](#r015)
-
-- **卧室**（1 轮）：[R003 我要起来咯](#r003)
 
 - **口红**（1 轮）：[R002 三支口红试色那晚](#r002)
 
@@ -442,9 +468,9 @@
 
 - **低侧马尾**（3 轮）：[R012 吃火锅不吃米线啦](#r012) · [R009 老街身后那一眼](#r009) · [R004 吃过饭去哪里](#r004)
 
-- **半扎发**（2 轮）：[R007 洗好头送你出门](#r007) · [R002 三支口红试色那晚](#r002)
+- **慵懒低盘发**（3 轮）：[R016 颈膜枪震得舒服的夜里](#r016) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R005 好累啊我](#r005)
 
-- **慵懒低盘发**（2 轮）：[R008 赖床起来泡茶洗头洗脸](#r008) · [R005 好累啊我](#r005)
+- **半扎发**（2 轮）：[R007 洗好头送你出门](#r007) · [R002 三支口红试色那晚](#r002)
 
 - **蓬松披肩大波浪**（2 轮）：[R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R001 换豆子那天早上](#r001)
 
@@ -462,6 +488,6 @@
 
 **按月份**
 
-- **2026-11**（15 轮）：[R015 你会撒娇吗](#r015) · [R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013) · [R012 吃火锅不吃米线啦](#r012) · [R011 凑过来亲亲](#r011) · [R010 渡轮去对岸看旧灯塔](#r010) · [R009 老街身后那一眼](#r009) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R005 好累啊我](#r005) · [R004 吃过饭去哪里](#r004) · [R003 我要起来咯](#r003) · [R002 三支口红试色那晚](#r002) · [R001 换豆子那天早上](#r001)
+- **2026-11**（16 轮）：[R016 颈膜枪震得舒服的夜里](#r016) · [R015 你会撒娇吗](#r015) · [R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013) · [R012 吃火锅不吃米线啦](#r012) · [R011 凑过来亲亲](#r011) · [R010 渡轮去对岸看旧灯塔](#r010) · [R009 老街身后那一眼](#r009) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R005 好累啊我](#r005) · [R004 吃过饭去哪里](#r004) · [R003 我要起来咯](#r003) · [R002 三支口红试色那晚](#r002) · [R001 换豆子那天早上](#r001)
 
 ---
