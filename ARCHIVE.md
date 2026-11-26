@@ -32,3 +32,4 @@
 | R026 | `20261127z_lightsoff-sleep` | 灯关了来睡觉了 | `LNG-SLEEP` | 2026-11-27 |
 | R027 | `20261127aa_dawn-first-awake` | 主动推进剧情 清晨她先醒了 | `LNG-DAWN` | 2026-11-27 |
 | R028 | `20261127a_lovers-morning-doorway` | 主动推进剧情 · 第二天清晨玄关门廊 | `WIN-0230` | 2026-11-26 |
+| R029 | `20261127ab_dusk-alley-stall` | 推进剧情 黄昏她拉他出门去巷口旧物摊 | `AUT-0003` | 2026-11-27 |
