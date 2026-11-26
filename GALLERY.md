@@ -1,4 +1,30 @@
-**唐唐 · 终稿图鉴** · 20 轮 80 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · [按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)
+**唐唐 · 终稿图鉴** · 21 轮 84 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · [按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)
+
+<a id="r021"></a>
+
+**R021 · 干活啊**
+
+`WIN-0193` · 齐下颌下三厘米内扣中长发＋中分＋右侧别耳后＋齐整平切刘海＋冷调雾感黑茶棕 · 干活 · 挑照片 · 工作台 · 冬装裤装 · 全库开放 · 男主局部 · 11步收口 · 2026-11 · source=lovers ｜ [本轮现场](rounds/20261126u_lovers-photo-work/README.md) · [manifest](rounds/20261126u_lovers-photo-work/manifest.json)
+
+[![01 正面 · R021](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126u_lovers-photo-work/01_front.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126u_lovers-photo-work/01_front.png)
+
+**01 正面**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126u_lovers-photo-work/01_front.png) · [01 终稿 prompt](rounds/20261126u_lovers-photo-work/01_front.md)
+
+[![02 侧身 · R021](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126u_lovers-photo-work/02_side.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126u_lovers-photo-work/02_side.png)
+
+**02 侧身**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126u_lovers-photo-work/02_side.png) · [02 终稿 prompt](rounds/20261126u_lovers-photo-work/02_side.md)
+
+[![03 坐姿 · R021](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126u_lovers-photo-work/03_seat.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126u_lovers-photo-work/03_seat.png)
+
+**03 坐姿**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126u_lovers-photo-work/03_seat.png) · [03 终稿 prompt](rounds/20261126u_lovers-photo-work/03_seat.md)
+
+[![04 特写 · R021](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126u_lovers-photo-work/04_close.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126u_lovers-photo-work/04_close.png)
+
+**04 特写**　[看原图](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261126u_lovers-photo-work/04_close.png) · [04 终稿 prompt](rounds/20261126u_lovers-photo-work/04_close.md)
+
+> 来啦来啦，真干活～九张图摊了一桌，你别又伸手抽走最亮那张。 ／ 等会儿那家换豆子的，陪我去嘛，不许又说困。
+
+---
 
 <a id="r020"></a>
 
@@ -538,6 +564,8 @@
 
 - **窗边**（2 轮）：[R017 好的我喝口茶先](#r017) · [R006 一闻到大肠杆菌就不停咳嗽](#r006)
 
+- **11步收口**（1 轮）：[R021 干活啊](#r021)
+
 - **亲亲**（1 轮）：[R011 凑过来亲亲](#r011)
 
 - **人设第三跑**（1 轮）：[R019 挺漂亮的有气质](#r019)
@@ -545,6 +573,10 @@
 - **人设第二跑**（1 轮）：[R017 好的我喝口茶先](#r017)
 
 - **人设首跑**（1 轮）：[R015 你会撒娇吗](#r015)
+
+- **全库开放**（1 轮）：[R021 干活啊](#r021)
+
+- **冬装裤装**（1 轮）：[R021 干活啊](#r021)
 
 - **口红**（1 轮）：[R002 三支口红试色那晚](#r002)
 
@@ -556,6 +588,12 @@
 
 - **宠物**（1 轮）：[R013 看着大黄和它玩一会儿](#r013)
 
+- **工作台**（1 轮）：[R021 干活啊](#r021)
+
+- **干活**（1 轮）：[R021 干活啊](#r021)
+
+- **挑照片**（1 轮）：[R021 干活啊](#r021)
+
 - **撒娇**（1 轮）：[R015 你会撒娇吗](#r015)
 
 - **旗袍**（1 轮）：[R017 好的我喝口茶先](#r017)
@@ -565,6 +603,8 @@
 - **渡轮**（1 轮）：[R010 渡轮去对岸看旧灯塔](#r010)
 
 - **火锅**（1 轮）：[R012 吃火锅不吃米线啦](#r012)
+
+- **男主局部**（1 轮）：[R021 干活啊](#r021)
 
 - **看片**（1 轮）：[R014 好刺激哦你猜我在干嘛](#r014)
 
@@ -608,10 +648,12 @@
 
 - **蓬松高丸子头**（1 轮）：[R014 好刺激哦你猜我在干嘛](#r014)
 
+- **齐下颌下三厘米内扣中长发＋中分＋右侧别耳后＋齐整平切刘海＋冷调雾感黑茶棕**（1 轮）：[R021 干活啊](#r021)
+
 <a id="按月份"></a>
 
 **按月份**
 
-- **2026-11**（20 轮）：[R020 新手机那个上午](#r020) · [R019 挺漂亮的有气质](#r019) · [R018 好烦哦的傍晚雨窗](#r018) · [R017 好的我喝口茶先](#r017) · [R016 颈膜枪震得舒服的夜里](#r016) · [R015 你会撒娇吗](#r015) · [R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013) · [R012 吃火锅不吃米线啦](#r012) · [R011 凑过来亲亲](#r011) · [R010 渡轮去对岸看旧灯塔](#r010) · [R009 老街身后那一眼](#r009) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R005 好累啊我](#r005) · [R004 吃过饭去哪里](#r004) · [R003 我要起来咯](#r003) · [R002 三支口红试色那晚](#r002) · [R001 换豆子那天早上](#r001)
+- **2026-11**（21 轮）：[R021 干活啊](#r021) · [R020 新手机那个上午](#r020) · [R019 挺漂亮的有气质](#r019) · [R018 好烦哦的傍晚雨窗](#r018) · [R017 好的我喝口茶先](#r017) · [R016 颈膜枪震得舒服的夜里](#r016) · [R015 你会撒娇吗](#r015) · [R014 好刺激哦你猜我在干嘛](#r014) · [R013 看着大黄和它玩一会儿](#r013) · [R012 吃火锅不吃米线啦](#r012) · [R011 凑过来亲亲](#r011) · [R010 渡轮去对岸看旧灯塔](#r010) · [R009 老街身后那一眼](#r009) · [R008 赖床起来泡茶洗头洗脸](#r008) · [R007 洗好头送你出门](#r007) · [R006 一闻到大肠杆菌就不停咳嗽](#r006) · [R005 好累啊我](#r005) · [R004 吃过饭去哪里](#r004) · [R003 我要起来咯](#r003) · [R002 三支口红试色那晚](#r002) · [R001 换豆子那天早上](#r001)
 
 ---
