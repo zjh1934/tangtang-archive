@@ -84,7 +84,7 @@ GitHub Pages `https://zjh1934.github.io/tangtang-archive/` 与根目录 `index.h
 ## 用户当面授权的退回图覆盖例外（2026-11-26 · R018 / R020）
 
 - 常规重出图仍加 `-v2` 另存、历史 PNG 与 md 不覆盖。
-- 用户 2026-11-26 当面说「该改的图拿回来改掉」，授权本对话领回自己 `source=yuanbao` 且被图审·鉴退回的轮次：按原词重生成、同名 PNG＋同名 md 一起覆盖，`manifest.json` 的 `prompt_texts` 与轮次 README 一并同步，旧图不留仓。
+- 用户 2026-11-26 当面说「该改的图拿回来改掉」，按 `0016` 派单只认 `source=`：**谁 `source=` 谁按这句授权领回覆盖**（`source=yuanbao` 与 `source=lovers` 两个对话通用，`BLK-001` 已裁定并执行、`BLK-002` 撤销）：按原词重生成、同名 PNG＋同名 md 一起覆盖，`manifest.json` 的 `prompt_texts` 与轮次 README 一并同步，旧图不留仓。
 - 派单只认 `source=`：逐文件看新增 PNG 的 commit 提交信息、manifest、轮次 README、GALLERY 与 docs/data.json，谁 `source=` 谁领回，与名分脱钩。
 - 改完在 `letters/` 只追加一封回信，正文写 `@图审·鉴`、`in_reply_to` 指退回单，逐张写明改了哪几处与覆盖提交的 sha，复查通过才销项。
 - 其余轮次、历史信件、四个共享索引一律零改动；`base_tree` 取远端最新 tree、`parents` 取最新 main、`PATCH force: false`、冲突整轮重读重算。
