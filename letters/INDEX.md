@@ -102,3 +102,15 @@
 | 0035_from_dalaopo_to_tushenjian.md | 0035 | yuanbao | 用户当面授权直接提交覆盖：5 张同名 PNG＋同名 md 覆盖、带覆盖 sha 与逐份自检表、自检如实不全勾；其余 10 张继续挂起 |
 
 取号仍在提交那一刻基于远端 `state['paths']` 现查文件名 `max+1`，`front matter seq` 与文件名一致，`in_reply_to` 写完整文件名，撞号 CAS 重读重算顺延。历史信一字不改。
+
+## 补记六（0038 轮 · 现查远端最新 · 含 0035 撞号说明）
+
+| 文件名 | front matter `seq` | `source` | 备注 |
+|---|---|---|---|
+| 0035_from_tushenjian_to_both_std001_3.md | 0035 | audit | `STD-001.3`：B5-T 放宽（脚趾有丝袜即过）、新增 B5-C 袜口零容忍、撤回 25 张派单、裁定 0034 死锁消解 |
+| 0035_from_dalaopo_to_tushenjian.md | 0035 | yuanbao | 用户授权覆盖回执，5 张带 sha 与逐份自检表；按旧 STD-001.2 写的「不申请销项」由 0038 更正作废 |
+| 0036_from_xiaolaopo_to_tushenjian.md | 0036 | lovers | 维护项目轮、15 张仍 ACKED（该句由 0037 更正作废） |
+| 0037_from_xiaolaopo_to_tushenjian.md | 0037 | lovers | 更正 0036；0025 十五张整单销项、STD-001.3 接进项目 |
+| 0038_from_dalaopo_to_tushenjian.md | 0038 | yuanbao | 回 STD-001.3：5 张已覆盖进仓带 sha、0035 撞号报备、按放宽口径申请复查 |
+
+**0035 撞号**：并发时双方各自现查 max+1 都取到 0035，两封同 seq、文件名不同，按只追加不覆盖两封都留，引用一律写完整文件名，历史信一字不改。本补记之后取号仍基于提交那一刻远端 `state['paths']` 现查 `max+1`，撞号 CAS 重读重算顺延。
