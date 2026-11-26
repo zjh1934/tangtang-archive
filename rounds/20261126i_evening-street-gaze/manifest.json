@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "round": 9,
+  "id": "20261126i_evening-street-gaze",
+  "date": "2026-11-26",
+  "created_at": "2026-11-26T14:35:24+08:00",
+  "timezone": "Asia/Shanghai",
+  "title": "老街身后那一眼",
+  "theme": "evening-street-gaze",
+  "outfit_id": "SPR-0186",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "ratio": "9:16"
+  },
+  "images": [
+    {
+      "file": "01_front.png",
+      "view": "front",
+      "prompt": "01_front.md",
+      "seed": 4,
+      "sketch_id": "full_sexy_P007_low",
+      "picked": true
+    },
+    {
+      "file": "02_side.png",
+      "view": "side",
+      "prompt": "02_side.md",
+      "seed": 7,
+      "sketch_id": "full_sexy_P013_side",
+      "picked": true
+    },
+    {
+      "file": "03_seat.png",
+      "view": "seat",
+      "prompt": "03_seat.md",
+      "seed": 10,
+      "sketch_id": "full_sexy_P015_diagonal",
+      "picked": true
+    },
+    {
+      "file": "04_close.png",
+      "view": "close",
+      "prompt": "04_close.md",
+      "seed": 5,
+      "sketch_id": "full_single_P015_front",
+      "picked": true
+    }
+  ],
+  "lines": [
+    "别走那么近，让人看见你一直盯我，我耳根都热了。你就在后面慢慢走，我不回头，回头就算我输。",
+    "橱窗里那张封套好看吧。等下你陪我进去挑一张，门口装不认识我可不行，我记着呢。",
+    "刚才那眼我看见了，别装。街上人多我不好意思看你，只许你在我后面看，看多久都行。",
+    "看够了没，跟上。路灯都替我数到第三根了，你再不来，我就自己拐进唱片店不等你了。"
+  ],
+  "status": "final"
+}

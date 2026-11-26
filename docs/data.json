@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repo": "zjh1934/tangtang-archive",
-  "updated_at": "2026-11-26T13:47:22+08:00",
+  "updated_at": "2026-11-26T14:35:24+08:00",
   "rounds": [
     {
       "round": 1,
@@ -369,6 +369,52 @@
         "茶先压一压你那嘴。起不来就再赖两分钟，壶我看着，不催你，杯口那团汽散了再喊你。",
         "水不凉，别在门口探头。我洗完就轮到你，浅杏那条在台角自己够，脚别踩进来，地垫刚擦过。",
         "脸洗好了，茶也凉了。你那包烟自己买去，我不送，巷口那家新开的豆浆摊我自己去坐，你别跟。"
+      ]
+    },
+    {
+      "round": 9,
+      "id": "20261126i_evening-street-gaze",
+      "date": "2026-11-26",
+      "title": "老街身后那一眼",
+      "outfit_id": "SPR-0186",
+      "sketches": [
+        "full_sexy_P007_low",
+        "full_sexy_P013_side",
+        "full_sexy_P015_diagonal",
+        "full_single_P015_front"
+      ],
+      "base": "rounds/20261126i_evening-street-gaze",
+      "images": [
+        {
+          "file": "01_front.png",
+          "view": "front",
+          "prompt": "01_front.md",
+          "md": "rounds/20261126i_evening-street-gaze/01_front.md"
+        },
+        {
+          "file": "02_side.png",
+          "view": "side",
+          "prompt": "02_side.md",
+          "md": "rounds/20261126i_evening-street-gaze/02_side.md"
+        },
+        {
+          "file": "03_seat.png",
+          "view": "seat",
+          "prompt": "03_seat.md",
+          "md": "rounds/20261126i_evening-street-gaze/03_seat.md"
+        },
+        {
+          "file": "04_close.png",
+          "view": "close",
+          "prompt": "04_close.md",
+          "md": "rounds/20261126i_evening-street-gaze/04_close.md"
+        }
+      ],
+      "lines": [
+        "别走那么近，让人看见你一直盯我，我耳根都热了。你就在后面慢慢走，我不回头，回头就算我输。",
+        "橱窗里那张封套好看吧。等下你陪我进去挑一张，门口装不认识我可不行，我记着呢。",
+        "刚才那眼我看见了，别装。街上人多我不好意思看你，只许你在我后面看，看多久都行。",
+        "看够了没，跟上。路灯都替我数到第三根了，你再不来，我就自己拐进唱片店不等你了。"
       ]
     }
   ]
