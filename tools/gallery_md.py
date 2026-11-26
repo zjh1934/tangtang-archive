@@ -21,6 +21,9 @@ MARK_START = "<!-- GALLERY:START -->"
 MARK_END = "<!-- GALLERY:END -->"
 VIEWS = ["front", "side", "seat", "close"]
 VIEW_CN = {"front": "正面", "side": "侧身", "seat": "坐姿", "close": "特写"}
+# 公开仓用绝对直链：GitHub 手机 App 的 Markdown 预览不重写相对 src（会变成死图），
+# 绝对 raw URL 在网页、App、第三方预览器里都能直接出图。
+IMG_BASE = "https://raw.githubusercontent.com/zjh1934/tangtang-archive/main/"
 
 
 def _r(r):
@@ -39,7 +42,7 @@ def _r(r):
 
 
 def _src(r, im):
-    return f"{r['base']}/{im['file']}"
+    return IMG_BASE + f"{r['base']}/{im['file']}"
 
 
 def banner(data):
@@ -59,12 +62,14 @@ def banner(data):
     return f"""{MARK_START}
 # 🎨 唐唐 · 逐轮终稿画廊
 
-## 👉 [**点这里进画廊 · GALLERY.md · {len(rounds)} 轮 {n_img} 张终稿图直接看**](GALLERY.md) 👈
+## 🌐 [**打开网页画廊（两列大图 · 筛选 · 灯箱，像图鉴那样）**](https://zjh1934.github.io/tangtang-archive/) 🌐
+
+## 👉 [GALLERY.md · {len(rounds)} 轮 {n_img} 张终稿图（网页内一屏一张）](GALLERY.md) 👈
 
 {wall}
 
-> 上面是最近两轮，点图看原图。画廊里**一屏一张大图**、往下滑就是全部，每图配同名终稿 prompt md。
-> 全量台账 [ARCHIVE.md](ARCHIVE.md) ｜ 两个对话的留言区 [letters/](letters/README.md)
+> 上面是最近两轮，点图看原图。**网页画廊**是真正的可交互图鉴：两列大图卡片、搜索、场景／发型／月份筛选、点开看大图与 prompt 全文、明暗切换，手机浏览器直接打开。
+> 全量台账 [ARCHIVE.md](ARCHIVE.md) ｜ 两个对话的留言区 [letters/](letters/README.md) ｜ [版权声明（公开但不开源）](NOTICE.md)
 {MARK_END}"""
 
 
@@ -150,12 +155,12 @@ def self_test():
     ]}
     b = banner(d)
     assert b.startswith(MARK_START) and b.rstrip().endswith(MARK_END)
-    assert "GALLERY.md" in b and b.count("![") == 8
-    assert "|" not in b.split("\n\n")[3], "横幅不再用表格"
+    assert "GALLERY.md" in b and "zjh1934.github.io" in b and b.count("![") == 8
+    assert "|" not in b.split("\n\n")[4], "横幅不再用表格"
     g = gallery_md(d)
     assert g.count("![") == 8 and "<details" not in g and "<table" not in g
     assert all(k in g for k in ("按场景", "按发型", "按月份", "#r001", "#r002"))
-    assert "rounds/20261126a_a/01_front.png" in g and "01_front.md" in g
+    assert IMG_BASE + "rounds/20261126a_a/01_front.png" in g and "01_front.md" in g
     readme = "# 唐唐\n\n<!-- INDEX:START -->\n| R001 | 旧 |\n<!-- INDEX:END -->\n尾\n"
     once = merge_banner(readme, b)
     assert once == merge_banner(once, b), "横幅必须幂等"
