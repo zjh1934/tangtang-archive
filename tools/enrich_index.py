@@ -317,7 +317,8 @@ def main():
 
     sha, before, rounds = cas_push(tok, build_all, "chore: 画廊 v2（分类/筛选/看图）+ 分类索引重建 | source=yuanbao")
     print(f"推送成功 | commit {sha[:8]} | {len(rounds)} 轮 {sum(len(r['images']) for r in rounds)} 张图 | 远端原有 {len([p for p in before if p.startswith('rounds/')])} 个轮次文件全部保留")
-    print("未触碰：README.md / ARCHIVE.md / docs/CONCURRENCY.md / tools/merge_index.py / tools/build_index.py / 任何轮次目录")
+    print("README 只幂等替换 GALLERY 横幅块，INDEX 块与 ARCHIVE.md / docs/CONCURRENCY.md / "
+          "tools/merge_index.py / tools/build_index.py / 任何轮次目录 / letters/ 均未触碰")
 
 
 if __name__ == "__main__":
