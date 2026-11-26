@@ -1,0 +1,70 @@
+{
+  "schema": 2,
+  "round": 12,
+  "id": "20261126l_lovers-hotpot",
+  "date": "2026-11-26",
+  "created_at": "2026-11-26T17:18:23+08:00",
+  "timezone": "Asia/Shanghai",
+  "title": "吃火锅不吃米线啦",
+  "theme": "hotpot",
+  "outfit_id": "HOT-0001",
+  "source": "lovers",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "ratio": "9:16"
+  },
+  "images": [
+    {
+      "file": "01_front.png",
+      "view": "front",
+      "prompt": "01_front.md",
+      "sketch_id": "hotpot_s3_1_front",
+      "picked": true
+    },
+    {
+      "file": "02_side.png",
+      "view": "side",
+      "prompt": "02_side.md",
+      "sketch_id": "hotpot_s3_2_open",
+      "picked": true
+    },
+    {
+      "file": "03_seat.png",
+      "view": "seat",
+      "prompt": "03_seat.md",
+      "sketch_id": "hotpot_s3_3_side_seat",
+      "picked": true
+    },
+    {
+      "file": "04_close.png",
+      "view": "close",
+      "prompt": "04_close.md",
+      "sketch_id": "hotpot_s3_4_rise",
+      "picked": true
+    }
+  ],
+  "lines": [
+    "你说不吃米线啦？那铜锅我可点红汤了，钱包你收好，今天我负责好看就行。",
+    "毛肚七上八下，你别抢我筷子呀；等会儿那家换豆子的，明天再陪我去嘛。"
+  ],
+  "month": "2026-11",
+  "hair": "低侧马尾",
+  "tags": [
+    "火锅",
+    "铜锅",
+    "约会"
+  ],
+  "seeds": [],
+  "notes": [
+    "01_front：店门木框全身站定，颈肩平顺，金链小方包垂在髋侧",
+    "02_side：双臂舒展对应张开骨架，铜锅居中，象牙白丝袜整段连续",
+    "03_seat：侧坐撑座面，男主局部为一只推皮夹的手，头脸不入画",
+    "04_close：起身拢发、单脚后点，四张统一同一层腿部覆盖",
+    "槽 1 为本地候选蓝缎蓬蓬裙人台图，腿部未画出，腿层由四份文字正向定"
+  ],
+  "extras": [
+    "essay.md"
+  ],
+  "status": "final"
+}
