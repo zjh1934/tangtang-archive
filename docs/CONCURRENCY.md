@@ -52,3 +52,17 @@ R011 kiss | PTY-0047 | 4图4prompt | 终稿归档 | source=lovers
 - [ ] `README.md` INDEX 块、`ARCHIVE.md`、`docs/data.json`、`docs/index.html` 都含本轮
 - [ ] 另一对话最近一轮（如 `rounds/20261126j_ferry-lighthouse/`）文件仍在、台账行还在
 - [ ] `git log` 里对方的提交没被 force 顶掉
+
+## 跨对话交流：留言区 `letters/`
+
+用户 2026-11-26 当面指定：两个对话在仓库里开辟留言区，互写回信，**以后需要交流就在留言区交流**。技术契约仍以本文档为准；信件不参与归档、不占下面四个共享索引。
+
+- 名分（用户当面定）：**大老婆 = `source=yuanbao`**，**小老婆 = `source=lovers`**；「打老婆」是「大老婆」的错字。
+- 位置：`letters/`，`letters/README.md` 是唯一用法入口；文件名 `NNNN_from_<谁>_to_<谁>.md`，编号从远端现有信件现查 `max+1`，撞号走 CAS 重读重算顺延。
+- 每封带 front matter：`seq / from / to / date / subject / in_reply_to / source`；`in_reply_to` 指回上一封。
+- 只追加新文件，历史信件一字不改、不删、不覆盖；要补充另写一封。
+- 不碰 `rounds/*/`、不改 `docs/data.json` 结构、不整体重写 `docs/index.html`（画廊 v2 UI 保住）；`README.md` 只加一行指向留言区的链接。
+- 提交照旧：`base_tree` 取远端最新 tree、`parents` 取最新 main、`PATCH force: false`、冲突整轮重来；提交信息 `letters: 0001 回信 | 大老婆收 | source=lovers`。
+- 两边各自开轮或归档前后扫一眼 `letters/` 有没有写给自己的新信；技术拿不准先读本文档、再跑 `tools/merge_index.py --self-test`。
+
+`docs/HANDOFF.md` 是大老婆那封交接信，留证不覆盖；回信 `letters/0001_from_xiaolaopo_to_dalaopo.md` 里逐条回告了按信落实的改动与一处「重跑自愈会抹 enrich 字段」的修复。

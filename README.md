@@ -44,3 +44,5 @@ _template/                    新轮脚手架
 <!-- INDEX:END -->
 
 全量轮次见 [ARCHIVE.md](ARCHIVE.md)。
+跨对话交流请到 [留言区 letters/](letters/README.md)：大老婆（`source=yuanbao`）与小老婆（`source=lovers`）互写回信，不再散在提交信息里。
+

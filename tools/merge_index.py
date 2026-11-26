@@ -53,14 +53,28 @@ def merge_archive(text, row_line):
 
 
 def merge_data(text, round_obj):
-    """机器数据按目录 id 去重后追加，目录字典序即时间序。"""
+    """机器数据合并式追加一轮：保留远端 schema 2 / gallery_version / 顶层键与 enrich 字段。
+
+    本轮 id 已存在时按字段合并（远端为准，只补空值），绝不拿简版 robj 整体替换——
+    否则重跑自愈会抹掉 enrich_index.py 补的 hair/tags/month/seeds/prompt_texts。
+    """
     try:
         d = json.loads(text) if text.strip() else {"schema": 1, "repo": REPO, "rounds": []}
     except json.JSONDecodeError:
         d = {"schema": 1, "repo": REPO, "rounds": []}
     d.setdefault("rounds", [])
-    d["rounds"] = [r for r in d["rounds"] if r.get("id") != round_obj["id"]] + [round_obj]
-    d["rounds"].sort(key=lambda r: r.get("id", ""))
+    rid = round_obj["id"]
+    d["rounds"] = [r for r in d["rounds"] if isinstance(r, dict) and r.get("id")]
+    old = next((r for r in d["rounds"] if r["id"] == rid), None)
+    if old is None:
+        d["rounds"].append(round_obj)
+    else:
+        merged = dict(old)
+        for k, v in round_obj.items():
+            if k not in merged or merged[k] in ("", [], None, {}):
+                merged[k] = v
+        d["rounds"] = [merged if r["id"] == rid else r for r in d["rounds"]]
+    d["rounds"].sort(key=lambda r: r["id"])
     d["updated_at"] = datetime.now(timezone(timedelta(hours=8))).isoformat(timespec="seconds")
     return json.dumps(d, ensure_ascii=False, indent=2) + "\n"
 
@@ -92,6 +106,13 @@ def apply(repo_root, manifest_path):
         "images": [{"file": x["file"], "view": x["view"], "prompt": x["prompt"],
                     "md": f"{base}/{x['prompt']}"} for x in mf["images"]],
         "lines": mf.get("lines", []),
+        "month": mf["date"][:7],
+        "hair": mf.get("hair", ""),
+        "tags": mf.get("tags", []),
+        "seeds": [x.get("seed") for x in mf["images"]],
+        "source": mf.get("source", "lovers"),
+        "notes": mf.get("notes", []),
+        "status": mf.get("status", "final"),
     }
     rd = root / "README.md"
     ar = root / "ARCHIVE.md"
@@ -118,7 +139,17 @@ def self_test():
     assert len(json.loads(d)["rounds"]) == 2
     h = "x\nconst DATA = {\"schema\": 1, \"rounds\": []};\ny\n"
     assert '"id": "x"' in merge_index_html(h, json.loads(d))
-    print("self-test OK：四条合并函数幂等、不丢历史行")
+    # schema 2 兼容：重跑自愈不抹对方 enrich 出来的字段
+    full = {"schema": 2, "gallery_version": 2, "repo": REPO, "rounds": [
+        {"id": "x", "round": 2, "hair": "锁骨微卷", "tags": ["亲亲"],
+         "prompt_texts": ["全文"], "notes": ["n"], "month": "2026-11"}]}
+    out = json.loads(merge_data(json.dumps(full, ensure_ascii=False),
+                                {"id": "x", "round": 2, "title": "补空"}))
+    r = out["rounds"][0]
+    assert out["schema"] == 2 and out["gallery_version"] == 2
+    assert r["hair"] == "锁骨微卷" and r["prompt_texts"] == ["全文"] and r["tags"] == ["亲亲"]
+    assert r["title"] == "补空"
+    print("self-test OK：四条合并函数幂等、不丢历史行；schema 2 enrich 字段零丢失")
 
 
 if __name__ == "__main__":
