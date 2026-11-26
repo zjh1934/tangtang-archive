@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "round": 7,
+  "id": "20261126g_wash-hair-errand",
+  "date": "2026-11-26",
+  "created_at": "2026-11-26T13:07:15+08:00",
+  "timezone": "Asia/Shanghai",
+  "title": "洗好头送你出门",
+  "theme": "wash-hair-errand",
+  "outfit_id": "SUM-0179",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "ratio": "9:16"
+  },
+  "images": [
+    {
+      "file": "01_front.png",
+      "view": "front",
+      "prompt": "01_front.md",
+      "seed": 5,
+      "sketch_id": "full_sexy_P004_front",
+      "picked": true
+    },
+    {
+      "file": "02_side.png",
+      "view": "side",
+      "prompt": "02_side.md",
+      "seed": 7,
+      "sketch_id": "full_sexy_P001_side",
+      "picked": true
+    },
+    {
+      "file": "03_seat.png",
+      "view": "seat",
+      "prompt": "03_seat.md",
+      "seed": 9,
+      "sketch_id": "full_single_P020_side",
+      "picked": true
+    },
+    {
+      "file": "04_close.png",
+      "view": "close",
+      "prompt": "04_close.md",
+      "seed": 6,
+      "sketch_id": "full_single_P019_diagonal",
+      "picked": true
+    }
+  ],
+  "lines": [
+    "水还热着呢，你低一点嘛，我够不着你额发。别动，泡沫要滑进领子啦，我替你挡着。",
+    "毛巾烘得暖暖的，转过来。你刚缓过来我不敢用力，就轻轻按两下，剩下那点水我自己收。",
+    "镜子全起雾了，我拿梳子把这边理一理。你别偷看我别夹子，歪了就歪了，反正只给你看。",
+    "外套拿着，门口风凉。买你的去吧，早回，我把拖鞋摆在你那侧，回来先坐一下再说话。"
+  ],
+  "status": "final"
+}

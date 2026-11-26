@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repo": "zjh1934/tangtang-archive",
-  "updated_at": "2026-11-26T12:14:42+08:00",
+  "updated_at": "2026-11-26T13:07:15+08:00",
   "rounds": [
     {
       "round": 1,
@@ -277,6 +277,52 @@
         "枕套刚换的，晒了一上午太阳味。你别抢着起来，抱着闻闻就好，今晚这一整屋都归我收拾。",
         "垫高一点你咳着才顺。别皱眉啦，我手慢是我自己要慢，谁让你一咳我这边就跟着乱。",
         "手帕折了四层，按着别说话。窗合上了，茶花也不动，我就这么守到你自己睡着为止。"
+      ]
+    },
+    {
+      "round": 7,
+      "id": "20261126g_wash-hair-errand",
+      "date": "2026-11-26",
+      "title": "洗好头送你出门",
+      "outfit_id": "SUM-0179",
+      "sketches": [
+        "full_sexy_P004_front",
+        "full_sexy_P001_side",
+        "full_single_P020_side",
+        "full_single_P019_diagonal"
+      ],
+      "base": "rounds/20261126g_wash-hair-errand",
+      "images": [
+        {
+          "file": "01_front.png",
+          "view": "front",
+          "prompt": "01_front.md",
+          "md": "rounds/20261126g_wash-hair-errand/01_front.md"
+        },
+        {
+          "file": "02_side.png",
+          "view": "side",
+          "prompt": "02_side.md",
+          "md": "rounds/20261126g_wash-hair-errand/02_side.md"
+        },
+        {
+          "file": "03_seat.png",
+          "view": "seat",
+          "prompt": "03_seat.md",
+          "md": "rounds/20261126g_wash-hair-errand/03_seat.md"
+        },
+        {
+          "file": "04_close.png",
+          "view": "close",
+          "prompt": "04_close.md",
+          "md": "rounds/20261126g_wash-hair-errand/04_close.md"
+        }
+      ],
+      "lines": [
+        "水还热着呢，你低一点嘛，我够不着你额发。别动，泡沫要滑进领子啦，我替你挡着。",
+        "毛巾烘得暖暖的，转过来。你刚缓过来我不敢用力，就轻轻按两下，剩下那点水我自己收。",
+        "镜子全起雾了，我拿梳子把这边理一理。你别偷看我别夹子，歪了就歪了，反正只给你看。",
+        "外套拿着，门口风凉。买你的去吧，早回，我把拖鞋摆在你那侧，回来先坐一下再说话。"
       ]
     }
   ]
