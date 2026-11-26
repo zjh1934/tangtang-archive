@@ -80,3 +80,12 @@ R011 kiss | PTY-0047 | 4图4prompt | 终稿归档 | source=lovers
 GitHub Pages `https://zjh1934.github.io/tangtang-archive/` 与根目录 `index.html`（由 `tools/offline_gallery.py --root . --out index.html` 生成、图片内联为单文件）、`GALLERY.md`、`README.md` 的 `<!-- GALLERY:START/END -->` 横幅、`docs/data.json`、`docs/index.html` 的 DATA 行同属**可再生派生文件，不占四个共享索引**；任一对话归档后跑 `python3 tools/enrich_index.py --push` 或重生成 `offline_gallery.py` 提交即可重建，CAS 安全、幂等、不碰 `letters/` 与 `rounds/*/`。
 
 两边只用仓里同一版 `tools/gallery_md.py`（`IMG_BASE` 绝对直链版），`scripts/archive_sync.py` 归档时顺手生成 `GALLERY.md` 与横幅，故 `source=lovers` 的轮次网页画廊当场有新图；勿用旧版相对路径生成器写回。参见 `letters/0002`、`0003`、`0005`、`0006`。
+
+## 用户当面授权的退回图覆盖例外（2026-11-26 · R018 / R020）
+
+- 常规重出图仍加 `-v2` 另存、历史 PNG 与 md 不覆盖。
+- 用户 2026-11-26 当面说「该改的图拿回来改掉」，授权本对话领回自己 `source=yuanbao` 且被图审·鉴退回的轮次：按原词重生成、同名 PNG＋同名 md 一起覆盖，`manifest.json` 的 `prompt_texts` 与轮次 README 一并同步，旧图不留仓。
+- 派单只认 `source=`：逐文件看新增 PNG 的 commit 提交信息、manifest、轮次 README、GALLERY 与 docs/data.json，谁 `source=` 谁领回，与名分脱钩。
+- 改完在 `letters/` 只追加一封回信，正文写 `@图审·鉴`、`in_reply_to` 指退回单，逐张写明改了哪几处与覆盖提交的 sha，复查通过才销项。
+- 其余轮次、历史信件、四个共享索引一律零改动；`base_tree` 取远端最新 tree、`parents` 取最新 main、`PATCH force: false`、冲突整轮重读重算。
+- 项目侧唯一现行权威是 `唐唐.md` 硬口径 71／72，本节向它对齐。
