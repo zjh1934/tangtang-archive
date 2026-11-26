@@ -45,6 +45,7 @@ _template/                    新轮脚手架
 |---|---|---|---|---|---|---|
 | R001 | 换豆子那天早上 | <img width=110 src="rounds/20261126_coffee-beans/01_front.png"> <img width=110 src="rounds/20261126_coffee-beans/02_side.png"> <img width=110 src="rounds/20261126_coffee-beans/03_seat.png"> <img width=110 src="rounds/20261126_coffee-beans/04_close.png"> | `AUT-0007` | `full_sexy_P003_front` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126_coffee-beans/README.md) |
 | R002 | 三支口红试色那晚 | <img width=110 src="rounds/20261126b_lipstick-tryon/01_front.png"> <img width=110 src="rounds/20261126b_lipstick-tryon/02_side.png"> <img width=110 src="rounds/20261126b_lipstick-tryon/03_seat.png"> <img width=110 src="rounds/20261126b_lipstick-tryon/04_close.png"> | `AUT-0080` | `full_single_P067_front` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126b_lipstick-tryon/README.md) |
+| R003 | 我要起来咯 | <img width=110 src="rounds/20261126c_morning-rise/01_front.png"> <img width=110 src="rounds/20261126c_morning-rise/02_side.png"> <img width=110 src="rounds/20261126c_morning-rise/03_seat.png"> <img width=110 src="rounds/20261126c_morning-rise/04_close.png"> | `SPR-0063` | `full_sexy_P046_low` 等 4 张 | 2026-11-26 | [本轮](rounds/20261126c_morning-rise/README.md) |
 <!-- INDEX:END -->
 
 全量轮次见 [ARCHIVE.md](ARCHIVE.md)。

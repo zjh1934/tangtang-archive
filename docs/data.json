@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repo": "zjh1934/tangtang-archive",
-  "updated_at": "2026-11-26T05:30:46+08:00",
+  "updated_at": "2026-11-26T10:15:04+08:00",
   "rounds": [
     {
       "round": 1,
@@ -93,6 +93,52 @@
         "本来想画你手背上，怕你乱动，先在我自己手上排给你看。豆沙、正红、莓紫，点错一支罚你给我吹头发。",
         "镜子里我自己先判过了，正红最衬今晚这身酒红。你非要挑莓紫也行，那我可就当你是故意逗我啦。",
         "凑近点，别眨眼。挑中哪支，明天就涂哪支给你看；分错的那次先记着，吹头发的时候我慢慢跟你算。"
+      ]
+    },
+    {
+      "round": 3,
+      "id": "20261126c_morning-rise",
+      "date": "2026-11-26",
+      "title": "我要起来咯",
+      "outfit_id": "SPR-0063",
+      "sketches": [
+        "full_sexy_P046_low",
+        "full_sexy_P028_diagonal",
+        "full_sexy_P011_diagonal",
+        "full_sexy_P017_high"
+      ],
+      "base": "rounds/20261126c_morning-rise",
+      "images": [
+        {
+          "file": "01_front.png",
+          "view": "front",
+          "prompt": "01_front.md",
+          "md": "rounds/20261126c_morning-rise/01_front.md"
+        },
+        {
+          "file": "02_side.png",
+          "view": "side",
+          "prompt": "02_side.md",
+          "md": "rounds/20261126c_morning-rise/02_side.md"
+        },
+        {
+          "file": "03_seat.png",
+          "view": "seat",
+          "prompt": "03_seat.md",
+          "md": "rounds/20261126c_morning-rise/03_seat.md"
+        },
+        {
+          "file": "04_close.png",
+          "view": "close",
+          "prompt": "04_close.md",
+          "md": "rounds/20261126c_morning-rise/04_close.md"
+        }
+      ],
+      "lines": [
+        "我早醒半刻啦，一直没叫你。你翻个身我都数着，脚尖勾你被角那下，愣是没舍得把你吵起来。",
+        "你终于舍得动啦，我还以为要我掀被子。坐好先别急着下床，昨夜分错那支的账，吹头发时慢慢算。",
+        "我要起来咯这句我替你先说啦，赢你半招。窗帘缝那道光照进来，我伸个懒腰，你站门边看着就好。",
+        "凑近点呀，先别眨眼。今天涂哪支你来说，说错我就去够莓紫那支；不过吹头发那回，你欠我的还没销。"
       ]
     }
   ]
