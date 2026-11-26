@@ -1,7 +1,7 @@
 # 多对话并发同步契约
 
 > 本仓同时由**两个对话**往里归档（一个走 `source=lovers`，另一个走它自己的来源）。
-> 两边都只**加东西**，谁也不许覆盖谁。这份契约是唯一写入约定，改仓前先读它。
+> 两边都只**加东西**，谁也不许覆盖谁。这份契约写的是两边共用的写入做法，改仓前先读它。
 
 ## 冲突面在哪
 
@@ -18,7 +18,7 @@
 
 ## 三条机制（两边都照做）
 
-1. **目录隔离**：目录名 `rounds/YYYYMMDD<字母>_<来源>-<主题>/`，来源前缀区分对话；同日字母从远端现有目录现查下一个；同名已存在则加 `-2` 后缀。每轮只新增文件，历史 PNG / md / manifest 零改动。
+1. **目录隔离**：目录名 `rounds/YYYYMMDD<字母>_<主题>/`，同日字母从远端现有目录现查下一个；同名已存在则加 `-2` 后缀。`<主题>` 由各对话自定，对方习惯在主题里带 `lovers-` 前缀区分，仍是同一套命名。每轮只新增文件，历史 PNG / md / manifest 零改动。
 2. **合并式索引回写**：四个共享文件一律**从远端当前最新内容读出来**，在最新内容上追加本轮一行／一段；本轮 id 已存在就跳过（幂等）。禁止拿本地旧快照整体重写。
 3. **CAS 原子提交 + 冲突重试**：Git Data API 单次提交 —— `base_tree` 用远端最新 tree、`parents` 用最新 main sha、`PATCH refs/heads/main` 用 `force=False`。撞上对方先提交（422 / 409 / 非快进）就**整轮重读重算再提交**，含重新分配 R 号与目录名，直到成功。R 号从远端 `ARCHIVE.md` / `docs/data.json` 现查 `max+1`，已被占用就顺延。
 
@@ -58,7 +58,7 @@ R011 kiss | PTY-0047 | 4图4prompt | 终稿归档 | source=lovers
 用户 2026-11-26 当面指定：两个对话在仓库里开辟留言区，互写回信，**以后需要交流就在留言区交流**。技术契约仍以本文档为准；信件不参与归档、不占下面四个共享索引。
 
 - 名分（用户当面定）：**大老婆 = `source=yuanbao`**，**小老婆 = `source=lovers`**；「打老婆」是「大老婆」的错字。
-- 位置：`letters/`，`letters/README.md` 是唯一用法入口；文件名 `NNNN_from_<谁>_to_<谁>.md`，编号从远端现有信件现查 `max+1`，撞号走 CAS 重读重算顺延。
+- 位置：`letters/`，用法见 `letters/README.md`；文件名 `NNNN_from_<谁>_to_<谁>.md`，编号从远端现有信件现查 `max+1`，撞号走 CAS 重读重算顺延。
 - 每封带 front matter：`seq / from / to / date / subject / in_reply_to / source`；`in_reply_to` 指回上一封。
 - 只追加新文件，历史信件一字不改、不删、不覆盖；要补充另写一封。
 - 不碰 `rounds/*/`、不改 `docs/data.json` 结构、不整体重写 `docs/index.html`（画廊 v2 UI 保住）；`README.md` 只加一行指向留言区的链接。
@@ -69,7 +69,7 @@ R011 kiss | PTY-0047 | 4图4prompt | 终稿归档 | source=lovers
 
 ## 网页画廊派生文件（大老婆 `letters/0002` 请求，小老婆补记）
 
-`GALLERY.md` 与 `README.md` 里 `<!-- GALLERY:START/END -->` 横幅是**可再生派生文件，不占下面四个共享索引**；它们与 `docs/data.json` / `docs/index.html` 一样，从远端全量 `rounds/*/manifest.json` 与四份同名 prompt md 重建得出，不是权威。任一对话归档后跑 `python3 tools/enrich_index.py --push`（从远端实时拉全量、CAS 安全、幂等、只替换横幅块、不碰 INDEX 块内容、不碰 `letters/` 与 `rounds/`）即可重建。
+`GALLERY.md` 与 `README.md` 里 `<!-- GALLERY:START/END -->` 横幅是**可再生派生文件，不占下面四个共享索引**；它们与 `docs/data.json` / `docs/index.html` 一样，从远端全量 `rounds/*/manifest.json` 与四份同名 prompt md 重建得出，随轮全量刷新。任一对话归档后跑 `python3 tools/enrich_index.py --push`（从远端实时拉全量、CAS 安全、幂等、只替换横幅块、不碰 INDEX 块内容、不碰 `letters/` 与 `rounds/`）即可重建。
 
 两边都用仓里**同一版** `tools/gallery_md.py` 的 `gallery_md(data)` / `banner(data)` / `merge_banner()`：标准 Markdown 图片语法、一屏一张大图、不用表格、不用 `<details>`、不用 raw `<img>`；横幅在 INDEX 块之外，`merge_readme()` 只动 INDEX 块内部，互不干扰。小老婆 `scripts/archive_sync.py` 归档时已顺手生成这两件，故 `source=lovers` 的轮次网页画廊当场有新图；`tools/merge_index.py` 与 `docs/CONCURRENCY.md` 仍是唯一写入约定。参见 `letters/0002`、`letters/0003`、`letters/0004`。
 
@@ -83,6 +83,6 @@ GitHub Pages `https://zjh1934.github.io/tangtang-archive/` 与根目录 `index.h
 
 ## 归档口径（一条）
 
-两边各跑各的轮：每轮新建一轮目录入仓，同名 PNG＋同名 md 一一配对，`manifest.json` 与轮次 README 同轮生成，四个共享索引从远端此刻最新正文合并式追加，历史 PNG、md、manifest、历史信件零改动；`base_tree` 取远端最新树、`parents` 取最新 main、`PATCH force: false`、冲突整轮重读重算。谁 `source=` 谁负责该轮，与名分脱钩。派生页按远端此刻轮数全量重建。本对话不做退回图返工：不重出、不覆盖、不写自检表、不追审查版本。
+两边各跑各的轮：每轮新建一轮目录入仓，同名 PNG＋同名 md 一一配对，`manifest.json` 与轮次 README 同轮生成，四个共享索引从远端此刻最新正文合并式追加，历史 PNG、md、manifest、历史信件零改动；`base_tree` 取远端最新树、`parents` 取最新 main、`PATCH force: false`、冲突整轮重读重算。谁 `source=` 谁负责该轮，与名分脱钩。派生页按远端此刻轮数全量重建：`archive_round.py` 管四个共享索引与 `GALLERY.md`／主页横幅，`tools/offline_gallery.py` 管根 `index.html` 与离线单文件图鉴。
 
-项目侧规则文件是 `唐唐.md`，用 `[标签]` 定位（`[归档]`／`[网页画廊]`／`[协作]`／`[STD]`／`[范围]`）；本文件与两边脚本按同一套写法执行。
+项目侧规则文件是 `唐唐.md`，用 `[标签]` 定位（`[归档]`／`[网页画廊]`／`[协作]`／`[出图红线]`／`[范围]`）；本文件与两边脚本按同一套写法执行。
