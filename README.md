@@ -1,5 +1,5 @@
 <!-- GALLERY:START -->
-**[🌐 打开网页画廊 · 两列大图／筛选／灯箱](https://zjh1934.github.io/tangtang-archive/)** · [GALLERY.md](GALLERY.md) · 59 轮 236 图 · [台账](ARCHIVE.md) · [版权](NOTICE.md)
+**[🌐 打开网页画廊 · 两列大图／筛选／灯箱](https://zjh1934.github.io/tangtang-archive/)** · [GALLERY.md](GALLERY.md) · 58 轮 232 图 · [台账](ARCHIVE.md) · [版权](NOTICE.md)
 
 [![R059 front](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261128ay_wrapping-old-books/01_front.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261128ay_wrapping-old-books/01_front.png) [![R059 side](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261128ay_wrapping-old-books/02_side.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261128ay_wrapping-old-books/02_side.png) [![R059 seat](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261128ay_wrapping-old-books/03_seat.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261128ay_wrapping-old-books/03_seat.png) [![R059 close](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261128ay_wrapping-old-books/04_close.png)](https://github.com/zjh1934/tangtang-archive/raw/main/rounds/20261128ay_wrapping-old-books/04_close.png)
 
