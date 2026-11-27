@@ -116,8 +116,16 @@ def norm_hair(s):
     return best if n else "未标注"
 
 
+def _lines_flat(v):
+    if isinstance(v, list):
+        return [x if isinstance(x, str) else " ".join(str(y) for y in x.values()) for x in v]
+    if isinstance(v, dict):
+        return [str(x) for x in v.values() if isinstance(x, str)]
+    return []
+
+
 def derive(m, prompt_texts, notes, rid):
-    blob = " ".join([m.get("title", ""), rid] + prompt_texts + m.get("lines", []))
+    blob = " ".join([m.get("title", ""), rid] + list(prompt_texts) + _lines_flat(m.get("lines", [])))
     hair = m.get("hair") or norm_hair(blob)
     tags = m.get("tags")
     if not tags:
@@ -297,6 +305,8 @@ def main():
 
     tok = token()
     handoff = (Path(__file__).resolve().parent.parent / "docs" / "HANDOFF.md")
+    if not handoff.exists():
+        handoff = (Path(__file__).resolve().parent.parent / "archive_repo" / "docs" / "HANDOFF.md")
 
     def build_all(_tok, paths):
         rs = collect_remote(_tok, paths)
