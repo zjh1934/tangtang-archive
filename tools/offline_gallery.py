@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
-"""唐唐 · 终稿图鉴离线单文件 HTML（图片内联，手机打开即用）。
+"""琳琳 · 网页画廊首页（GitHub Pages 根目录 index.html，图片内联、自包含单文件）。
 
-GitHub 仓库里的 .html 不直接渲染成网页（Pages 首页另走根目录 index.html），所以把交互式
-画廊做成**一个自包含 HTML 文件**交付到手机：44 张图压成内联缩略图，无 CDN、无网络、
-不依赖仓库登录，浏览器/文件管理器点开就是两列大图卡片 + 搜索 + 分类筛选 + 灯箱。
+按 archive_repo/docs/data.json 与 rounds/*/*.png、*.md 把交互式画廊全量内联成
+一个 HTML 文件：两列大图卡片 + 搜索 + 分类筛选 + 灯箱，点开即用、不依赖 CDN。
+项目侧不再产出任何本地离线图鉴或思维导图，这一份只供 GitHub Pages 首页重建。
 
-数据来自 archive_repo/docs/data.json 与 rounds/*/*.png、*.md，与网页 GALLERY.md 同源。
-
-    python3 tools/offline_gallery.py --root archive_repo --out 唐唐终稿图鉴.html
+    python3 tools/offline_gallery.py --root archive_repo --out archive_repo/index.html
     python3 tools/offline_gallery.py --self-test
 """
 import argparse
@@ -78,7 +76,7 @@ def render(items, rounds_meta):
     return f"""<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>唐唐 · 终稿图鉴</title>
+<title>琳琳 · 网页画廊</title>
 <style>
 :root{{--bg:#0f1113;--card:#191c20;--fg:#eceae4;--sub:#8d9299;--acc:#e8739b;--line:#2a2e34;--chip:#22262b}}
 html[data-t="light"]{{--bg:#faf9f6;--card:#fff;--fg:#22252a;--sub:#767b82;--acc:#c2416c;--line:#e5e2dc;--chip:#f0eeea}}
@@ -119,7 +117,7 @@ select{{flex:1 1 30%;min-width:88px}}
 .nav button{{flex:1;max-width:140px;background:#2a2e34;color:#fff;border:0;border-radius:9px;padding:10px;font-size:14px}}
 </style></head><body>
 <header>
- <div class="bar"><b>唐唐 · 终稿图鉴</b><span class="stat">{len(rounds_meta)}轮·{len(items)}图</span><span class="sp"></span><span class="stat" id="count"></span><button id="themeBtn" title="切换明暗">◐</button></div>
+ <div class="bar"><b>琳琳 · 网页画廊</b><span class="stat">{len(rounds_meta)}轮·{len(items)}图</span><span class="sp"></span><span class="stat" id="count"></span><button id="themeBtn" title="切换明暗">◐</button></div>
  <div class="tabs" id="tabs"></div>
  <div class="tools">
   <input type="search" id="q" placeholder="搜轮次 / 标题 / 穿搭 id / 发型 / 场景">
@@ -201,13 +199,13 @@ def self_test():
     assert 'class="bar"' in h and 'id="count"' in h
     seg = h[h.index("</header>"):h.index('<div class="grid"')]
     assert "<div" not in seg and len(seg) < 80, "门条之后立刻就是图网格"
-    print(f"self-test OK：离线单文件画廊结构齐全，顶栏一行、首屏即图（{len(h)} 字符模板）")
+    print(f"self-test OK：网页画廊首页结构齐全，顶栏一行、首屏即图（{len(h)} 字符模板）")
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--root", default="archive_repo", help="本地镜像根目录")
-    ap.add_argument("--out", default="唐唐终稿图鉴.html", help="输出单文件 HTML")
+    ap.add_argument("--out", default="archive_repo/index.html", help="输出 Pages 首页单文件 HTML")
     ap.add_argument("--self-test", action="store_true")
     a = ap.parse_args()
     if a.self_test:
@@ -215,7 +213,7 @@ def main():
     items, meta = collect(a.root)
     out = Path(a.out)
     out.write_text(render(items, meta), encoding="utf-8")
-    print(f"已生成 {out.resolve()} | {len(meta)} 轮 {len(items)} 张图 | {out.stat().st_size/1024/1024:.2f} MiB | 完全离线")
+    print(f"已生成 {out.resolve()} | {len(meta)} 轮 {len(items)} 张图 | {out.stat().st_size/1024/1024:.2f} MiB | 自包含单文件")
 
 
 if __name__ == "__main__":

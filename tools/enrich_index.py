@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""唐唐归档仓 · 分类筛选索引重建器（v2）
+"""琳琳归档仓 · 分类筛选索引重建器（v2）
 
 与 docs/CONCURRENCY.md 的并发契约兼容：
   * 权威数据 = rounds/*/manifest.json + 同目录四份 NN_*.md，只增不改；

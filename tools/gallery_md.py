@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""唐唐归档仓 · 手机友好的网页画廊与主页横幅生成器（v3）。
+"""琳琳归档仓 · 手机友好的网页画廊与主页横幅生成器（v3）。
 
 设计原则（用户当面定）：给人用的。手机 GitHub App 里表格会被挤成小方块、
 <details> 折叠要点一下才展开、图片列宽被压成 0 变占位符，所以：
@@ -8,8 +8,8 @@
   · 一屏一张大图，往下滑就是全部；顶部一行锚点目录直达每一轮
   · 分类只做文字链接目录，不重复嵌图（页面不再又长又碎）
 
-真正可筛选 / 两列大图 / 灯箱的交互式页面由 tools/offline_gallery.py 生成单文件
-离线 HTML（图片内联），交付到手机打开即用；GitHub 网页不渲染 .html 只显示源码。
+真正可筛选 / 两列大图 / 灯箱的交互式页面由 tools/offline_gallery.py 生成 Pages
+根目录 index.html（图片内联、自包含单文件）；GitHub 网页不渲染 .html 只显示源码。
 
     python3 tools/gallery_md.py --self-test
 """
@@ -112,7 +112,7 @@ def gallery_md(data):
     rounds = sorted(data.get("rounds", []), key=lambda x: x.get("id", ""))
     n_img = sum(len(_r(x)["images"]) for x in rounds)
     parts = [
-        f"**唐唐 · 终稿图鉴** · {len(rounds)} 轮 {n_img} 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · "
+        f"**琳琳 · 网页画廊** · {len(rounds)} 轮 {n_img} 图 · [🌐 网页画廊](https://zjh1934.github.io/tangtang-archive/) · "
         "[按场景](#按场景) · [按发型](#按发型) · [按月份](#按月份) · [台账](ARCHIVE.md) · [主页](README.md)", "",
     ]
     for x in reversed(rounds):
@@ -148,7 +148,7 @@ def self_test():
     assert IMG_BASE + "rounds/20261126a_a/01_front.png" in g and "01_front.md" in g
     assert not any(l.startswith("# ") for l in g.splitlines()), "不要 H1 大字标题"
     assert next(i for i, l in enumerate(g.splitlines()) if "![" in l) < 12, "门条之后立刻出图"
-    readme = "# 唐唐\n\n<!-- INDEX:START -->\n| R001 | 旧 |\n<!-- INDEX:END -->\n尾\n"
+    readme = "# 琳琳\n\n<!-- INDEX:START -->\n| R001 | 旧 |\n<!-- INDEX:END -->\n尾\n"
     once = merge_banner(readme, b)
     assert once == merge_banner(once, b), "横幅必须幂等"
     assert "<!-- INDEX:START -->" in once and "| R001 | 旧 |" in once and "尾" in once
